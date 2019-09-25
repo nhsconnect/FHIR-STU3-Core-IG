@@ -2,7 +2,7 @@
 =========================================
 
 err = 1146, warn = 56, info = 10
-Generated Wed Sep 25 16:17:56 BST 2019. FHIR version 3.0.1 for nhsdigital.core.fhir# (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Wed Sep 25 18:38:09 BST 2019. FHIR version 3.0.1 for nhsdigital.core.fhir# (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 1001 / 1
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-AdmissionMethod-1 : 2 / 0
@@ -1028,7 +1028,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-Extension-coding-
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-Extension-coding-sctdescid.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ACVPU-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdmissionMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyCertainty-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyCode-1.html: The html source does not contain the header marker
@@ -1036,7 +1036,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyExposureR
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyManifestation-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergySeverity-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-BodySite-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-CareSettingType-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ClinicalDisciplines-1.html: The html source does not contain the header marker
@@ -1066,7 +1066,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ListEmptyReasonC
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ListWarningCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ManufacturedMaterialSnCT-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationChangeStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationDosageRoute-1.html: The html source does not contain the header marker
@@ -1077,7 +1077,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSDataDictionar
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSNumberVerificationStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ObservationMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ObservationType-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-OutcomeOfAttendance-1.html: The html source does not contain the header marker
@@ -1087,7 +1087,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-PrescriptionType
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ProblemSignificance-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ProcedureCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReferralRequestMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-RegistrationStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-RegistrationType-1.html: The html source does not contain the header marker
