@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flag xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Medication-Flag-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"/>
+	</meta>
+	<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">
+		<valueReference>
+			<reference value="Medication/CareConnect-MedicationStatement-Example-1"/>
+		</valueReference>
+	</extension>
+	<status value="active"/>
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/flag-category"/>
+			<code value="drug"/>
+			<display value="Drug"/>
+		</coding>
+	</category>
+	<code>
+		<coding>
+			<system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"/>
+			<code value="continue-indefinitely"/>
+			<display value="Continue Indefinitely"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+</Flag>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HealthcareService xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-HealthcareService-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HealthcareService-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-HealthcareService-Example-1</p><p><b>meta</b>: </p><p><b>identifier</b>: db20027f-0248-4888-9f3d-0d696e2830bf</p></div>
+  </text>
+  <identifier>
+    <system value="https://tools.ietf.org/html/rfc4122"/>
+    <value value="db20027f-0248-4888-9f3d-0d696e2830bf"/>
+  </identifier>
+</HealthcareService>

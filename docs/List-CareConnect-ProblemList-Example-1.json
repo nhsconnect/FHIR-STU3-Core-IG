@@ -1,0 +1,38 @@
+{
+  "resourceType": "List",
+  "id": "CareConnect-ProblemList-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemList-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-ProblemList-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>code</b>: Problem List <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/list-example-use-codes code 'problems' = 'Problem List', given as 'Problem List'})</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info.sct",
+            "code": "310000008",
+            "display": "Accident and Emergency service"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "current",
+  "mode": "working",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/list-example-use-codes",
+        "code": "problems",
+        "display": "Problem List"
+      }
+    ]
+  }
+}

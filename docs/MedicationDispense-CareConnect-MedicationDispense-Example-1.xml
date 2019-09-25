@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationDispense xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-MedicationDispense-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationDispense-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-MedicationDispense-Example-1</p><p><b>meta</b>: </p><p><b>medication</b>: <a href="CareConnect-Medication-Example-1.html">Generated Summary: id: CareConnect-Medication-Example-1; <span title="Codes: {http://snomed.info/sct 17952711000001102}">Paracetamol 500mg capsules (Phoenix Healthcare Distribution Ltd) (product)</span></a></p></div>
+  </text>
+  <medicationReference>
+    <reference value="Medication/CareConnect-Medication-Example-1"/>
+  </medicationReference>
+</MedicationDispense>

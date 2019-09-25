@@ -1,0 +1,18 @@
+{
+  "resourceType": "CarePlan",
+  "id": "CareConnect-CarePlan-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-CarePlan-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"CareConnect-Patient-Example-1.html\">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "subject": {
+    "reference": "Patient/CareConnect-Patient-Example-1"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flag xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Flag-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"/>
+	</meta>
+	<status value="active"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="3928002"/>
+			<display value="Zika virus disease"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+</Flag>

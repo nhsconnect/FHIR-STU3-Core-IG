@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Medication-Flag-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Medication-Flag-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>category</b>: Drug <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/flag-category code 'drug' = 'Drug', given as 'Drug'})</span></p><p><b>code</b>: Continue Indefinitely <span style="background: LightGoldenRodYellow">(Details : {https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1 code 'continue-indefinitely' = 'Continue Indefinitely', given as 'Continue Indefinitely'})</span></p><p><b>subject</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>
+  </text>
+  <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">
+    <valueReference>
+      <reference value="Medication/CareConnect-MedicationStatement-Example-1"/>
+    </valueReference>
+  </extension>
+  <status value="active"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/flag-category"/>
+      <code value="drug"/>
+      <display value="Drug"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"/>
+      <code value="continue-indefinitely"/>
+      <display value="Continue Indefinitely"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </subject>
+</Flag>

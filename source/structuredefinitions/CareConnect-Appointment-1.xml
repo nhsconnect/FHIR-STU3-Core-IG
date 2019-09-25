@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Appointment-1" />
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1" />
+  <version value="1.0.0" />
+  <name value="CareConnect-Appointment-1" />
+  <status value="draft" />
+  <date value="2018-09-27T15:28:19.407+01:00" />
+  <publisher value="NHS Digital" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="CareConnect Appointment profile." />
+  <purpose value="NOT CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/" />
+  <copyright value="Copyright © 2018 NHS Digital" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Appointment" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Appointment" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Appointment.identifier">
+      <path value="Appointment.identifier" />
+      <short value="External Ids for this item." />
+    </element>
+  </differential>
+</StructureDefinition>

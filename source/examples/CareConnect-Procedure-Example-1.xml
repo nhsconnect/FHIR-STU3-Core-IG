@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Procedure-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1"/>
+	</meta>
+	<status value="completed"/>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+</Procedure>

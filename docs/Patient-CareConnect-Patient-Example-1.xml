@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Patient-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Patient-Example-1</p><p><b>meta</b>: </p><p><b>identifier</b>: 6105551234</p><p><b>name</b>: Richard SMITH (OFFICIAL)</p></div>
+  </text>
+  <identifier>
+    <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+          <code value="01"/>
+          <display value="Number present and verified"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <system value="https://fhir.nhs.uk/Id/nhs-number"/>
+    <value value="6105551234"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="SMITH"/>
+    <given value="Richard"/>
+  </name>
+</Patient>

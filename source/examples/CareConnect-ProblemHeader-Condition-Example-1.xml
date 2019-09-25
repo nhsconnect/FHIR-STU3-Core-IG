@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-ProblemHeader-Condition-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1"/>
+	</meta>
+	<clinicalStatus value="active"/>
+	<category>
+		<coding>
+			<system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1"/>
+			<code value="problem-list-item"/>
+			<display value="Problem List Item"/>
+		</coding>
+	</category>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+</Condition>

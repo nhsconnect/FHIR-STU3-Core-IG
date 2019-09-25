@@ -1,0 +1,13 @@
+﻿<html>
+<head>
+  <title>Appointment-ff70fa5d-1cf4-4b54-af49-666026e0706a-valdiation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>invariant</td><td>Appointment/ff70fa5d-1cf4-4b54-af49-666026e0706a: Appointment</td><td>Only proposed or cancelled appointments can be missing start/end dates [(start.exists() and end.exists()) or (status in ('proposed' | 'cancelled'))]</td><td></td></tr>
+<tr><td>error</td><td>invariant</td><td>Appointment/ff70fa5d-1cf4-4b54-af49-666026e0706a: Appointment.participant</td><td>Either the type or actor on the participant SHALL be specified [type.exists() or actor.exists()]</td><td></td></tr>
+</table>
+</body>
+</html>

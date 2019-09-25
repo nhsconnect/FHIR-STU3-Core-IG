@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-AllergyIntolerance-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-AllergyIntolerance-1"/>
+	</meta>
+	<clinicalStatus value="active"/>	
+	<verificationStatus value="confirmed"/>
+	<patient>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</patient>
+	<assertedDate value="2019-09-11T13:46:00+00:00"/>
+</AllergyIntolerance>

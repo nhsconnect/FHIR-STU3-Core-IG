@@ -1,0 +1,42 @@
+﻿<html>
+<head>
+  <title>Appointment-CareConnect-Appointment-Example-1-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment">resourceType</a>" : "Appointment",
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.id">id</a>" : "CareConnect-Appointment-Example-1",
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: CareConnect-Appointment-Example-1&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: proposed&lt;/p&gt;&lt;h3&gt;Participants&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;primary performer &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {http://hl7.org/fhir/v3/ParticipationType code 'PPRF' = 'primary performer', given as 'primary performer'})&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CareConnect-Practitioner-Example-1.html\&quot;&gt;Generated Summary: id: CareConnect-Practitioner-Example-1; G12345678&lt;/a&gt;&lt;/td&gt;&lt;td&gt;tentative&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.status">status</a>" : "proposed",
+  "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.participant">participant</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.participant.type">type</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/v3/ParticipationType",
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">code</a>" : "PPRF",
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.display">display</a>" : "primary performer"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.participant.actor">actor</a>" : {
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "Practitioner/CareConnect-Practitioner-Example-1"
+      },
+      "<a href="http://hl7.org/fhir/STU3/appointment.html#Appointment.participant.status">status</a>" : "tentative"
+    }
+  ]
+}</pre>
+</body>
+</html>

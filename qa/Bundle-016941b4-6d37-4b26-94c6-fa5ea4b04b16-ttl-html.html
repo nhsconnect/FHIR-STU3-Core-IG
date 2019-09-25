@@ -1,0 +1,158 @@
+﻿<html>
+<head>
+  <title>Bundle-016941b4-6d37-4b26-94c6-fa5ea4b04b16-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/bundle.html#Bundle.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;016941b4-6d37-4b26-94c6-fa5ea4b04b16&quot;];
+  <a href="http://build.fhir.org/bundle.html#Bundle.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://build.fhir.org/bundle.html#Bundle.identifier">fhir:Bundle.identifier</a> [
+     <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://tools.ietf.org/html/rfc4122&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;0bcb5098-ce5a-4a85-a547-2574f90310e4&quot; ]
+  ];
+  <a href="http://build.fhir.org/bundle.html#Bundle.type">fhir:Bundle.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;message&quot;];
+  <a href="http://build.fhir.org/bundle.html#Bundle.entry">fhir:Bundle.entry</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.fullUrl">fhir:Bundle.entry.fullUrl</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;urn:uuid:24771db3-9999-4f4d-83ac-1b60ad6f4a15&quot; ];
+     <a href="http://build.fhir.org/messageheader.html#MessageHeader">fhir:Bundle.entry.resource</a> &lt;urn:uuid:24771db3-9999-4f4d-83ac-1b60ad6f4a15&gt;
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.fullUrl">fhir:Bundle.entry.fullUrl</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5&quot; ];
+     <a href="http://build.fhir.org/practitioner.html#Practitioner">fhir:Bundle.entry.resource</a> &lt;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5&gt;
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.fullUrl">fhir:Bundle.entry.fullUrl</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049&quot; ];
+     <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome">fhir:Bundle.entry.resource</a> &lt;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049&gt;
+  ].
+
+&lt;urn:uuid:24771db3-9999-4f4d-83ac-1b60ad6f4a15&gt; <a href="http://build.fhir.org/messageheader.html">a</a> fhir:MessageHeader;
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;24771db3-9999-4f4d-83ac-1b60ad6f4a15&quot;];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 24771db3-9999-4f4d-83ac-1b60ad6f4a15&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;event&lt;/b&gt;: ITK Response (Details: https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2 code ITK008M = 'ITK008M', stated as 'ITK Response')&lt;/p&gt;&lt;p&gt;&lt;b&gt;sender&lt;/b&gt;: &lt;a href=\&quot;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5\&quot;&gt;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;timestamp&lt;/b&gt;: 23 Jan 2017, 10:10:16&lt;/p&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Endpoint&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;NOROT003\&quot;&gt;NOROT003&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Responses&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Identifier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Details&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;03788f28-d6c9-4893-8f8a-68f8f0ad1f06&lt;/td&gt;&lt;td&gt;fatal-error&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049\&quot;&gt;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.extension">fhir:DomainResource.extension</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.extension">fhir:Element.extension</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;BusAckRequested&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueBoolean</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;InfAckRequested&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueBoolean</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;RecipientType&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueCoding</a> [
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/CodeSystem/ITK-RecipientType-1&quot; ];
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;FA&quot; ];
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;For Action&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;MessageDefinition&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueReference</a> [
+         <a href="http://build.fhir.org/rdf.html#reference">fhir:link</a> &lt;https://fhir.nhs.uk/STU3/MessageDefinition/ITK-Response-MessageDefinition-Instance-1&gt;;
+         <a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/MessageDefinition/ITK-Response-MessageDefinition-Instance-1&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 4;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;SenderReference&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueString</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;None&quot; ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 5;
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;LocalExtension&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueString</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;None&quot; ]     ]
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.event">fhir:MessageHeader.event</a> [
+     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;ITK008M&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;ITK Response&quot; ]
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.sender">fhir:MessageHeader.sender</a> [
+     <a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5&quot; ]
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.timestamp">fhir:MessageHeader.timestamp</a> [ <a href="http://build.fhir.org/datatypes.html#instant">fhir:value</a> &quot;2017-01-23T10:10:16+00:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.source">fhir:MessageHeader.source</a> [
+     <a href="http://build.fhir.org/messageheader.html#MessageHeader.source.endpoint">fhir:MessageHeader.source.endpoint</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;NOROT003&quot; ]
+  ];
+  <a href="http://build.fhir.org/messageheader.html#MessageHeader.response">fhir:MessageHeader.response</a> [
+     <a href="http://build.fhir.org/messageheader.html#MessageHeader.response.identifier">fhir:MessageHeader.response.identifier</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;03788f28-d6c9-4893-8f8a-68f8f0ad1f06&quot; ];
+     <a href="http://build.fhir.org/messageheader.html#MessageHeader.response.code">fhir:MessageHeader.response.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;fatal-error&quot; ];
+     <a href="http://build.fhir.org/messageheader.html#MessageHeader.response.details">fhir:MessageHeader.response.details</a> [
+       <a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049&quot; ]     ]
+  ].
+
+&lt;urn:uuid:935105bc-f998-4e86-b15e-8ff3fa9121d5&gt; <a href="http://build.fhir.org/practitioner.html">a</a> fhir:Practitioner;
+  <a href="http://build.fhir.org/practitioner.html#Practitioner.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;935105bc-f998-4e86-b15e-8ff3fa9121d5&quot;];
+  <a href="http://build.fhir.org/practitioner.html#Practitioner.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://build.fhir.org/practitioner.html#Practitioner.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 935105bc-f998-4e86-b15e-8ff3fa9121d5&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 033345750888&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Richard Kemble &lt;/p&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/practitioner.html#Practitioner.identifier">fhir:Practitioner.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/Id/sds-user-id&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;033345750888&quot; ]
+  ];
+  <a href="http://build.fhir.org/practitioner.html#Practitioner.name">fhir:Practitioner.name</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Kemble&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
+       <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Richard&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ];
+     <a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.prefix">fhir:HumanName.prefix</a> [
+       <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Dr&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ].
+
+&lt;urn:uuid:519b188a-ac9f-49fc-b548-6ab300451049&gt; <a href="http://build.fhir.org/operationoutcome.html">a</a> fhir:OperationOutcome;
+  <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;519b188a-ac9f-49fc-b548-6ab300451049&quot;];
+  <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Response-OperationOutcome-1&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 519b188a-ac9f-49fc-b548-6ab300451049&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;h3&gt;Issues&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Severity&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Details&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;fatal&lt;/td&gt;&lt;td&gt;not-found&lt;/td&gt;&lt;td&gt;Unrecognised Recipient Person &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {https://fhir.nhs.uk/STU3/CodeSystem/ITK-ResponseCodes-1 code '20001' = '20001', given as 'Unrecognised Recipient Person'})&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.issue">fhir:OperationOutcome.issue</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.issue.severity">fhir:OperationOutcome.issue.severity</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;fatal&quot; ];
+     <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.issue.code">fhir:OperationOutcome.issue.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;not-found&quot; ];
+     <a href="http://build.fhir.org/operationoutcome.html#OperationOutcome.issue.details">fhir:OperationOutcome.issue.details</a> [
+       <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/CodeSystem/ITK-ResponseCodes-1&quot; ];
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;20001&quot; ];
+         <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Unrecognised Recipient Person&quot; ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

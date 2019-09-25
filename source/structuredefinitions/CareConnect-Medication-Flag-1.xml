@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Medication-Flag-1" />
+  <meta>
+    <lastUpdated value="2017-09-13T09:38:34.624+01:00" />
+  </meta>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc" />
+  </extension>
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-Flag-1" />
+  <version value="1.0.0" />
+  <name value="CareConnect-Medication-Flag-1" />
+  <status value="draft" />
+  <date value="2019-06-13" />
+  <publisher value="HL7 UK" />
+  <contact>
+    <name value="INTEROPen" />
+    <telecom>
+      <system value="email" />
+      <value value="admin@interopen.org" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="This Flag Resource carries prospective warnings of potential issues related to the patient's medications." />
+  <purpose value="CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/" />
+  <copyright value="Copyright © 2019 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Flag" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Flag" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Flag.extension">
+      <path value="Flag.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Flag.extension:medication">
+      <path value="Flag.extension" />
+      <sliceName value="medication" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1" />
+      </type>
+    </element>
+    <element id="Flag.identifier.system">
+      <path value="Flag.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Flag.identifier.value">
+      <path value="Flag.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Flag.identifier.assigner">
+      <path value="Flag.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+      </type>
+    </element>
+    <element id="Flag.category">
+      <path value="Flag.category" />
+      <min value="1" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="FlagCategory" />
+        </extension>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Flag.category.coding">
+      <path value="Flag.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Flag.category.coding.system">
+      <path value="Flag.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://hl7.org/fhir/flag-category" />
+    </element>
+    <element id="Flag.category.coding.version">
+      <path value="Flag.category.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Flag.category.coding.code">
+      <path value="Flag.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="drug" />
+    </element>
+    <element id="Flag.category.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Flag.category.coding.display" />
+      <min value="1" />
+      <fixedString value="Drug" />
+    </element>
+    <element id="Flag.category.coding.userSelected">
+      <path value="Flag.category.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Flag.code">
+      <path value="Flag.code" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="FlagCode" />
+        </extension>
+        <strength value="extensible" />
+        <valueSetReference>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationFlag-1" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Flag.code.coding">
+      <path value="Flag.code.coding" />
+      <min value="1" />
+    </element>
+    <element id="Flag.code.coding.system">
+      <path value="Flag.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Flag.code.coding.version">
+      <path value="Flag.code.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Flag.code.coding.code">
+      <path value="Flag.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Flag.code.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Flag.code.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Flag.code.coding.userSelected">
+      <path value="Flag.code.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Flag.subject">
+      <path value="Flag.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" />
+      </type>
+    </element>
+    <element id="Flag.encounter">
+      <path value="Flag.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1" />
+      </type>
+    </element>
+    <element id="Flag.author">
+      <path value="Flag.author" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

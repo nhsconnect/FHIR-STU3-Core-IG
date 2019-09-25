@@ -1,0 +1,54 @@
+﻿<html>
+<head>
+  <title>RelatedPerson-CareConnect-RelatedPerson-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:RelatedPerson;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-RelatedPerson-1-genexample&quot;];
+  <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.identifier">fhir:RelatedPerson.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address">fhir:RelatedPerson.address</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.use">fhir:Address.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;home&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.type">fhir:Address.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;both&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.text">fhir:Address.text</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street, Erewhon 9132&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.line">fhir:Address.line</a> [
+       <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1     ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.city">fhir:Address.city</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Erewhon&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.district">fhir:Address.district</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Madison&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.postalCode">fhir:Address.postalCode</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;9132&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.address.period">fhir:Address.period</a> [
+       <a href="http://build.fhir.org/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-03-23T00:00:00+00:00&quot;^^xsd:dateTime ];
+       <a href="http://build.fhir.org/datatypes.html#Period#Period.end">fhir:Period.end</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-07-01T00:00:00+01:00&quot;^^xsd:dateTime ]     ]
+  ];
+  <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.photo">fhir:RelatedPerson.photo</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.photo.contentType">fhir:Attachment.contentType</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;text/plain; charset=UTF-8, image/png&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.photo.language">fhir:Attachment.language</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;en-AU&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.photo.url">fhir:Attachment.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/logo-small.png&quot; ];
+     <a href="CareConnect-RelatedPerson-1.html#RelatedPerson.photo.title">fhir:Attachment.title</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Official Corporate Logo&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

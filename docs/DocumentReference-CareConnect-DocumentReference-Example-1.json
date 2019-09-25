@@ -1,0 +1,32 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "CareConnect-DocumentReference-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-DocumentReference-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>type</b>: Discharge care plan <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '736372004' = 'Discharge care plan (record artifact)', given as 'Discharge care plan'})</span></p><p><b>indexed</b>: 11-Sep-2019 14:46:00</p><h3>Contents</h3><table class=\"grid\"><tr><td>-</td><td><b>Attachment</b></td></tr><tr><td>*</td><td/></tr></table></div>"
+  },
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "736372004",
+        "display": "Discharge care plan"
+      }
+    ]
+  },
+  "indexed": "2019-09-11T13:46:00+00:00",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "text/plain",
+        "language": "en"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-RelatedPerson-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-RelatedPerson-Example-1</p><p><b>meta</b>: </p><p><b>patient</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>
+  </text>
+  <patient>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </patient>
+</RelatedPerson>

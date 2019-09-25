@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicationDispense xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-MedicationDispense-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationDispense-1"/>
+	</meta>
+	<medicationReference>
+		<reference value="Medication/CareConnect-Medication-Example-1"/>
+	</medicationReference>
+</MedicationDispense>

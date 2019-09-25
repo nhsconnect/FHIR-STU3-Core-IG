@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Slot-1" />
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1" />
+  <version value="1.0.0" />
+  <name value="CareConnect-Slot-1" />
+  <status value="draft" />
+  <date value="2018-09-27T15:22:34.763+01:00" />
+  <publisher value="NHS Digital" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="CareConnectSlot profile." />
+  <purpose value="NOT CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/" />
+  <copyright value="Copyright © 2018 NHS Digital" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Slot" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Slot" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Slot.identifier">
+      <path value="Slot.identifier" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

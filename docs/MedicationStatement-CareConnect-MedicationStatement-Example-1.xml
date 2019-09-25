@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationStatement xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-MedicationStatement-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-MedicationStatement-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>medication</b>: <a href="CareConnect-Medication-Example-1.html">Generated Summary: id: CareConnect-Medication-Example-1; <span title="Codes: {http://snomed.info/sct 17952711000001102}">Paracetamol 500mg capsules (Phoenix Healthcare Distribution Ltd) (product)</span></a></p><p><b>subject</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p><p><b>taken</b>: y</p></div>
+  </text>
+  <status value="active"/>
+  <medicationReference>
+    <reference value="Medication/CareConnect-Medication-Example-1"/>
+  </medicationReference>
+  <subject>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </subject>
+  <taken value="y"/>
+</MedicationStatement>

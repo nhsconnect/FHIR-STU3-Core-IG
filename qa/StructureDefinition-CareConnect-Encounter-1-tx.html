@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-Encounter-1-tx</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>Encounter.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Encounter.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Encounter.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Encounter.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Current state of the encounter"><a href="http://hl7.org/fhir/STU3/valueset-encounter-status.html">EncounterStatus</a></td></tr>
+<tr><td>Encounter.statusHistory.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Current state of the encounter"><a href="http://hl7.org/fhir/STU3/valueset-encounter-status.html">EncounterStatus</a></td></tr>
+<tr><td>Encounter.class</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Classification of the encounter"><a href="http://hl7.org/fhir/STU3/v3/ActEncounterCode/vs.html">ActEncounterCode</a></td></tr>
+<tr><td>Encounter.classHistory.class</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Classification of the encounter"><a href="http://hl7.org/fhir/STU3/v3/ActEncounterCode/vs.html">ActEncounterCode</a></td></tr>
+<tr><td>Encounter.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The type of encounter"><a href="http://hl7.org/fhir/STU3/valueset-encounter-type.html">EncounterType</a></td></tr>
+<tr><td>Encounter.type.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)."><a href="ValueSet-CareConnect-EncounterType-1.html">Care Connect Encounter Type</a></td></tr>
+<tr><td>Encounter.priority</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Indicates the urgency of the encounter."><a href="http://hl7.org/fhir/STU3/v3/ActPriority/vs.html">v3 Code System ActPriority</a></td></tr>
+<tr><td>Encounter.participant.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Role of participant in encounter"><a href="http://hl7.org/fhir/STU3/valueset-encounter-participant-type.html">ParticipantType</a></td></tr>
+<tr><td>Encounter.reason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="Reason why the encounter takes place."><a href="http://hl7.org/fhir/STU3/valueset-encounter-reason.html">Encounter Reason Codes</a></td></tr>
+<tr><td>Encounter.diagnosis.role</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="The type of diagnosis this condition represents"><a href="http://hl7.org/fhir/STU3/valueset-diagnosis-role.html">DiagnosisRole</a></td></tr>
+<tr><td>Encounter.hospitalization.preAdmissionIdentifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Encounter.hospitalization.preAdmissionIdentifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Encounter.hospitalization.admitSource</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."><a href="ValueSet-CareConnect-SourceOfAdmission-1.html">NHS Data Model and Dictionary Source Of Admission</a></td></tr>
+<tr><td>Encounter.hospitalization.reAdmission</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The reason for re-admission of this hospitalization encounter."><a href="http://hl7.org/fhir/STU3/v2/0092/index.html">v2 Re-Admission Indicator</a></td></tr>
+<tr><td>Encounter.hospitalization.dietPreference</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td></td></tr>
+<tr><td>Encounter.hospitalization.specialCourtesy</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="Special courtesies"><a href="http://hl7.org/fhir/STU3/valueset-encounter-special-courtesy.html">SpecialCourtesy</a></td></tr>
+<tr><td>Encounter.hospitalization.specialArrangement</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="Special arrangements"><a href="http://hl7.org/fhir/STU3/valueset-encounter-special-arrangements.html">SpecialArrangements</a></td></tr>
+<tr><td>Encounter.hospitalization.dischargeDisposition</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."><a href="ValueSet-CareConnect-DischargeDestination-1.html">NHS Data Model and Dictionary Discharge Destination</a></td></tr>
+<tr><td>Encounter.location.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The status of the location."><a href="http://hl7.org/fhir/STU3/valueset-encounter-location-status.html">EncounterLocationStatus</a></td></tr>
+</table>
+</body>
+</html>

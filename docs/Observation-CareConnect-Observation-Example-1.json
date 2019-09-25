@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "CareConnect-Observation-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Finding of ability to hear (finding) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '397653009' = 'Finding of ability to hear (finding)', given as 'Finding of ability to hear (finding)'})</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "397653009",
+        "display": "Finding of ability to hear (finding)"
+      }
+    ]
+  }
+}

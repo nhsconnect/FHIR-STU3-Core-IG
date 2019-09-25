@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-DiagnosticReport-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-DiagnosticReport-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Computed tomography imaging report <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '4261000179100' = 'Computed tomography imaging report (record artifact)', given as 'Computed tomography imaging report'})</span></p><p><b>subject</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="4261000179100"/>
+      <display value="Computed tomography imaging report"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </subject>
+</DiagnosticReport>

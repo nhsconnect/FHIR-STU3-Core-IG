@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+  <title>Slot-CareConnect-Slot-Example-1-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Slot;
+  <a href="http://hl7.org/fhir/STU3/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#id">fhir:value</a> &quot;CareConnect-Slot-Example-1&quot;];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/STU3/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1&quot;;
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: CareConnect-Slot-Example-1&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: f660f5bc-0b70-497d-9a98-3b77d2cc3885&lt;/p&gt;&lt;p&gt;&lt;b&gt;schedule&lt;/b&gt;: &lt;a href=\&quot;CareConnect-Schedule-Example-1.html\&quot;&gt;Generated Summary: id: CareConnect-Schedule-Example-1; f660f5bc-0b70-497d-9a98-3b77d2cc3885&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: free&lt;/p&gt;&lt;p&gt;&lt;b&gt;start&lt;/b&gt;: 11-Sep-2019 10:00:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;end&lt;/b&gt;: 11-Sep-2019 10:15:00&lt;/p&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.identifier">fhir:Slot.identifier</a> [
+     <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/STU3/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;https://tools.ietf.org/html/rfc4122&quot; ];
+     <a href="http://hl7.org/fhir/STU3/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;f660f5bc-0b70-497d-9a98-3b77d2cc3885&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.schedule">fhir:Slot.schedule</a> [
+     <a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;Schedule/CareConnect-Schedule-Example-1&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.status">fhir:Slot.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;free&quot;];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.start">fhir:Slot.start</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#instant">fhir:value</a> &quot;2019-09-11T09:00:00+00:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/STU3/slot.html#Slot.end">fhir:Slot.end</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#instant">fhir:value</a> &quot;2019-09-11T09:15:00+00:00&quot;^^xsd:dateTime].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

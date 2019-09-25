@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-RespiratoryRate-Observation-1-tx-must-support</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet / Code</b></td></tr>
+<tr><td>Observation.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Codes providing the status of an observation.">Fixed Value: final</td></tr>
+<tr><td>Observation.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td></td></tr>
+<tr><td>Observation.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="This value set indicates the allowed vital sign result types."><a href="http://hl7.org/fhir/STU3/valueset-observation-vitalsignresult.html">Vital Signs</a></td></tr>
+<tr><td>Observation.valueQuantity:valueQuantity</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Common UCUM units for recording Vital Signs"><a href="http://hl7.org/fhir/STU3/valueset-ucum-vitals-common.html">Vital Signs Units</a></td></tr>
+<tr><td>Observation.dataAbsentReason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="This value set defines the set of codes for identifying the reason why the expected result in Observation.value[x] is missing."></td></tr>
+<tr><td>Observation.related.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Codes specifying how two observations are related.">Fixed Value: has-member</td></tr>
+<tr><td>Observation.component.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="This value set indicates the allowed vital sign result types. "><a href="http://hl7.org/fhir/STU3/valueset-observation-vitalsignresult.html">Vital Signs</a></td></tr>
+<tr><td>Observation.component.valueQuantity:valueQuantity</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Common UCUM units for recording Vital Signs"><a href="http://hl7.org/fhir/STU3/valueset-ucum-vitals-common.html">Vital Signs Units</a></td></tr>
+<tr><td>Observation.component.valueQuantity:valueQuantity.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Common UCUM units for recording Vital Signs"><a href="http://hl7.org/fhir/STU3/valueset-ucum-vitals-common.html">Vital Signs Units</a></td></tr>
+<tr><td>Observation.component.dataAbsentReason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Codes specifying why the result (Observation.value[x]) is missing."><a href="http://hl7.org/fhir/STU3/valueset-observation-valueabsentreason.html">Observation Value Absent Reason</a></td></tr>
+</table>
+</body>
+</html>

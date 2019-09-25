@@ -1,0 +1,165 @@
+﻿<html>
+<head>
+  <title>ImplementationGuide-nhsdigital.fhir.core.stu3-1.0.0-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide">resourceType</a>" : "ImplementationGuide",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.id">id</a>" : "nhsdigital.fhir.core.stu3-1.0.0",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.text">text</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;NHS Digital FHIR Core STU3 Implementation Guide&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;https://fhir.nhs.uk/STU3/StructureDefinitions/FHIR-STU3-Core-IG-ImplementationGuide-1&lt;/pre&gt;&lt;/div&gt;"
+  },
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.url">url</a>" : "https://fhir.nhs.uk/STU3/StructureDefinitions/FHIR-STU3-Core-IG-ImplementationGuide-1",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.version">version</a>" : "1.0.0",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.name">name</a>" : "NHS Digital FHIR Core STU3 Implementation Guide",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.status">status</a>" : "draft",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.publisher">publisher</a>" : "NHS Digital",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.contact">contact</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "mailto:interoperabilityteam@nhs.net"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "GB",
+          "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "United Kingdom of Great Britain and Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a>" : "3.0.1",
+  "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a>" : [
+    {
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.id">id</a>" : "p1",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a>" : "FHIR Core STU3",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.description">description</a>" : "FHIR Core STU3 Assets",
+      "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "StructureDefinition:resource"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CareConnect-Patient-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/CareConnect-Patient-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-CareConnect-EthnicCategory-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/CareConnect-EthnicCategory-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-CareConnect-MaritalStatus-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/CareConnect-MaritalStatus-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-CareConnect-EthnicCategory-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/CareConnect-EthnicCategory-1"
+          }
+        },
+        {
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a>" : "ConceptMap"
+            },
+            {
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ConceptMap-CareConnect-MaritalStatus-1.html"
+            }
+          ],
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>" : "ConceptMap/CareConnect-MaritalStatus-1"
+          }
+        }
+      ]
+    }
+  ]
+}</pre>
+</body>
+</html>

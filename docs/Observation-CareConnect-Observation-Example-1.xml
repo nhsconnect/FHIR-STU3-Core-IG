@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Observation-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Finding of ability to hear (finding) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '397653009' = 'Finding of ability to hear (finding)', given as 'Finding of ability to hear (finding)'})</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="397653009"/>
+      <display value="Finding of ability to hear (finding)"/>
+    </coding>
+  </code>
+</Observation>

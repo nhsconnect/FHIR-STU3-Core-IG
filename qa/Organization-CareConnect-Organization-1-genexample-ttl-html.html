@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+  <title>Organization-CareConnect-Organization-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Organization;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-Organization-1.html#Organization.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-Organization-1-genexample&quot;];
+  <a href="CareConnect-Organization-1.html#Organization.identifier">fhir:Organization.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Organization-1.html#Organization.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ], [
+     <a href="CareConnect-Organization-1.html#Organization.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/Id/ods-organization-code&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ], [
+     <a href="CareConnect-Organization-1.html#Organization.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/Id/ods-site-code&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-Organization-1.html#Organization.address">fhir:Organization.address</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Organization-1.html#Organization.address.use">fhir:Address.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;home&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.type">fhir:Address.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;both&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.text">fhir:Address.text</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street, Erewhon 9132&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.line">fhir:Address.line</a> [
+       <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1     ];
+     <a href="CareConnect-Organization-1.html#Organization.address.city">fhir:Address.city</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Erewhon&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.district">fhir:Address.district</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Madison&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.postalCode">fhir:Address.postalCode</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;9132&quot; ];
+     <a href="CareConnect-Organization-1.html#Organization.address.period">fhir:Address.period</a> [
+       <a href="http://build.fhir.org/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-03-23T00:00:00+00:00&quot;^^xsd:dateTime ];
+       <a href="http://build.fhir.org/datatypes.html#Period#Period.end">fhir:Period.end</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-07-01T00:00:00+01:00&quot;^^xsd:dateTime ]     ]
+  ];
+  <a href="CareConnect-Organization-1.html#Organization.contact">fhir:Organization.contact</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Organization-1.html#Organization.contact.address">fhir:Organization.contact.address</a> [
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.use">fhir:Address.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;home&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.type">fhir:Address.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;both&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.text">fhir:Address.text</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street, Erewhon 9132&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.line">fhir:Address.line</a> [
+         <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;137 Nowhere Street&quot;;
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1       ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.city">fhir:Address.city</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Erewhon&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.district">fhir:Address.district</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Madison&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.postalCode">fhir:Address.postalCode</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;9132&quot; ];
+       <a href="CareConnect-Organization-1.html#Organization.contact.address.period">fhir:Address.period</a> [
+         <a href="http://build.fhir.org/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-03-23T00:00:00+00:00&quot;^^xsd:dateTime ];
+         <a href="http://build.fhir.org/datatypes.html#Period#Period.end">fhir:Period.end</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2010-07-01T00:00:00+01:00&quot;^^xsd:dateTime ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

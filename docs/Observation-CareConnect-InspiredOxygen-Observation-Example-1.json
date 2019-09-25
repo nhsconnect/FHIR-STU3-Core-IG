@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "CareConnect-InspiredOxygen-Observation-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-InspiredOxygen-Observation-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-InspiredOxygen-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Breathing room air <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '722742002' = 'Breathing room air (finding)', given as 'Breathing room air'})</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "722742002",
+        "display": "Breathing room air"
+      }
+    ]
+  }
+}

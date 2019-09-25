@@ -1,0 +1,51 @@
+﻿<html>
+<head>
+  <title>Encounter-CareConnect-Encounter-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Encounter;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-Encounter-1.html#Encounter.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-Encounter-1-genexample&quot;];
+  <a href="CareConnect-Encounter-1.html#Encounter.identifier">fhir:Encounter.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Encounter-1.html#Encounter.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-Encounter-1.html#Encounter.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-Encounter-1.html#Encounter.type">fhir:Encounter.type</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Encounter-1.html#Encounter.type.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+       <a href="CareConnect-Encounter-1.html#Encounter.type.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-Encounter-1.html#Encounter.reason">fhir:Encounter.reason</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Encounter-1.html#Encounter.reason.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-Encounter-1.html#Encounter.reason.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-Encounter-1.html#Encounter.hospitalization">fhir:Encounter.hospitalization</a> [
+     <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier">fhir:Encounter.hospitalization.preAdmissionIdentifier</a> [
+       <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+       <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]     ];
+     <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission">fhir:Encounter.hospitalization.reAdmission</a> [
+       <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission.coding">fhir:CodeableConcept.coding</a> [
+         <a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+  <title>Patient-CareConnect-Patient-1-genexample-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="CareConnect-Patient-1.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;CareConnect-Patient-1-genexample&quot;/&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.extension">extension</a>
+             <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor&quot;/&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.extension">extension</a> <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/birthPlace&quot;/&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.identifier">identifier</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.identifier.system">system</a>
+            <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.identifier.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;123456&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.identifier">identifier</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.identifier.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;https://fhir.nhs.uk/Id/nhs-number&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.identifier.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;123456&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.name">name</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.name.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+  &lt;/name&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.birthDate">birthDate</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.birthDate.extension">extension</a> <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/patient-birthTime&quot;/&gt;
+  &lt;/birthDate&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.address">address</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.type">type</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;both&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.text">text</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;137 Nowhere Street, Erewhon 9132&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.line">line</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;137 Nowhere Street&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.city">city</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Erewhon&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.district">district</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Madison&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.postalCode">postalCode</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;9132&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.country">country</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;GBR&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.address.period">period</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Period#Period.start">start</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2010-03-23T00:00:00+00:00&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Period#Period.end">end</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2010-07-01T00:00:00+01:00&quot;/&gt;
+    &lt;/period&gt;
+  &lt;/address&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.maritalStatus">maritalStatus</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.maritalStatus.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.maritalStatus.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/v3/MaritalStatus&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/maritalStatus&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.photo">photo</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.photo.contentType">contentType</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;text/plain; charset=UTF-8, image/png&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.photo.language">language</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;en-AU&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.photo.url">url</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://www.acme.com/logo-small.png&quot;/&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.photo.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Official Corporate Logo&quot;/&gt;
+  &lt;/photo&gt;
+  &lt;<a href="CareConnect-Patient-1.html#Patient.contact">contact</a>&gt;
+    &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address">address</a>&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.type">type</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;both&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.text">text</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;137 Nowhere Street, Erewhon 9132&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.line">line</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;137 Nowhere Street&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.city">city</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Erewhon&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.district">district</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Madison&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.postalCode">postalCode</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;9132&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.country">country</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;GBR&quot;/&gt;
+      &lt;<a href="CareConnect-Patient-1.html#Patient.contact.address.period">period</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Period#Period.start">start</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2010-03-23T00:00:00+00:00&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Period#Period.end">end</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2010-07-01T00:00:00+01:00&quot;/&gt;
+      &lt;/period&gt;
+    &lt;/address&gt;
+  &lt;/contact&gt;
+&lt;/Patient&gt;</pre>
+</body>
+</html>

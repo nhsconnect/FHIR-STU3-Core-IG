@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Appointment-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Appointment-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: proposed</p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Actor</b></td><td><b>Status</b></td></tr><tr><td>*</td><td>primary performer <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/ParticipationType code 'PPRF' = 'primary performer', given as 'primary performer'})</span></td><td><a href="CareConnect-Practitioner-Example-1.html">Generated Summary: id: CareConnect-Practitioner-Example-1; G12345678</a></td><td>tentative</td></tr></table></div>
+  </text>
+  <status value="proposed"/>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://hl7.org/fhir/v3/ParticipationType"/>
+        <code value="PPRF"/>
+        <display value="primary performer"/>
+      </coding>
+    </type>
+    <actor>
+      <reference value="Practitioner/CareConnect-Practitioner-Example-1"/>
+    </actor>
+    <status value="tentative"/>
+  </participant>
+</Appointment>

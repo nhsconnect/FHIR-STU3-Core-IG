@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+  <title>ResearchStudy-CareConnect-ResearchStudy-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ResearchStudy;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-ResearchStudy-1-genexample&quot;];
+  <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.identifier">fhir:ResearchStudy.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact">fhir:ResearchStudy.relatedArtifact</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact.document">fhir:RelatedArtifact.document</a> [
+       <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact.document.contentType">fhir:Attachment.contentType</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;text/plain; charset=UTF-8, image/png&quot; ];
+       <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact.document.language">fhir:Attachment.language</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;en-AU&quot; ];
+       <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact.document.url">fhir:Attachment.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/logo-small.png&quot; ];
+       <a href="CareConnect-ResearchStudy-1.html#ResearchStudy.relatedArtifact.document.title">fhir:Attachment.title</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Official Corporate Logo&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

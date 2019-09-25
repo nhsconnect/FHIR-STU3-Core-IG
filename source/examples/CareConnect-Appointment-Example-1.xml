@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Appointment xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Appointment-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1"/>
+	</meta>
+	<status value="proposed"/>
+	<participant>
+		<type>
+			<coding>
+				<system value="http://hl7.org/fhir/v3/ParticipationType"/>
+				<code value="PPRF"/>
+				<display value="primary performer"/>
+			</coding>
+		</type>
+		<actor>
+			<reference value="Practitioner/CareConnect-Practitioner-Example-1"/>
+		</actor>
+		<status value="tentative"/>
+	</participant>
+</Appointment>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Subscore-Observation-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Subscore-Observation-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Subscore-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Disease activity score in rheumatoid arthritis using C-reactive protein (observable entity) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '444060007' = 'Disease activity score in rheumatoid arthritis using C-reactive protein (observable entity)', given as 'Disease activity score in rheumatoid arthritis using C-reactive protein (observable entity)'})</span></p><p><b>effective</b>: 11-Sep-2019 14:46:00</p><p><b>value</b>: 3.2</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="444060007"/>
+      <display value="Disease activity score in rheumatoid arthritis using C-reactive protein (observable entity)"/>
+    </coding>
+  </code>
+  <effectiveDateTime value="2019-09-11T13:46:00+00:00"/>
+  <valueQuantity>
+    <value value="3.2"/>
+  </valueQuantity>
+</Observation>

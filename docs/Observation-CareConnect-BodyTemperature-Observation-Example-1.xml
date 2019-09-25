@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-BodyTemperature-Observation-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-BodyTemperature-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs)</span></p><p><b>code</b>: Core body temperature <span style="background: LightGoldenRodYellow">(Details : {LOINC code '8310-5' = 'Body temperature; {SNOMED CT code '276885007' = 'Core body temperature', given as 'Core body temperature'})</span></p><p><b>subject</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p><p><b>effective</b>: 11-Sep-2019 14:46:00</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/observation-category"/>
+      <code value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8310-5"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="276885007"/>
+      <display value="Core body temperature"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </subject>
+  <effectiveDateTime value="2019-09-11T13:46:00+00:00"/>
+</Observation>

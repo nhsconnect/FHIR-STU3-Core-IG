@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "CareConnect-ACVPU-Observation-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ACVPU-Observation-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-ACVPU-Observation-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: ACVPU (Alert Confusion Voice Pain Unresponsive) scale score <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '1104441000000107' = '1104441000000107', given as 'ACVPU (Alert Confusion Voice Pain Unresponsive) scale score'})</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1104441000000107",
+        "display": "ACVPU (Alert Confusion Voice Pain Unresponsive) scale score"
+      }
+    ]
+  }
+}

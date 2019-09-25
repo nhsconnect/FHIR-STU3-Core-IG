@@ -1,0 +1,58 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-Communication-1-maps</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<a name="workflow"> </a><h3>Mappings for Workflow Mapping (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>CareConnect-Communication-1</b></td></tr>
+ <tr><td>Communication</td><td>Event</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Event.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;definition</td><td>Event.definition</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>Event.basedOn</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>Event.partOf</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>Event.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;notDone</td><td>Event.notDone</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;notDoneReason</td><td>Event.notDoneReason</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>Event.code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>Event.subject</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;context</td><td>Event.context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sent</td><td>Event.occurrenceDateTime (Invariant: maps to either sent OR received)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;received</td><td>Event.occurrenceDateTime (Invariant: maps to either sent OR received)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sender</td><td>Event.performer.actor</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>Event.reasonCodableConcept</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>Event.reasonReference</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>Event.note</td> </tr>
+</table>
+<a name="w5"> </a><h3>Mappings for W5 Mapping (<a href="http://hl7.org/fhir/w5.html">http://hl7.org/fhir/w5</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>CareConnect-Communication-1</b></td></tr>
+ <tr><td>Communication</td><td>workflow.encounter</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>id</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>class</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>who.focus</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;recipient</td><td>who.focus</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;topic</td><td>context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;context</td><td>context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sent</td><td>when.init</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;received</td><td>when.done</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sender</td><td>who.actor</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>why</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>why</td> </tr>
+</table>
+<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>CareConnect-Communication-1</b></td></tr>
+ <tr><td>Communication</td><td>Entity. Role, or Act</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>.reasonCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>.outboundRelationship[typeCode=RSON].target</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;payload</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+</table>
+</body>
+</html>

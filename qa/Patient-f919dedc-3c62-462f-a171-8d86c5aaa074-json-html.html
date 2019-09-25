@@ -1,0 +1,65 @@
+﻿<html>
+<head>
+  <title>Patient-f919dedc-3c62-462f-a171-8d86c5aaa074-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://build.fhir.org/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://build.fhir.org/patient.html#Patient.id">id</a>" : "f919dedc-3c62-462f-a171-8d86c5aaa074",
+  "<a href="http://build.fhir.org/patient.html#Patient.meta">meta</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"
+    ]
+  },
+  "<a href="http://build.fhir.org/patient.html#Patient.text">text</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: f919dedc-3c62-462f-a171-8d86c5aaa074&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 1234567890&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Jon Burrows (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 10 Sep 1970&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 22, Brown Street, Overtown Leeds LS22 2JK &lt;/p&gt;&lt;/div&gt;"
+  },
+  "<a href="http://build.fhir.org/patient.html#Patient.identifier">identifier</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.extension">extension</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">url</a>" : "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1",
+          "<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a>" : "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1",
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a>" : "01",
+                "<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a>" : "Number present and verified"
+              }
+            ]
+          }
+        }
+      ],
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">system</a>" : "https://fhir.nhs.uk/Id/nhs-number",
+      "<a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">value</a>" : "1234567890"
+    }
+  ],
+  "<a href="http://build.fhir.org/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.use">use</a>" : "official",
+      "<a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.family">family</a>" : "Burrows",
+      "<a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Jon"
+      ],
+      "<a href="http://build.fhir.org/datatypes.html#HumanName#HumanName.prefix">prefix</a>" : [
+        "Mr"
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/patient.html#Patient.gender">gender</a>" : "male",
+  "<a href="http://build.fhir.org/patient.html#Patient.birthDate">birthDate</a>" : "1970-09-10",
+  "<a href="http://build.fhir.org/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#Address#Address.line">line</a>" : [
+        "22, Brown Street, Overtown"
+      ],
+      "<a href="http://build.fhir.org/datatypes.html#Address#Address.city">city</a>" : "Leeds",
+      "<a href="http://build.fhir.org/datatypes.html#Address#Address.postalCode">postalCode</a>" : "LS22 2JK"
+    }
+  ]
+}</pre>
+</body>
+</html>

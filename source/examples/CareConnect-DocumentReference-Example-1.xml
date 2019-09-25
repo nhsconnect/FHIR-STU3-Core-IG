@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentReference xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-DocumentReference-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"/>
+	</meta>
+	<status value="current"/>
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="736372004"/>
+			<display value="Discharge care plan"/>
+		</coding>
+	</type>
+	<indexed value="2019-09-11T13:46:00+00:00"/>
+	<content>
+		<attachment>
+			<contentType value="text/plain"/>
+			<language value="en"/>
+		</attachment>
+	</content>
+</DocumentReference>

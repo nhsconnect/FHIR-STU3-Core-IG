@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+  <title>Observation-CareConnect-VitalSigns-Observation-1-genexample-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation">Observation</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;CareConnect-VitalSigns-Observation-1-genexample&quot;/&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.identifier">identifier</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.identifier.system">system</a>
+            <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot;/&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.identifier.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;123456&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.category">category</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.category.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.category.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/observation-category&quot;/&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.category.coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;vital-signs&quot;/&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.category.coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vital Signs&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/category&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code">code</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;85353-1&quot;/&gt;
+    &lt;/coding&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;118227000&quot;/&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.code.coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Vital signs&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/code&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.valueQuantity">valueQuantity</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.valueQuantity.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+  &lt;/valueQuantity&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.bodySite">bodySite</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.bodySite.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.bodySite.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/bodySite&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.method">method</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.method.coding">coding</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.method.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/method&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.related">related</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.related.type">type</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;has-member&quot;/&gt;
+  &lt;/related&gt;
+  &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component">component</a>&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.code.coding">coding</a>&gt;
+        &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.code.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+      &lt;/coding&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.code.coding">coding</a>&gt;
+        &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.code.coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.valueQuantity">valueQuantity</a>&gt;
+      &lt;<a href="CareConnect-VitalSigns-Observation-1.html#Observation.component.valueQuantity.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+&lt;/Observation&gt;</pre>
+</body>
+</html>

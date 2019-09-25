@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-Quantity-1-pseudo-json</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+ // <span style="color: navy; opacity: 0.8"></span>
+ {
+    "<a href="CareConnect-Quantity-1.html#Quantity.id" title="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces" class="dict"><span style="text-decoration: underline">id</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">xml:id (or equivalent in JSON)</span>
+    "extension": [
+      { // <span style="color: navy; opacity: 0.8"> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span> Value Approximation</span>
+        "url": "<a href="Extension-CareConnect-ValueApproximation-1.html">https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1</a>",
+        "<a href="CareConnect-Quantity-1.html#Quantity.extension.valueBoolean" title="Indicates if value is approximate" class="dict"><span style="text-decoration: underline">valueBoolean</span></a>" : &lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">boolean</a></span>&gt; <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Indicates if value is approximate</span>
+      }
+    ],
+    "<a href="CareConnect-Quantity-1.html#Quantity.value" title="The value of the measured amount. The value includes an implicit precision in the presentation of the value" class="dict"><span style="text-decoration: underline">value</span></a>" : &lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#decimal">decimal</a></span>&gt;, <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Numerical value (with implicit precision)</span>
+    "<a href="CareConnect-Quantity-1.html#Quantity.comparator" title="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value (this element modifies the meaning of other elements)" class="dict"><span style="text-decoration: underline">comparator</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/STU3/null.html" style="color: navy">&lt; | &lt;= | &gt;= | &gt; - how to understand the value</a></span>
+    "<a href="CareConnect-Quantity-1.html#Quantity.unit" title="A human-readable form of the unit" class="dict"><span style="text-decoration: underline">unit</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Unit representation</span>
+    "<a href="CareConnect-Quantity-1.html#Quantity.system" title="The identification of the system that provides the coded form of the unit" class="dict"><span style="text-decoration: underline">system</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#uri">uri</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">System that defines coded unit form</span>
+    "<a href="CareConnect-Quantity-1.html#Quantity.code" title="A computer processable form of the unit in some unit representation system" class="dict"><span style="text-decoration: underline">code</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Coded form of the unit</span>
+  }
+</body>
+</html>

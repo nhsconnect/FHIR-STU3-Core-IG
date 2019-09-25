@@ -1,0 +1,77 @@
+﻿<html>
+<head>
+  <title>Observation-CareConnect-HeartRate-Observation-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix loinc: &lt;http://loinc.org/rdf#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix sct: &lt;http://snomed.info/id/&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Observation;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-HeartRate-Observation-1-genexample&quot;];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.identifier">fhir:Observation.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.status">fhir:Observation.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;final&quot;];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.category">fhir:Observation.category</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.category.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.category.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/observation-category&quot; ];
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.category.coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;vital-signs&quot; ];
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.category.coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Vital Signs&quot; ]     ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.code">fhir:Observation.code</a> [
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding">fhir:CodeableConcept.coding</a> [
+       a loinc:8867-4;
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ];
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;8867-4&quot; ]     ], [
+       a sct:364075005;
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;364075005&quot; ];
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.code.coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Heart rate&quot; ]     ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.valueQuantity">fhir:Observation.valueQuantity</a> [
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.valueQuantity.system">fhir:Quantity.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ];
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.valueQuantity.code">fhir:Quantity.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;/min&quot; ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.bodySite">fhir:Observation.bodySite</a> [
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.bodySite.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.bodySite.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.method">fhir:Observation.method</a> [
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.method.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.method.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.related">fhir:Observation.related</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.related.type">fhir:Observation.related.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;has-member&quot; ]
+  ];
+  <a href="CareConnect-HeartRate-Observation-1.html#Observation.component">fhir:Observation.component</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.code">fhir:Observation.component.code</a> [
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.code.coding">fhir:CodeableConcept.coding</a> [
+         <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.code.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ]       ], [
+         <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.code.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]       ]     ];
+     <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.valueQuantity">fhir:Observation.component.valueQuantity</a> [
+       <a href="CareConnect-HeartRate-Observation-1.html#Observation.component.valueQuantity.system">fhir:Quantity.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

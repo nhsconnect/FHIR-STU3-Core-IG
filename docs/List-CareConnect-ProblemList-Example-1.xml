@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ProblemList-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemList-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-ProblemList-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p><p><b>code</b>: Problem List <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/list-example-use-codes code 'problems' = 'Problem List', given as 'Problem List'})</span></p></div>
+  </text>
+  <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info.sct"/>
+        <code value="310000008"/>
+        <display value="Accident and Emergency service"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="current"/>
+  <mode value="working"/>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/list-example-use-codes"/>
+      <code value="problems"/>
+      <display value="Problem List"/>
+    </coding>
+  </code>
+</List>

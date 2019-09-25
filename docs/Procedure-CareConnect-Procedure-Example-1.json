@@ -1,0 +1,17 @@
+{
+  "resourceType": "Procedure",
+  "id": "CareConnect-Procedure-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Procedure-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"CareConnect-Patient-Example-1.html\">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CareConnect-Patient-Example-1"
+  }
+}

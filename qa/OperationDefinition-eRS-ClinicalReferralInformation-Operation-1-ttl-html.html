@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+  <title>OperationDefinition-eRS-ClinicalReferralInformation-Operation-1-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:OperationDefinition;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;eRS-ClinicalReferralInformation-Operation-1&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://build.fhir.org/datatypes.html#instant">fhir:value</a> &quot;2016-09-22T00:00:00.000+01:00&quot;^^xsd:dateTime ]
+  ];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;eRS-ClinicalReferralInformation-Operation-1&lt;/h2&gt;&lt;p&gt;OPERATION: eRS-ClinicalReferralInformation-Operation-1&lt;/p&gt;&lt;p&gt;The official URL for this operation definition is: &lt;/p&gt;&lt;pre&gt;https://fhir.nhs.uk/STU3/OperationDefinition/eRS-ClinicalReferralInformation-Operation-1&lt;/pre&gt;&lt;div&gt;&lt;p&gt;Request to retrieve the PDF Clinical Information for a Referral Request&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;Parameters&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Use&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Cardinality&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Binding&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Documentation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IN&lt;/td&gt;&lt;td&gt;UBRN&lt;/td&gt;&lt;td&gt;1..1&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://build.fhir.org/datatypes.html#Identifier\&quot;&gt;Identifier&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;The identifier for the Clinical Referral Information for a Referral Request&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OUT&lt;/td&gt;&lt;td&gt;response&lt;/td&gt;&lt;td&gt;1..1&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://build.fhir.org/binary.html\&quot;&gt;Binary&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;The Binary resource that has been returned in response to the given input parameter&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.url">fhir:OperationDefinition.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.nhs.uk/STU3/OperationDefinition/eRS-ClinicalReferralInformation-Operation-1&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.version">fhir:OperationDefinition.version</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1.0&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.name">fhir:OperationDefinition.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;eRS-ClinicalReferralInformation-Operation-1&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.status">fhir:OperationDefinition.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.kind">fhir:OperationDefinition.kind</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;operation&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.date">fhir:OperationDefinition.date</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2018-03-04T23:00:00+00:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.publisher">fhir:OperationDefinition.publisher</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;NHS Digital&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.contact">fhir:OperationDefinition.contact</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Interoperability Team&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+       <a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;email&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;interoperabilityteam@nhs.net&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">fhir:ContactPoint.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;work&quot; ]     ]
+  ];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.description">fhir:OperationDefinition.description</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;Request to retrieve the PDF Clinical Information for a Referral Request&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.code">fhir:OperationDefinition.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;ers.generateCRI&quot;];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.system">fhir:OperationDefinition.system</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.type">fhir:OperationDefinition.type</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.instance">fhir:OperationDefinition.instance</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter">fhir:OperationDefinition.parameter</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.name">fhir:OperationDefinition.parameter.name</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;UBRN&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.use">fhir:OperationDefinition.parameter.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;in&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.min">fhir:OperationDefinition.parameter.min</a> [ <a href="http://build.fhir.org/datatypes.html#integer">fhir:value</a> &quot;1&quot;^^xsd:integer ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.max">fhir:OperationDefinition.parameter.max</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.documentation">fhir:OperationDefinition.parameter.documentation</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;The identifier for the Clinical Referral Information for a Referral Request&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.type">fhir:OperationDefinition.parameter.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;Identifier&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.name">fhir:OperationDefinition.parameter.name</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;response&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.use">fhir:OperationDefinition.parameter.use</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;out&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.min">fhir:OperationDefinition.parameter.min</a> [ <a href="http://build.fhir.org/datatypes.html#integer">fhir:value</a> &quot;1&quot;^^xsd:integer ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.max">fhir:OperationDefinition.parameter.max</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.documentation">fhir:OperationDefinition.parameter.documentation</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;The Binary resource that has been returned in response to the given input parameter&quot; ];
+     <a href="http://build.fhir.org/operationdefinition.html#OperationDefinition.parameter.type">fhir:OperationDefinition.parameter.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;Binary&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

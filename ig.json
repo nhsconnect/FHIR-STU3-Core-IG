@@ -1,0 +1,1378 @@
+{
+	"source": "ig.xml",
+	"paths": {
+		"history": "source/history",
+		"resources": [
+			"source/resources",
+			"source/codesystems",
+			"source/valuesets",
+			"source/structuredefinitions",
+			"source/examples",
+			"source/searchparameters",
+			"source/conceptmaps"
+		],
+		"pages": [
+			"framework",
+			"source/pages"
+		],
+		"temp": "temp",
+		"output": "docs",
+		"qa": "qa",
+		"specification": "http://hl7.org/fhir/STU3/"
+	},
+	"special-urls": [
+		"urn:iso:std:iso:3166",
+		"http://snomed.info/sct"
+	],
+	"language": "en-GB",
+	"version": "3.0.1",
+	"license": "CC0-1.0",
+	"npm-name": "nhsdigital.core.fhir",
+	"html-template": "html-template.html",
+	"no-inactive-codes" : false,  
+	"broken-links": "warning",
+	"check-aggregation" : true, 
+	"check-mustSupport": false,
+	"append-slash-to-dependency-urls" : false,
+	"hintAboutNonMustSupport": false,
+	"gen-examples": false,
+	"do-transforms": false,
+	"canonicalBase": "https://fhir.hl7.org.uk/STU3",
+	"extraTemplates": [
+		"mapping",
+		"foo",
+		"bar"
+	],
+	"resources": {
+		"StructureDefinition/CareConnect-HealthcareService-1": {
+			"source": "CareConnect-HealthcareService-1.xml",
+			"base": "CareConnect-HealthcareService-1.html",
+			"defns": "CareConnect-HealthcareService-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-HeartRate-Observation-1": {
+			"source": "CareConnect-HeartRate-Observation-1.xml",
+			"base": "CareConnect-HeartRate-Observation-1.html",
+			"defns": "CareConnect-HeartRate-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Immunization-1": {
+			"source": "CareConnect-Immunization-1.xml",
+			"base": "CareConnect-Immunization-1.html",
+			"defns": "CareConnect-Immunization-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-InspiredOxygen-Observation-1": {
+			"source": "CareConnect-InspiredOxygen-Observation-1.xml",
+			"base": "CareConnect-InspiredOxygen-Observation-1.html",
+			"defns": "CareConnect-InspiredOxygen-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-List-1": {
+			"source": "CareConnect-List-1.xml",
+			"base": "CareConnect-List-1.html",
+			"defns": "CareConnect-List-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Location-1": {
+			"source": "CareConnect-Location-1.xml",
+			"base": "CareConnect-Location-1.html",
+			"defns": "CareConnect-Location-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-MedicationAdministration-1": {
+			"source": "CareConnect-MedicationAdministration-1.xml",
+			"base": "CareConnect-MedicationAdministration-1.html",
+			"defns": "CareConnect-MedicationAdministration-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-MedicationDispense-1": {
+			"source": "CareConnect-MedicationDispense-1.xml",
+			"base": "CareConnect-MedicationDispense-1.html",
+			"defns": "CareConnect-MedicationDispense-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Medication-Flag-1": {
+			"source": "CareConnect-Medication-Flag-1.xml",
+			"base": "CareConnect-Medication-Flag-1.html",
+			"defns": "CareConnect-Medication-Flag-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-MedicationRequest-1": {
+			"source": "CareConnect-MedicationRequest-1.xml",
+			"base": "CareConnect-MedicationRequest-1.html",
+			"defns": "CareConnect-MedicationRequest-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-MedicationStatement-1": {
+			"source": "CareConnect-MedicationStatement-1.xml",
+			"base": "CareConnect-MedicationStatement-1.html",
+			"defns": "CareConnect-MedicationStatement-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Observation-1": {
+			"source": "CareConnect-Observation-1.xml",
+			"base": "CareConnect-Observation-1.html",
+			"defns": "CareConnect-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Organization-1": {
+			"source": "CareConnect-Organization-1.xml",
+			"base": "CareConnect-Organization-1.html",
+			"defns": "CareConnect-Organization-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-OxygenSaturation-Observation-1": {
+			"source": "CareConnect-OxygenSaturation-Observation-1.xml",
+			"base": "CareConnect-OxygenSaturation-Observation-1.html",
+			"defns": "CareConnect-OxygenSaturation-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Patient-1": {
+			"source": "CareConnect-Patient-1.xml",
+			"base": "CareConnect-Patient-1.html",
+			"defns": "CareConnect-Patient-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Medication-1": {
+			"source": "CareConnect-Medication-1.xml",
+			"base": "CareConnect-Medication-1.html",
+			"defns": "CareConnect-Medication-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Practitioner-1": {
+			"source": "CareConnect-Practitioner-1.xml",
+			"base": "CareConnect-Practitioner-1.html",
+			"defns": "CareConnect-Practitioner-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-PractitionerRole-1": {
+			"source": "CareConnect-PractitionerRole-1.xml",
+			"base": "CareConnect-PractitionerRole-1.html",
+			"defns": "CareConnect-PractitionerRole-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ProblemHeader-Condition-1": {
+			"source": "CareConnect-ProblemHeader-Condition-1.xml",
+			"base": "CareConnect-ProblemHeader-Condition-1.html",
+			"defns": "CareConnect-ProblemHeader-Condition-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ProblemList-1": {
+			"source": "CareConnect-ProblemList-1.xml",
+			"base": "CareConnect-ProblemList-1.html",
+			"defns": "CareConnect-ProblemList-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Procedure-1": {
+			"source": "CareConnect-Procedure-1.xml",
+			"base": "CareConnect-Procedure-1.html",
+			"defns": "CareConnect-Procedure-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ProcedureRequest-1": {
+			"source": "CareConnect-ProcedureRequest-1.xml",
+			"base": "CareConnect-ProcedureRequest-1.html",
+			"defns": "CareConnect-ProcedureRequest-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Quantity-1": {
+			"source": "CareConnect-Quantity-1.xml",
+			"base": "CareConnect-Quantity-1.html",
+			"defns": "CareConnect-Quantity-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ReferralRequest-1": {
+			"source": "CareConnect-ReferralRequest-1.xml",
+			"base": "CareConnect-ReferralRequest-1.html",
+			"defns": "CareConnect-ReferralRequest-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-RelatedPerson-1": {
+			"source": "CareConnect-RelatedPerson-1.xml",
+			"base": "CareConnect-RelatedPerson-1.html",
+			"defns": "CareConnect-RelatedPerson-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ResearchStudy-1": {
+			"source": "CareConnect-ResearchStudy-1.xml",
+			"base": "CareConnect-ResearchStudy-1.html",
+			"defns": "CareConnect-ResearchStudy-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-RespiratoryRate-Observation-1": {
+			"source": "CareConnect-RespiratoryRate-Observation-1.xml",
+			"base": "CareConnect-RespiratoryRate-Observation-1.html",
+			"defns": "CareConnect-RespiratoryRate-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-RiskAssessment-1": {
+			"source": "CareConnect-RiskAssessment-1.xml",
+			"base": "CareConnect-RiskAssessment-1.html",
+			"defns": "CareConnect-RiskAssessment-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Schedule-1": {
+			"source": "CareConnect-Schedule-1.xml",
+			"base": "CareConnect-Schedule-1.html",
+			"defns": "CareConnect-Schedule-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Slot-1": {
+			"source": "CareConnect-Slot-1.xml",
+			"base": "CareConnect-Slot-1.html",
+			"defns": "CareConnect-Slot-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Specimen-1": {
+			"source": "CareConnect-Specimen-1.xml",
+			"base": "CareConnect-Specimen-1.html",
+			"defns": "CareConnect-Specimen-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Subscore-Observation-1": {
+			"source": "CareConnect-Subscore-Observation-1.xml",
+			"base": "CareConnect-Subscore-Observation-1.html",
+			"defns": "CareConnect-Subscore-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-VitalSigns-Observation-1": {
+			"source": "CareConnect-VitalSigns-Observation-1.xml",
+			"base": "CareConnect-VitalSigns-Observation-1.html",
+			"defns": "CareConnect-VitalSigns-Observation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ActualProblem-1": {
+			"source": "Extension-CareConnect-ActualProblem-1.xml",
+			"base": "Extension-CareConnect-ActualProblem-1.html",
+			"defns": "Extension-CareConnect-ActualProblem-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AdmissionMethod-1": {
+			"source": "Extension-CareConnect-AdmissionMethod-1.xml",
+			"base": "Extension-CareConnect-AdmissionMethod-1.html",
+			"defns": "Extension-CareConnect-AdmissionMethod-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AllergyCertainty-1": {
+			"source": "Extension-CareConnect-AllergyCertainty-1.xml",
+			"base": "Extension-CareConnect-AllergyCertainty-1.html",
+			"defns": "Extension-CareConnect-AllergyCertainty-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1": {
+			"source": "Extension-CareConnect-AllergyIntoleranceEnd-1.xml",
+			"base": "Extension-CareConnect-AllergyIntoleranceEnd-1.html",
+			"defns": "Extension-CareConnect-AllergyIntoleranceEnd-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AllergyIntoleranceEndDate-1": {
+			"source": "Extension-CareConnect-AllergyIntoleranceEndDate-1.xml",
+			"base": "Extension-CareConnect-AllergyIntoleranceEndDate-1.html",
+			"defns": "Extension-CareConnect-AllergyIntoleranceEndDate-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AllergySeverity-1": {
+			"source": "Extension-CareConnect-AllergySeverity-1.xml",
+			"base": "Extension-CareConnect-AllergySeverity-1.html",
+			"defns": "Extension-CareConnect-AllergySeverity-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationQuantityText-1": {
+			"source": "Extension-CareConnect-MedicationQuantityText-1.xml",
+			"base": "Extension-CareConnect-MedicationQuantityText-1.html",
+			"defns": "Extension-CareConnect-MedicationQuantityText-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-AnaestheticIssues-1": {
+			"source": "Extension-CareConnect-AnaestheticIssues-1.xml",
+			"base": "Extension-CareConnect-AnaestheticIssues-1.html",
+			"defns": "Extension-CareConnect-AnaestheticIssues-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-CareSettingType-1": {
+			"source": "Extension-CareConnect-CareSettingType-1.xml",
+			"base": "Extension-CareConnect-CareSettingType-1.html",
+			"defns": "Extension-CareConnect-CareSettingType-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ClinicalSetting-1": {
+			"source": "Extension-CareConnect-ClinicalSetting-1.xml",
+			"base": "Extension-CareConnect-ClinicalSetting-1.html",
+			"defns": "Extension-CareConnect-ClinicalSetting-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ConditionEpisode-1": {
+			"source": "Extension-CareConnect-ConditionEpisode-1.xml",
+			"base": "Extension-CareConnect-ConditionEpisode-1.html",
+			"defns": "Extension-CareConnect-ConditionEpisode-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ConditionRelationship-1": {
+			"source": "Extension-CareConnect-ConditionRelationship-1.xml",
+			"base": "Extension-CareConnect-ConditionRelationship-1.html",
+			"defns": "Extension-CareConnect-ConditionRelationship-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-DataController-1": {
+			"source": "Extension-CareConnect-DataController-1.xml",
+			"base": "Extension-CareConnect-DataController-1.html",
+			"defns": "Extension-CareConnect-DataController-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-DataProcessor-1": {
+			"source": "Extension-CareConnect-DataProcessor-1.xml",
+			"base": "Extension-CareConnect-DataProcessor-1.html",
+			"defns": "Extension-CareConnect-DataProcessor-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-DateRecorded-1": {
+			"source": "Extension-CareConnect-DateRecorded-1.xml",
+			"base": "Extension-CareConnect-DateRecorded-1.html",
+			"defns": "Extension-CareConnect-DateRecorded-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1": {
+			"source": "Extension-CareConnect-DeathNotificationStatus-1.xml",
+			"base": "Extension-CareConnect-DeathNotificationStatus-1.html",
+			"defns": "Extension-CareConnect-DeathNotificationStatus-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-DischargeMethod-1": {
+			"source": "Extension-CareConnect-DischargeMethod-1.xml",
+			"base": "Extension-CareConnect-DischargeMethod-1.html",
+			"defns": "Extension-CareConnect-DischargeMethod-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1": {
+			"source": "Extension-CareConnect-EmergencyCareDischargeStatus-1.xml",
+			"base": "Extension-CareConnect-EmergencyCareDischargeStatus-1.html",
+			"defns": "Extension-CareConnect-EmergencyCareDischargeStatus-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-EncounterTransport-1": {
+			"source": "Extension-CareConnect-EncounterTransport-1.xml",
+			"base": "Extension-CareConnect-EncounterTransport-1.html",
+			"defns": "Extension-CareConnect-EncounterTransport-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-EthnicCategory-1": {
+			"source": "Extension-CareConnect-EthnicCategory-1.xml",
+			"base": "Extension-CareConnect-EthnicCategory-1.html",
+			"defns": "Extension-CareConnect-EthnicCategory-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-Evidence-1": {
+			"source": "Extension-CareConnect-Evidence-1.xml",
+			"base": "Extension-CareConnect-Evidence-1.html",
+			"defns": "Extension-CareConnect-Evidence-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-FastingStatus-1": {
+			"source": "Extension-CareConnect-FastingStatus-1.xml",
+			"base": "Extension-CareConnect-FastingStatus-1.html",
+			"defns": "Extension-CareConnect-FastingStatus-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1": {
+			"source": "Extension-CareConnect-ReferralRequestMethod-1.xml",
+			"base": "Extension-CareConnect-ReferralRequestMethod-1.html",
+			"defns": "Extension-CareConnect-ReferralRequestMethod-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-SourceOfReferral-1": {
+			"source": "Extension-CareConnect-SourceOfReferral-1.xml",
+			"base": "Extension-CareConnect-SourceOfReferral-1.html",
+			"defns": "Extension-CareConnect-SourceOfReferral-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ListWarningCode-1": {
+			"source": "Extension-CareConnect-ListWarningCode-1.xml",
+			"base": "Extension-CareConnect-ListWarningCode-1.html",
+			"defns": "Extension-CareConnect-ListWarningCode-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MainLocation-1": {
+			"source": "Extension-CareConnect-MainLocation-1.xml",
+			"base": "Extension-CareConnect-MainLocation-1.html",
+			"defns": "Extension-CareConnect-MainLocation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1": {
+			"source": "Extension-CareConnect-MedicationChangeSummary-1.xml",
+			"base": "Extension-CareConnect-MedicationChangeSummary-1.html",
+			"defns": "Extension-CareConnect-MedicationChangeSummary-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1": {
+			"source": "Extension-CareConnect-MedicationFlagAssociation-1.xml",
+			"base": "Extension-CareConnect-MedicationFlagAssociation-1.html",
+			"defns": "Extension-CareConnect-MedicationFlagAssociation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1": {
+			"source": "Extension-CareConnect-MedicationRepeatInformation-1.xml",
+			"base": "Extension-CareConnect-MedicationRepeatInformation-1.html",
+			"defns": "Extension-CareConnect-MedicationRepeatInformation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1": {
+			"source": "Extension-CareConnect-MedicationStatementLastIssueDate-1.xml",
+			"base": "Extension-CareConnect-MedicationStatementLastIssueDate-1.html",
+			"defns": "Extension-CareConnect-MedicationStatementLastIssueDate-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-MedicationStatusReason-1": {
+			"source": "Extension-CareConnect-MedicationStatusReason-1.xml",
+			"base": "Extension-CareConnect-MedicationStatusReason-1.html",
+			"defns": "Extension-CareConnect-MedicationStatusReason-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-NHSCommunication-1": {
+			"source": "Extension-CareConnect-NHSCommunication-1.xml",
+			"base": "Extension-CareConnect-NHSCommunication-1.html",
+			"defns": "Extension-CareConnect-NHSCommunication-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1": {
+			"source": "Extension-CareConnect-NHSNumberVerificationStatus-1.xml",
+			"base": "Extension-CareConnect-NHSNumberVerificationStatus-1.html",
+			"defns": "Extension-CareConnect-NHSNumberVerificationStatus-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-NominatedPharmacy-1": {
+			"source": "Extension-CareConnect-NominatedPharmacy-1.xml",
+			"base": "Extension-CareConnect-NominatedPharmacy-1.html",
+			"defns": "Extension-CareConnect-NominatedPharmacy-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1": {
+			"source": "Extension-CareConnect-OutcomeOfAttendance-1.xml",
+			"base": "Extension-CareConnect-OutcomeOfAttendance-1.html",
+			"defns": "Extension-CareConnect-OutcomeOfAttendance-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ParentPresent-1": {
+			"source": "Extension-CareConnect-ParentPresent-1.xml",
+			"base": "Extension-CareConnect-ParentPresent-1.html",
+			"defns": "Extension-CareConnect-ParentPresent-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-PrescriptionType-1": {
+			"source": "Extension-CareConnect-PrescriptionType-1.xml",
+			"base": "Extension-CareConnect-PrescriptionType-1.html",
+			"defns": "Extension-CareConnect-PrescriptionType-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1": {
+			"source": "Extension-CareConnect-ProbabilityOfRecurrence-1.xml",
+			"base": "Extension-CareConnect-ProbabilityOfRecurrence-1.html",
+			"defns": "Extension-CareConnect-ProbabilityOfRecurrence-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ProblemSignificance-1": {
+			"source": "Extension-CareConnect-ProblemSignificance-1.xml",
+			"base": "Extension-CareConnect-ProblemSignificance-1.html",
+			"defns": "Extension-CareConnect-ProblemSignificance-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ReasonCondition-1": {
+			"source": "Extension-CareConnect-ReasonCondition-1.xml",
+			"base": "Extension-CareConnect-ReasonCondition-1.html",
+			"defns": "Extension-CareConnect-ReasonCondition-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-Recorder-1": {
+			"source": "Extension-CareConnect-Recorder-1.xml",
+			"base": "Extension-CareConnect-Recorder-1.html",
+			"defns": "Extension-CareConnect-Recorder-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1": {
+			"source": "Extension-CareConnect-RelatedClinicalContent-1.xml",
+			"base": "Extension-CareConnect-RelatedClinicalContent-1.html",
+			"defns": "Extension-CareConnect-RelatedClinicalContent-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1": {
+			"source": "Extension-CareConnect-RelatedProblemHeader-1.xml",
+			"base": "Extension-CareConnect-RelatedProblemHeader-1.html",
+			"defns": "Extension-CareConnect-RelatedProblemHeader-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1": {
+			"source": "Extension-CareConnect-ReligiousAffiliation-1.xml",
+			"base": "Extension-CareConnect-ReligiousAffiliation-1.html",
+			"defns": "Extension-CareConnect-ReligiousAffiliation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ResidentialStatus-1": {
+			"source": "Extension-CareConnect-ResidentialStatus-1.xml",
+			"base": "Extension-CareConnect-ResidentialStatus-1.html",
+			"defns": "Extension-CareConnect-ResidentialStatus-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-TreatmentCategory-1": {
+			"source": "Extension-CareConnect-TreatmentCategory-1.xml",
+			"base": "Extension-CareConnect-TreatmentCategory-1.html",
+			"defns": "Extension-CareConnect-TreatmentCategory-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-VaccinationProcedure-1": {
+			"source": "Extension-CareConnect-VaccinationProcedure-1.xml",
+			"base": "Extension-CareConnect-VaccinationProcedure-1.html",
+			"defns": "Extension-CareConnect-VaccinationProcedure-1-definitions.html"
+		},
+		"StructureDefinition/Extension-CareConnect-ValueApproximation-1": {
+			"source": "Extension-CareConnect-ValueApproximation-1.xml",
+			"base": "Extension-CareConnect-ValueApproximation-1.html",
+			"defns": "Extension-CareConnect-ValueApproximation-1-definitions.html"
+		},
+		"StructureDefinition/Extension-coding-sctdescid": {
+			"source": "Extension-coding-sctdescid.xml",
+			"base": "Extension-coding-sctdescid.html",
+			"defns": "Extension-coding-sctdescid-definitions.html"
+		},
+		"StructureDefinition/CareConnect-ACVPU-Observation-1": {
+			"source": "CareConnect-ACVPU-Observation-1.xml",
+			"base": "CareConnect-ACVPU-Observation-1.html",
+			"defns": "CareConnect-ACVPU-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-AllergyIntolerance-1": {
+			"source": "CareConnect-AllergyIntolerance-1.xml",
+			"base": "CareConnect-AllergyIntolerance-1.html",
+			"defns": "CareConnect-AllergyIntolerance-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Appointment-1": {
+			"source": "CareConnect-Appointment-1.xml",
+			"base": "CareConnect-Appointment-1.html",
+			"defns": "CareConnect-Appointment-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-BloodPressure-Observation-1": {
+			"source": "CareConnect-BloodPressure-Observation-1.xml",
+			"base": "CareConnect-BloodPressure-Observation-1.html",
+			"defns": "CareConnect-BloodPressure-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-BodyTemperature-Observation-1": {
+			"source": "CareConnect-BodyTemperature-Observation-1.xml",
+			"base": "CareConnect-BodyTemperature-Observation-1.html",
+			"defns": "CareConnect-BodyTemperature-Observation-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-CarePlan-1": {
+			"source": "CareConnect-CarePlan-1.xml",
+			"base": "CareConnect-CarePlan-1.html",
+			"defns": "CareConnect-CarePlan-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-CareTeam-1": {
+			"source": "CareConnect-CareTeam-1.xml",
+			"base": "CareConnect-CareTeam-1.html",
+			"defns": "CareConnect-CareTeam-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Communication-1": {
+			"source": "CareConnect-Communication-1.xml",
+			"base": "CareConnect-Communication-1.html",
+			"defns": "CareConnect-Communication-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Composition-1": {
+			"source": "CareConnect-Composition-1.xml",
+			"base": "CareConnect-Composition-1.html",
+			"defns": "CareConnect-Composition-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Condition-1": {
+			"source": "CareConnect-Condition-1.xml",
+			"base": "CareConnect-Condition-1.html",
+			"defns": "CareConnect-Condition-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Consent-1": {
+			"source": "CareConnect-Consent-1.xml",
+			"base": "CareConnect-Consent-1.html",
+			"defns": "CareConnect-Consent-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Contract-1": {
+			"source": "CareConnect-Contract-1.xml",
+			"base": "CareConnect-Contract-1.html",
+			"defns": "CareConnect-Contract-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-DiagnosticReport-1": {
+			"source": "CareConnect-DiagnosticReport-1.xml",
+			"base": "CareConnect-DiagnosticReport-1.html",
+			"defns": "CareConnect-DiagnosticReport-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-DocumentReference-1": {
+			"source": "CareConnect-DocumentReference-1.xml",
+			"base": "CareConnect-DocumentReference-1.html",
+			"defns": "CareConnect-DocumentReference-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Encounter-1": {
+			"source": "CareConnect-Encounter-1.xml",
+			"base": "CareConnect-Encounter-1.html",
+			"defns": "CareConnect-Encounter-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-EpisodeOfCare-1": {
+			"source": "CareConnect-EpisodeOfCare-1.xml",
+			"base": "CareConnect-EpisodeOfCare-1.html",
+			"defns": "CareConnect-EpisodeOfCare-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-FamilyMemberHistory-1": {
+			"source": "CareConnect-FamilyMemberHistory-1.xml",
+			"base": "CareConnect-FamilyMemberHistory-1.html",
+			"defns": "CareConnect-FamilyMemberHistory-1-definitions.html"
+		},
+		"StructureDefinition/CareConnect-Flag-1": {
+			"source": "CareConnect-Flag-1.xml",
+			"base": "CareConnect-Flag-1.html",
+			"defns": "CareConnect-Flag-1-definitions.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ReactionEventSeverity-1": {
+			"source": "ValueSet-CareConnect-ReactionEventSeverity-1.xml",
+			"base": "ValueSet-CareConnect-ReactionEventSeverity-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ProcedureCode-1": {
+			"source": "ValueSet-CareConnect-ProcedureCode-1.xml",
+			"base": "ValueSet-CareConnect-ProcedureCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ProblemSignificance-1": {
+			"source": "ValueSet-CareConnect-ProblemSignificance-1.xml",
+			"base": "ValueSet-CareConnect-ProblemSignificance-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-PrescriptionType-1": {
+			"source": "ValueSet-CareConnect-PrescriptionType-1.xml",
+			"base": "ValueSet-CareConnect-PrescriptionType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-PrescribedElsewhere-1": {
+			"source": "ValueSet-CareConnect-PrescribedElsewhere-1.xml",
+			"base": "ValueSet-CareConnect-PrescribedElsewhere-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-PDS-PersonNameType-1": {
+			"source": "ValueSet-CareConnect-PDS-PersonNameType-1.xml",
+			"base": "ValueSet-CareConnect-PDS-PersonNameType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-OutcomeOfAttendance-1": {
+			"source": "ValueSet-CareConnect-OutcomeOfAttendance-1.xml",
+			"base": "ValueSet-CareConnect-OutcomeOfAttendance-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ObservationType-1": {
+			"source": "ValueSet-CareConnect-ObservationType-1.xml",
+			"base": "ValueSet-CareConnect-ObservationType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ObservationMethod-1": {
+			"source": "ValueSet-CareConnect-ObservationMethod-1.xml",
+			"base": "ValueSet-CareConnect-ObservationMethod-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-NHSNumberVerificationStatus-1": {
+			"source": "ValueSet-CareConnect-NHSNumberVerificationStatus-1.xml",
+			"base": "ValueSet-CareConnect-NHSNumberVerificationStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1": {
+			"source": "ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.xml",
+			"base": "ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1": {
+			"source": "ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml",
+			"base": "ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-NameUse-1": {
+			"source": "ValueSet-CareConnect-NameUse-1.xml",
+			"base": "ValueSet-CareConnect-NameUse-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationSupplyType-1": {
+			"source": "ValueSet-CareConnect-MedicationSupplyType-1.xml",
+			"base": "ValueSet-CareConnect-MedicationSupplyType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationForm-1": {
+			"source": "ValueSet-CareConnect-MedicationForm-1.xml",
+			"base": "ValueSet-CareConnect-MedicationForm-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationFlag-1": {
+			"source": "ValueSet-CareConnect-MedicationFlag-1.xml",
+			"base": "ValueSet-CareConnect-MedicationFlag-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationDosageRoute-1": {
+			"source": "ValueSet-CareConnect-MedicationDosageRoute-1.xml",
+			"base": "ValueSet-CareConnect-MedicationDosageRoute-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationCode-1": {
+			"source": "ValueSet-CareConnect-MedicationCode-1.xml",
+			"base": "ValueSet-CareConnect-MedicationCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MedicationChangeStatus-1": {
+			"source": "ValueSet-CareConnect-MedicationChangeStatus-1.xml",
+			"base": "ValueSet-CareConnect-MedicationChangeStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-MaritalStatus-1": {
+			"source": "ValueSet-CareConnect-MaritalStatus-1.xml",
+			"base": "ValueSet-CareConnect-MaritalStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ManufacturedMaterialSnCT-1": {
+			"source": "ValueSet-CareConnect-ManufacturedMaterialSnCT-1.xml",
+			"base": "ValueSet-CareConnect-ManufacturedMaterialSnCT-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ListWarningCode-1": {
+			"source": "ValueSet-CareConnect-ListWarningCode-1.xml",
+			"base": "ValueSet-CareConnect-ListWarningCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ListEmptyReasonCode-1": {
+			"source": "ValueSet-CareConnect-ListEmptyReasonCode-1.xml",
+			"base": "ValueSet-CareConnect-ListEmptyReasonCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SourceOfReferral-1": {
+			"source": "ValueSet-CareConnect-SourceOfReferral-1.xml",
+			"base": "ValueSet-CareConnect-SourceOfReferral-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ReferralRequestMethod-1": {
+			"source": "ValueSet-CareConnect-ReferralRequestMethod-1.xml",
+			"base": "ValueSet-CareConnect-ReferralRequestMethod-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ListCode-1": {
+			"source": "ValueSet-CareConnect-ListCode-1.xml",
+			"base": "ValueSet-CareConnect-ListCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-LanguageAbilityProficiency-1": {
+			"source": "ValueSet-CareConnect-LanguageAbilityProficiency-1.xml",
+			"base": "ValueSet-CareConnect-LanguageAbilityProficiency-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-LanguageAbilityMode-1": {
+			"source": "ValueSet-CareConnect-LanguageAbilityMode-1.xml",
+			"base": "ValueSet-CareConnect-LanguageAbilityMode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-InterpretationCode-1": {
+			"source": "ValueSet-CareConnect-InterpretationCode-1.xml",
+			"base": "ValueSet-CareConnect-InterpretationCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-InspiredOxygen-1": {
+			"source": "ValueSet-CareConnect-InspiredOxygen-1.xml",
+			"base": "ValueSet-CareConnect-InspiredOxygen-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ImmunizationExplanationReason-2": {
+			"source": "ValueSet-CareConnect-ImmunizationExplanationReason-2.xml",
+			"base": "ValueSet-CareConnect-ImmunizationExplanationReason-2.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ImmunizationExplanationReason-1": {
+			"source": "ValueSet-CareConnect-ImmunizationExplanationReason-1.xml",
+			"base": "ValueSet-CareConnect-ImmunizationExplanationReason-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-HumanLanguage-1": {
+			"source": "ValueSet-CareConnect-HumanLanguage-1.xml",
+			"base": "ValueSet-CareConnect-HumanLanguage-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-FindingCode-1": {
+			"source": "ValueSet-CareConnect-FindingCode-1.xml",
+			"base": "ValueSet-CareConnect-FindingCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-EthnicCategory-1": {
+			"source": "ValueSet-CareConnect-EthnicCategory-1.xml",
+			"base": "ValueSet-CareConnect-EthnicCategory-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-EncounterType-1": {
+			"source": "ValueSet-CareConnect-EncounterType-1.xml",
+			"base": "ValueSet-CareConnect-EncounterType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-EmergencyCareDischargeStatus-1": {
+			"source": "ValueSet-CareConnect-EmergencyCareDischargeStatus-1.xml",
+			"base": "ValueSet-CareConnect-EmergencyCareDischargeStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-DocumentType-1": {
+			"source": "ValueSet-CareConnect-DocumentType-1.xml",
+			"base": "ValueSet-CareConnect-DocumentType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-DischargeMethod-1": {
+			"source": "ValueSet-CareConnect-DischargeMethod-1.xml",
+			"base": "ValueSet-CareConnect-DischargeMethod-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-DischargeDestination-1": {
+			"source": "ValueSet-CareConnect-DischargeDestination-1.xml",
+			"base": "ValueSet-CareConnect-DischargeDestination-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-DeathNotificationStatus-1": {
+			"source": "ValueSet-CareConnect-DeathNotificationStatus-1.xml",
+			"base": "ValueSet-CareConnect-DeathNotificationStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ConditionRelationship-1": {
+			"source": "ValueSet-CareConnect-ConditionRelationship-1.xml",
+			"base": "ValueSet-CareConnect-ConditionRelationship-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ConditionEpisodicity-1": {
+			"source": "ValueSet-CareConnect-ConditionEpisodicity-1.xml",
+			"base": "ValueSet-CareConnect-ConditionEpisodicity-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ConditionEpisodeSnCT-1": {
+			"source": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.xml",
+			"base": "ValueSet-CareConnect-ConditionEpisodeSnCT-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ConditionCode-1": {
+			"source": "ValueSet-CareConnect-ConditionCode-1.xml",
+			"base": "ValueSet-CareConnect-ConditionCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ConditionCategory-1": {
+			"source": "ValueSet-CareConnect-ConditionCategory-1.xml",
+			"base": "ValueSet-CareConnect-ConditionCategory-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-CompositionSectionCode-1": {
+			"source": "ValueSet-CareConnect-CompositionSectionCode-1.xml",
+			"base": "ValueSet-CareConnect-CompositionSectionCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ClinicalDisciplines-1": {
+			"source": "ValueSet-CareConnect-ClinicalDisciplines-1.xml",
+			"base": "ValueSet-CareConnect-ClinicalDisciplines-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-CareSettingType-1": {
+			"source": "ValueSet-CareConnect-CareSettingType-1.xml",
+			"base": "ValueSet-CareConnect-CareSettingType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-BodySite-1": {
+			"source": "ValueSet-CareConnect-BodySite-1.xml",
+			"base": "ValueSet-CareConnect-BodySite-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergyVerificationStatus-1": {
+			"source": "ValueSet-CareConnect-AllergyVerificationStatus-1.xml",
+			"base": "ValueSet-CareConnect-AllergyVerificationStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergySeverity-1": {
+			"source": "ValueSet-CareConnect-AllergySeverity-1.xml",
+			"base": "ValueSet-CareConnect-AllergySeverity-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergyManifestation-1": {
+			"source": "ValueSet-CareConnect-AllergyManifestation-1.xml",
+			"base": "ValueSet-CareConnect-AllergyManifestation-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergyExposureRoute-1": {
+			"source": "ValueSet-CareConnect-AllergyExposureRoute-1.xml",
+			"base": "ValueSet-CareConnect-AllergyExposureRoute-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergyCode-1": {
+			"source": "ValueSet-CareConnect-AllergyCode-1.xml",
+			"base": "ValueSet-CareConnect-AllergyCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AllergyCertainty-1": {
+			"source": "ValueSet-CareConnect-AllergyCertainty-1.xml",
+			"base": "ValueSet-CareConnect-AllergyCertainty-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AdmissionMethod-1": {
+			"source": "ValueSet-CareConnect-AdmissionMethod-1.xml",
+			"base": "ValueSet-CareConnect-AdmissionMethod-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-AdministrativeGender-1": {
+			"source": "ValueSet-CareConnect-AdministrativeGender-1.xml",
+			"base": "ValueSet-CareConnect-AdministrativeGender-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ACVPU-1": {
+			"source": "ValueSet-CareConnect-ACVPU-1.xml",
+			"base": "ValueSet-CareConnect-ACVPU-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-VaccineCode-1": {
+			"source": "ValueSet-CareConnect-VaccineCode-1.xml",
+			"base": "ValueSet-CareConnect-VaccineCode-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-VaccinationProcedure-1": {
+			"source": "ValueSet-CareConnect-VaccinationProcedure-1.xml",
+			"base": "ValueSet-CareConnect-VaccinationProcedure-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-TreatmentCategory-1": {
+			"source": "ValueSet-CareConnect-TreatmentCategory-1.xml",
+			"base": "ValueSet-CareConnect-TreatmentCategory-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SpecimenType-1": {
+			"source": "ValueSet-CareConnect-SpecimenType-1.xml",
+			"base": "ValueSet-CareConnect-SpecimenType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SpecimenBodySite-1": {
+			"source": "ValueSet-CareConnect-SpecimenBodySite-1.xml",
+			"base": "ValueSet-CareConnect-SpecimenBodySite-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SourceOfAdmission-1": {
+			"source": "ValueSet-CareConnect-SourceOfAdmission-1.xml",
+			"base": "ValueSet-CareConnect-SourceOfAdmission-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SDSJobRoleName-1": {
+			"source": "ValueSet-CareConnect-SDSJobRoleName-1.xml",
+			"base": "ValueSet-CareConnect-SDSJobRoleName-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-SaturatedOxygenSp02Scale-1": {
+			"source": "ValueSet-CareConnect-SaturatedOxygenSp02Scale-1.xml",
+			"base": "ValueSet-CareConnect-SaturatedOxygenSp02Scale-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ResidentialStatus-1": {
+			"source": "ValueSet-CareConnect-ResidentialStatus-1.xml",
+			"base": "ValueSet-CareConnect-ResidentialStatus-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ReportCodeSnCT-1": {
+			"source": "ValueSet-CareConnect-ReportCodeSnCT-1.xml",
+			"base": "ValueSet-CareConnect-ReportCodeSnCT-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-ReligiousAffiliation-1": {
+			"source": "ValueSet-CareConnect-ReligiousAffiliation-1.xml",
+			"base": "ValueSet-CareConnect-ReligiousAffiliation-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-RegistrationType-1": {
+			"source": "ValueSet-CareConnect-RegistrationType-1.xml",
+			"base": "ValueSet-CareConnect-RegistrationType-1.html"
+		},
+		"ValueSet/ValueSet-CareConnect-RegistrationStatus-1": {
+			"source": "ValueSet-CareConnect-RegistrationStatus-1.xml",
+			"base": "ValueSet-CareConnect-RegistrationStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityMode-1": {
+			"source": "CodeSystem-CareConnect-LanguageAbilityMode-1.xml",
+			"base": "CodeSystem-CareConnect-LanguageAbilityMode-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-LanguageAbilityProficiency-1": {
+			"source": "CodeSystem-CareConnect-LanguageAbilityProficiency-1.xml",
+			"base": "CodeSystem-CareConnect-LanguageAbilityProficiency-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ListEmptyReasonCode-1": {
+			"source": "CodeSystem-CareConnect-ListEmptyReasonCode-1.xml",
+			"base": "CodeSystem-CareConnect-ListEmptyReasonCode-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ListWarningCode-1": {
+			"source": "CodeSystem-CareConnect-ListWarningCode-1.xml",
+			"base": "CodeSystem-CareConnect-ListWarningCode-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-MedicationChangeStatus-1": {
+			"source": "CodeSystem-CareConnect-MedicationChangeStatus-1.xml",
+			"base": "CodeSystem-CareConnect-MedicationChangeStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-MedicationFlag-1": {
+			"source": "CodeSystem-CareConnect-MedicationFlag-1.xml",
+			"base": "CodeSystem-CareConnect-MedicationFlag-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-MedicationSupplyType-1": {
+			"source": "CodeSystem-CareConnect-MedicationSupplyType-1.xml",
+			"base": "CodeSystem-CareConnect-MedicationSupplyType-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1": {
+			"source": "CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml",
+			"base": "CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1": {
+			"source": "CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1.xml",
+			"base": "CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-NHSNumberVerificationStatus-1": {
+			"source": "CodeSystem-CareConnect-NHSNumberVerificationStatus-1.xml",
+			"base": "CodeSystem-CareConnect-NHSNumberVerificationStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-OutcomeOfAttendance-1": {
+			"source": "CodeSystem-CareConnect-OutcomeOfAttendance-1.xml",
+			"base": "CodeSystem-CareConnect-OutcomeOfAttendance-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-PDS-PersonNameType-1": {
+			"source": "CodeSystem-CareConnect-PDS-PersonNameType-1.xml",
+			"base": "CodeSystem-CareConnect-PDS-PersonNameType-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-PrescribedElsewhere-1": {
+			"source": "CodeSystem-CareConnect-PrescribedElsewhere-1.xml",
+			"base": "CodeSystem-CareConnect-PrescribedElsewhere-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-PrescriptionType-1": {
+			"source": "CodeSystem-CareConnect-PrescriptionType-1.xml",
+			"base": "CodeSystem-CareConnect-PrescriptionType-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ProblemSignificance-1": {
+			"source": "CodeSystem-CareConnect-ProblemSignificance-1.xml",
+			"base": "CodeSystem-CareConnect-ProblemSignificance-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-RegistrationStatus-1": {
+			"source": "CodeSystem-CareConnect-RegistrationStatus-1.xml",
+			"base": "CodeSystem-CareConnect-RegistrationStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ReferralRequestMethod-1": {
+			"source": "CodeSystem-CareConnect-ReferralRequestMethod-1.xml",
+			"base": "CodeSystem-CareConnect-ReferralRequestMethod-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-RegistrationType-1": {
+			"source": "CodeSystem-CareConnect-RegistrationType-1.xml",
+			"base": "CodeSystem-CareConnect-RegistrationType-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ResidentialStatus-1": {
+			"source": "CodeSystem-CareConnect-ResidentialStatus-1.xml",
+			"base": "CodeSystem-CareConnect-ResidentialStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-SDSJobRoleName-1": {
+			"source": "CodeSystem-CareConnect-SDSJobRoleName-1.xml",
+			"base": "CodeSystem-CareConnect-SDSJobRoleName-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-SourceOfAdmission-1": {
+			"source": "CodeSystem-CareConnect-SourceOfAdmission-1.xml",
+			"base": "CodeSystem-CareConnect-SourceOfAdmission-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-TreatmentCategory-1": {
+			"source": "CodeSystem-CareConnect-TreatmentCategory-1.xml",
+			"base": "CodeSystem-CareConnect-TreatmentCategory-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-AdmissionMethod-1": {
+			"source": "CodeSystem-CareConnect-AdmissionMethod-1.xml",
+			"base": "CodeSystem-CareConnect-AdmissionMethod-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ConditionCategory-1": {
+			"source": "CodeSystem-CareConnect-ConditionCategory-1.xml",
+			"base": "CodeSystem-CareConnect-ConditionCategory-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ConditionEpisodicity-1": {
+			"source": "CodeSystem-CareConnect-ConditionEpisodicity-1.xml",
+			"base": "CodeSystem-CareConnect-ConditionEpisodicity-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1": {
+			"source": "CodeSystem-CareConnect-ConditionRelationship-1.xml",
+			"base": "CodeSystem-CareConnect-ConditionRelationship-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-DeathNotificationStatus-1": {
+			"source": "CodeSystem-CareConnect-DeathNotificationStatus-1.xml",
+			"base": "CodeSystem-CareConnect-DeathNotificationStatus-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-DischargeDestination-1": {
+			"source": "CodeSystem-CareConnect-DischargeDestination-1.xml",
+			"base": "CodeSystem-CareConnect-DischargeDestination-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-DischargeMethod-1": {
+			"source": "CodeSystem-CareConnect-DischargeMethod-1.xml",
+			"base": "CodeSystem-CareConnect-DischargeMethod-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-EthnicCategory-1": {
+			"source": "CodeSystem-CareConnect-EthnicCategory-1.xml",
+			"base": "CodeSystem-CareConnect-EthnicCategory-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-HumanLanguage-1": {
+			"source": "CodeSystem-CareConnect-HumanLanguage-1.xml",
+			"base": "CodeSystem-CareConnect-HumanLanguage-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-ImmunizationExplanationReason-1": {
+			"source": "CodeSystem-CareConnect-ImmunizationExplanationReason-1.xml",
+			"base": "CodeSystem-CareConnect-ImmunizationExplanationReason-1.html"
+		},
+		"CodeSystem/CodeSystem-CareConnect-InterpretationCode-1": {
+			"source": "CodeSystem-CareConnect-InterpretationCode-1.xml",
+			"base": "CodeSystem-CareConnect-InterpretationCode-1.html"
+		},
+		"ConceptMap/CareConnect-ConditionEpisodicity-1": {
+			"source": "ConceptMap-CareConnect-ConditionEpisodicity-1.xml",
+			"base": "ConceptMap-CareConnect-ConditionEpisodicity-1.html"
+		},
+		"ConceptMap/CareConnect-AllergyVerificationStatus-1": {
+			"source": "ConceptMap-CareConnect-AllergyVerificationStatus-1.xml",
+			"base": "ConceptMap-CareConnect-AllergyVerificationStatus-1.html"
+		},
+		"ConceptMap/CareConnect-AllergySeverity-1": {
+			"source": "ConceptMap-CareConnect-AllergySeverity-1.xml",
+			"base": "ConceptMap-CareConnect-AllergySeverity-1.html"
+		},
+		"ConceptMap/CareConnect-PersonNameType-1": {
+			"source": "ConceptMap-CareConnect-PersonNameType-1.xml",
+			"base": "ConceptMap-CareConnect-PersonNameType-1.html"
+		},
+		"ConceptMap/CareConnect-AdministrativeGender-1": {
+			"source": "ConceptMap-CareConnect-AdministrativeGender-1.xml",
+			"base": "ConceptMap-CareConnect-AdministrativeGender-1.html"
+		},
+		"ConceptMap/CareConnect-MaritalStatus-1": {
+			"source": "ConceptMap-CareConnect-MaritalStatus-1.xml",
+			"base": "ConceptMap-CareConnect-MaritalStatus-1.html"
+		},
+		"Observation/CareConnect-ACVPU-Observation-Example-1": {
+			"source": "CareConnect-ACVPU-Observation-Example-1.xml",
+			"base": "CareConnect-ACVPU-Observation-Example-1.html"
+		},
+		"AllergyIntolerance/CareConnect-AllergyIntolerance-Example-1": {
+			"source": "CareConnect-AllergyIntolerance-Example-1.xml",
+			"base": "CareConnect-AllergyIntolerance-Example-1.html"
+		},
+		"Appointment/CareConnect-Appointment-Example-1": {
+			"source": "CareConnect-Appointment-Example-1.xml",
+			"base": "CareConnect-Appointment-Example-1.html"
+		},
+		"Observation/CareConnect-BloodPressure-Observation-Example-1": {
+			"source": "CareConnect-BloodPressure-Observation-Example-1.xml",
+			"base": "CareConnect-BloodPressure-Observation-Example-1.html"
+		},
+		"Observation/CareConnect-BodyTemperature-Observation-Example-1": {
+			"source": "CareConnect-BodyTemperature-Observation-Example-1.xml",
+			"base": "CareConnect-BodyTemperature-Observation-Example-1.html"
+		},
+		"Patient/CareConnect-Patient-Example-1": {
+			"source": "CareConnect-Patient-Example-1.xml",
+			"base": "CareConnect-Patient-Example-1.html"
+		},
+		"CarePlan/CareConnect-CarePlan-Example-1": {
+			"source": "CareConnect-CarePlan-Example-1.xml",
+			"base": "CareConnect-CarePlan-Example-1.html"
+		},
+		"Communication/CareConnect-Communication-Example-1": {
+			"source": "CareConnect-Communication-Example-1.xml",
+			"base": "CareConnect-Communication-Example-1.html"
+		},
+		"Practitioner/CareConnect-Practitioner-Example-1": {
+			"source": "CareConnect-Practitioner-Example-1.xml",
+			"base": "CareConnect-Practitioner-Example-1.html"
+		},
+		"Condition/CareConnect-Condition-Example-1": {
+			"source": "CareConnect-Condition-Example-1.xml",
+			"base": "CareConnect-Condition-Example-1.html"
+		},
+		"Composition/CareConnect-Composition-Example-1": {
+			"source": "CareConnect-Composition-Example-1.xml",
+			"base": "CareConnect-Composition-Example-1.html"
+		},
+		"Consent/CareConnect-Consent-Example-1": {
+			"source": "CareConnect-Consent-Example-1.xml",
+			"base": "CareConnect-Consent-Example-1.html"
+		},
+		"DiagnosticReport/CareConnect-DiagnosticReport-Example-1": {
+			"source": "CareConnect-DiagnosticReport-Example-1.xml",
+			"base": "CareConnect-DiagnosticReport-Example-1.html"
+		},
+		"DocumentReference/CareConnect-DocumentReference-Example-1": {
+			"source": "CareConnect-DocumentReference-Example-1.xml",
+			"base": "CareConnect-DocumentReference-Example-1.html"
+		},
+		"Encounter/CareConnect-Encounter-Example-1": {
+			"source": "CareConnect-Encounter-Example-1.xml",
+			"base": "CareConnect-Encounter-Example-1.html"
+		},
+		"EpisodeOfCare/CareConnect-EpisodeOfCare-Example-1": {
+			"source": "CareConnect-EpisodeOfCare-Example-1.xml",
+			"base": "CareConnect-EpisodeOfCare-Example-1.html"
+		},
+		"FamilyMemberHistory/CareConnect-FamilyMemberHistory-Example-1": {
+			"source": "CareConnect-FamilyMemberHistory-Example-1.xml",
+			"base": "CareConnect-FamilyMemberHistory-Example-1.html"
+		},
+		"Flag/CareConnect-Flag-Example-1": {
+			"source": "CareConnect-Flag-Example-1.xml",
+			"base": "CareConnect-Flag-Example-1.html"
+		},
+		"HealthcareService/CareConnect-HealthcareService-Example-1": {
+			"source": "CareConnect-HealthcareService-Example-1.xml",
+			"base": "CareConnect-HealthcareService-Example-1.html"
+		},
+		"Observation/CareConnect-HeartRate-Observation-Example-1": {
+			"source": "CareConnect-HeartRate-Observation-Example-1.xml",
+			"base": "CareConnect-HeartRate-Observation-Example-1.html"
+		},
+		"Immunization/CareConnect-Immunization-Example-1": {
+			"source": "CareConnect-Immunization-Example-1.xml",
+			"base": "CareConnect-Immunization-Example-1.html"
+		},
+		"Observation/CareConnect-InspiredOxygen-Observation-Example-1": {
+			"source": "CareConnect-InspiredOxygen-Observation-Example-1.xml",
+			"base": "CareConnect-InspiredOxygen-Observation-Example-1.html"
+		},
+		"List/CareConnect-List-Example-1": {
+			"source": "CareConnect-List-Example-1.xml",
+			"base": "CareConnect-List-Example-1.html"
+		},
+		"Flag/CareConnect-Medication-Flag-Example-1": {
+			"source": "CareConnect-Medication-Flag-Example-1.xml",
+			"base": "CareConnect-Medication-Flag-Example-1.html"
+		},
+		"Medication/CareConnect-Medication-Example-1": {
+			"source": "CareConnect-Medication-Example-1.xml",
+			"base": "CareConnect-Medication-Example-1.html"
+		},
+		"MedicationAdministration/CareConnect-MedicationAdministration-Example-1": {
+			"source": "CareConnect-MedicationAdministration-Example-1.xml",
+			"base": "CareConnect-MedicationAdministration-Example-1.html"
+		},
+		"MedicationDispense/CareConnect-MedicationDispense-Example-1": {
+			"source": "CareConnect-MedicationDispense-Example-1.xml",
+			"base": "CareConnect-MedicationDispense-Example-1.html"
+		},
+		"MedicationRequest/CareConnect-MedicationRequest-Example-1": {
+			"source": "CareConnect-MedicationRequest-Example-1.xml",
+			"base": "CareConnect-MedicationRequest-Example-1.html"
+		},
+		"MedicationStatement/CareConnect-MedicationStatement-Example-1": {
+			"source": "CareConnect-MedicationStatement-Example-1.xml",
+			"base": "CareConnect-MedicationStatement-Example-1.html"
+		},
+		"Observation/CareConnect-Observation-Example-1": {
+			"source": "CareConnect-Observation-Example-1.xml",
+			"base": "CareConnect-Observation-Example-1.html"
+		},
+		"Condition/CareConnect-ProblemHeader-Condition-Example-1": {
+			"source": "CareConnect-ProblemHeader-Condition-Example-1.xml",
+			"base": "CareConnect-ProblemHeader-Condition-Example-1.html"
+		},
+		"List/CareConnect-ProblemList-Example-1": {
+			"source": "CareConnect-ProblemList-Example-1.xml",
+			"base": "CareConnect-ProblemList-Example-1.html"
+		},
+		"Procedure/CareConnect-Procedure-Example-1": {
+			"source": "CareConnect-Procedure-Example-1.xml",
+			"base": "CareConnect-Procedure-Example-1.html"
+		},
+		"ProcedureRequest/CareConnect-ProcedureRequest-Example-1": {
+			"source": "CareConnect-ProcedureRequest-Example-1.xml",
+			"base": "CareConnect-ProcedureRequest-Example-1.html"
+		},
+		"ReferralRequest/CareConnect-ReferralRequest-Example-1": {
+			"source": "CareConnect-ReferralRequest-Example-1.xml",
+			"base": "CareConnect-ReferralRequest-Example-1.html"
+		},
+		"RelatedPerson/CareConnect-RelatedPerson-Example-1": {
+			"source": "CareConnect-RelatedPerson-Example-1.xml",
+			"base": "CareConnect-RelatedPerson-Example-1.html"
+		},
+		"ResearchStudy/CareConnect-ResearchStudy-Example-1": {
+			"source": "CareConnect-ResearchStudy-Example-1.xml",
+			"base": "CareConnect-ResearchStudy-Example-1.html"
+		},
+		"Observation/CareConnect-OxygenSaturation-Observation-Example-1": {
+			"source": "CareConnect-OxygenSaturation-Observation-Example-1.xml",
+			"base": "CareConnect-OxygenSaturation-Observation-Example-1.html"
+		},
+		"Observation/CareConnect-RespiratoryRate-Observation-Example-1": {
+			"source": "CareConnect-RespiratoryRate-Observation-Example-1.xml",
+			"base": "CareConnect-RespiratoryRate-Observation-Example-1.html"
+		},
+		"RiskAssessment/CareConnect-RiskAssessment-Example-1": {
+			"source": "CareConnect-RiskAssessment-Example-1.xml",
+			"base": "CareConnect-RiskAssessment-Example-1.html"
+		},
+		"Schedule/CareConnect-Schedule-Example-1": {
+			"source": "CareConnect-Schedule-Example-1.xml",
+			"base": "CareConnect-Schedule-Example-1.html"
+		},
+		"Slot/CareConnect-Slot-Example-1": {
+			"source": "CareConnect-Slot-Example-1.xml",
+			"base": "CareConnect-Slot-Example-1.html"
+		},
+		"Specimen/CareConnect-Specimen-Example-1": {
+			"source": "CareConnect-Specimen-Example-1.xml",
+			"base": "CareConnect-Specimen-Example-1.html"
+		},
+		"Observation/CareConnect-Subscore-Observation-Example-1": {
+			"source": "CareConnect-Subscore-Observation-Example-1.xml",
+			"base": "CareConnect-Subscore-Observation-Example-1.html"
+		},
+		"Observation/CareConnect-VitalSigns-Observation-Example-1": {
+			"source": "CareConnect-VitalSigns-Observation-Example-1.xml",
+			"base": "CareConnect-VitalSigns-Observation-Example-1.html"
+		}
+	},
+	"tool": "jekyll",
+	"dependencyList": [
+	],
+	"defaults": {
+		"OperationDefinition": {
+			"template-base": "base.html"
+		},
+		"SearchParameter": {
+			"template-base": "base.html"
+		},
+		"ValueSet": {
+			"template-base": "base.html"
+		},
+		"CodeSystem": {
+			"template-base": "base.html"
+		},
+		"StructureDefinition": {
+			"template-defns": "sd-definitions.html",
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html"
+		},
+		"ConceptMap": {
+			"template-base": "base.html"
+		},
+		"Any": {
+			"xml": true,
+			"ttl": false,
+			"swagger": true,
+			"template-base": "base.html",
+			"template-format": "format.html"
+		},
+		"Observation": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"AllergyIntolerance": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Appointment": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"CarePlan": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"CareTeam": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Communication": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Composition": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Condition": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Consent": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Contract": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"DiagnosticReport": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"DocumentReference": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Encounter": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"EpisodeOfCare": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"FamilyMemberHistory": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Flag": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"HealthcareService": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Immunization": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"List": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Location": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Medication": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationAdministration": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationDispense": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Medication-Flag": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"MedicationStatement": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Organization": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Patient": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Practitioner": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"PractitionerRole": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Procedure": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ProcedureRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Quantity": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ReferralRequest": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"RelatedPerson": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"ResearchStudy": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"RiskAssessment": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Schedule": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Slot": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Specimen": {
+			"template-base": "ex.html",
+			"template-format": "ex.html"
+		},
+		"Basic": {
+			"template-base": "ex.html"
+		},
+		"StructureMap": {
+			"profiles": false,
+			"script": false,
+			"template-base": "ex.html",
+			"content": false
+		},
+		"CapabilityStatement": {
+			"template-base": "base.html"
+		},
+		"publisher": "NHS Digital",
+		"title": "FHIR STU3 Core"
+	}
+}

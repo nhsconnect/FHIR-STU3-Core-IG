@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-Consent-1-tx</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>Consent.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Consent.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Consent.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Consent.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Indicates the state of the consent"><a href="http://hl7.org/fhir/STU3/valueset-consent-state-codes.html">ConsentState</a></td></tr>
+<tr><td>Consent.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A classification of the type of consents found in a consent statement"><a href="http://hl7.org/fhir/STU3/valueset-consent-category.html">Consent Category Codes</a></td></tr>
+<tr><td>Consent.actor.role</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations"><a href="http://hl7.org/fhir/STU3/valueset-security-role-type.html">SecurityRoleType</a></td></tr>
+<tr><td>Consent.action</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a href="http://hl7.org/fhir/STU3/valueset-consent-action.html">Consent Action Codes</a></td></tr>
+<tr><td>Consent.securityLabel</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a href="http://hl7.org/fhir/STU3/valueset-security-labels.html">All Security Labels</a></td></tr>
+<tr><td>Consent.purpose</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels"><a href="http://hl7.org/fhir/STU3/v3/PurposeOfUse/vs.html">PurposeOfUse</a></td></tr>
+<tr><td>Consent.data.meaning</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions"><a href="http://hl7.org/fhir/STU3/valueset-consent-data-meaning.html">ConsentDataMeaning</a></td></tr>
+<tr><td>Consent.except.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="How an exception statement is applied, such as adding additional consent or removing consent"><a href="http://hl7.org/fhir/STU3/valueset-consent-except-type.html">ConsentExceptType</a></td></tr>
+<tr><td>Consent.except.actor.role</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations"><a href="http://hl7.org/fhir/STU3/valueset-security-role-type.html">SecurityRoleType</a></td></tr>
+<tr><td>Consent.except.action</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a href="http://hl7.org/fhir/STU3/valueset-consent-action.html">Consent Action Codes</a></td></tr>
+<tr><td>Consent.except.securityLabel</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a href="http://hl7.org/fhir/STU3/valueset-security-labels.html">All Security Labels</a></td></tr>
+<tr><td>Consent.except.purpose</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels"><a href="http://hl7.org/fhir/STU3/v3/PurposeOfUse/vs.html">PurposeOfUse</a></td></tr>
+<tr><td>Consent.except.class</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="The class (type) of information a consent rule covers"><a href="http://hl7.org/fhir/STU3/valueset-consent-content-class.html">Consent Content Class</a></td></tr>
+<tr><td>Consent.except.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="If this code is found in an instance, then the exception applies"><a href="http://hl7.org/fhir/STU3/valueset-consent-content-code.html">Consent Content Codes</a></td></tr>
+<tr><td>Consent.except.data.meaning</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions"><a href="http://hl7.org/fhir/STU3/valueset-consent-data-meaning.html">ConsentDataMeaning</a></td></tr>
+</table>
+</body>
+</html>

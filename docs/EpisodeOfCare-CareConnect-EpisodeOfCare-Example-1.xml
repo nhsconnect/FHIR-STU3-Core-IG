@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EpisodeOfCare xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-EpisodeOfCare-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-EpisodeOfCare-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: finished</p><p><b>patient</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>
+  </text>
+  <status value="finished"/>
+  <patient>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </patient>
+</EpisodeOfCare>

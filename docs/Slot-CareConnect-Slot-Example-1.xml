@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Slot-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Slot-Example-1</p><p><b>meta</b>: </p><p><b>identifier</b>: f660f5bc-0b70-497d-9a98-3b77d2cc3885</p><p><b>schedule</b>: <a href="CareConnect-Schedule-Example-1.html">Generated Summary: id: CareConnect-Schedule-Example-1; f660f5bc-0b70-497d-9a98-3b77d2cc3885</a></p><p><b>status</b>: free</p><p><b>start</b>: 11-Sep-2019 10:00:00</p><p><b>end</b>: 11-Sep-2019 10:15:00</p></div>
+  </text>
+  <identifier>
+    <system value="https://tools.ietf.org/html/rfc4122"/>
+    <value value="f660f5bc-0b70-497d-9a98-3b77d2cc3885"/>
+  </identifier>
+  <schedule>
+    <reference value="Schedule/CareConnect-Schedule-Example-1"/>
+  </schedule>
+  <status value="free"/>
+  <start value="2019-09-11T09:00:00+00:00"/>
+  <end value="2019-09-11T09:15:00+00:00"/>
+</Slot>

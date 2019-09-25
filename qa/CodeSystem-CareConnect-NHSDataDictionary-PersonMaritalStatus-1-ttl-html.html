@@ -1,0 +1,71 @@
+﻿<html>
+<head>
+  <title>CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;NHS Data Model and Dictionary Person Marital Status Code&lt;/h2&gt;&lt;div&gt;&lt;p&gt;An indicator to identify the legal marital status of a Person.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; Copyright © 2016 HL7 UK&lt;/p&gt;&lt;p&gt;This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;S&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Single&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;M&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Married/Civil Partner&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;D&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Divorced/Person whose Civil Partnership has been dissolved&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;W&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Widowed/Surviving Civil Partner&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;P&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Separated&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;N&lt;a name=\&quot;CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not disclosed&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.extension">fhir:DomainResource.extension</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1&quot; ]
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1.0.0&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;NHS Data Model and Dictionary Person Marital Status Code&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2016-08-03T00:00:00+01:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;HL7 UK&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;An indicator to identify the legal marital status of a Person.&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.copyright">fhir:CodeSystem.copyright</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;Copyright © 2016 HL7 UK&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://build.fhir.org/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;complete&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;S&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Single&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;M&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Married/Civil Partner&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;D&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Divorced/Person whose Civil Partnership has been dissolved&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;W&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Widowed/Surviving Civil Partner&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 4;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;P&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Separated&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 5;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;N&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Not disclosed&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

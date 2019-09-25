@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+  <title>Encounter-CareConnect-Encounter-1-genexample-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="CareConnect-Encounter-1.html#Encounter">resourceType</a>" : "Encounter",
+  "<a href="CareConnect-Encounter-1.html#Encounter.id">id</a>" : "CareConnect-Encounter-1-genexample",
+  "<a href="CareConnect-Encounter-1.html#Encounter.identifier">identifier</a>" : [
+    {
+      "<a href="CareConnect-Encounter-1.html#Encounter.identifier.system">system</a>" : "http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri",
+      "<a href="CareConnect-Encounter-1.html#Encounter.identifier.value">value</a>" : "123456"
+    }
+  ],
+  "<a href="CareConnect-Encounter-1.html#Encounter.type">type</a>" : [
+    {
+      "<a href="CareConnect-Encounter-1.html#Encounter.type.coding">coding</a>" : [
+        {
+          "<a href="CareConnect-Encounter-1.html#Encounter.type.coding.system">system</a>" : "http://snomed.info/sct"
+        }
+      ]
+    }
+  ],
+  "<a href="CareConnect-Encounter-1.html#Encounter.reason">reason</a>" : [
+    {
+      "<a href="CareConnect-Encounter-1.html#Encounter.reason.coding">coding</a>" : {
+        "<a href="CareConnect-Encounter-1.html#Encounter.reason.coding.system">system</a>" : "http://snomed.info/sct"
+      }
+    }
+  ],
+  "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization">hospitalization</a>" : {
+    "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier">preAdmissionIdentifier</a>" : {
+      "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier.system">system</a>" : "http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri",
+      "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.preAdmissionIdentifier.value">value</a>" : "123456"
+    },
+    "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission">reAdmission</a>" : {
+      "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission.coding">coding</a>" : {
+        "<a href="CareConnect-Encounter-1.html#Encounter.hospitalization.reAdmission.coding.system">system</a>" : "http://snomed.info/sct"
+      }
+    }
+  }
+}</pre>
+</body>
+</html>

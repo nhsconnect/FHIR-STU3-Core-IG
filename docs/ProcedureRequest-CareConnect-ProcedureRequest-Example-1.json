@@ -1,0 +1,30 @@
+{
+  "resourceType": "ProcedureRequest",
+  "id": "CareConnect-ProcedureRequest-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-ProcedureRequest-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: Administration of drug or medicament via ophthalmic route (procedure) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '386353009' = 'Administration of drug or medicament via ophthalmic route (procedure)', given as 'Administration of drug or medicament via ophthalmic route (procedure)'})</span></p><p><b>subject</b>: <a href=\"CareConnect-Patient-Example-1.html\">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p><p><b>performer</b>: <a href=\"CareConnect-Practitioner-Example-1.html\">Generated Summary: id: CareConnect-Practitioner-Example-1; G12345678</a></p></div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "386353009",
+        "display": "Administration of drug or medicament via ophthalmic route (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/CareConnect-Patient-Example-1"
+  },
+  "performer": {
+    "reference": "Practitioner/CareConnect-Practitioner-Example-1"
+  }
+}

@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+  <title>Procedure-CareConnect-Procedure-1-genexample-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Procedure;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="CareConnect-Procedure-1.html#Procedure.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-Procedure-1-genexample&quot;];
+  <a href="CareConnect-Procedure-1.html#Procedure.identifier">fhir:Procedure.identifier</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Procedure-1.html#Procedure.identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri&quot; ];
+     <a href="CareConnect-Procedure-1.html#Procedure.identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;123456&quot; ]
+  ];
+  <a href="CareConnect-Procedure-1.html#Procedure.code">fhir:Procedure.code</a> [
+     <a href="CareConnect-Procedure-1.html#Procedure.code.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-Procedure-1.html#Procedure.code.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-Procedure-1.html#Procedure.bodySite">fhir:Procedure.bodySite</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Procedure-1.html#Procedure.bodySite.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-Procedure-1.html#Procedure.bodySite.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ];
+  <a href="CareConnect-Procedure-1.html#Procedure.complication">fhir:Procedure.complication</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> -1;
+     <a href="CareConnect-Procedure-1.html#Procedure.complication.coding">fhir:CodeableConcept.coding</a> [
+       <a href="CareConnect-Procedure-1.html#Procedure.complication.coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

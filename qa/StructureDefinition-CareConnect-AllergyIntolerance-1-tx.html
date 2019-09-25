@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-AllergyIntolerance-1-tx</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>AllergyIntolerance.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>AllergyIntolerance.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>AllergyIntolerance.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>AllergyIntolerance.clinicalStatus</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The clinical status of the allergy or intolerance."><a href="http://hl7.org/fhir/STU3/valueset-allergy-clinical-status.html">AllergyIntoleranceClinicalStatus</a></td></tr>
+<tr><td>AllergyIntolerance.verificationStatus</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td><a href="ValueSet-CareConnect-AllergyVerificationStatus-1.html">AllergyIntoleranceVerificationStatus</a></td></tr>
+<tr><td>AllergyIntolerance.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identification of the underlying physiological mechanism for a Reaction Risk."><a href="http://hl7.org/fhir/STU3/valueset-allergy-intolerance-type.html">AllergyIntoleranceType</a></td></tr>
+<tr><td>AllergyIntolerance.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Category of an identified substance."><a href="http://hl7.org/fhir/STU3/valueset-allergy-intolerance-category.html">AllergyIntoleranceCategory</a></td></tr>
+<tr><td>AllergyIntolerance.criticality</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance."><a href="http://hl7.org/fhir/STU3/valueset-allergy-intolerance-criticality.html">AllergyIntoleranceCriticality</a></td></tr>
+<tr><td>AllergyIntolerance.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Type of the substance/product, allergy or intolerance condition, or negation/exclusion codes for reporting no known allergies."><a href="http://hl7.org/fhir/STU3/valueset-allergyintolerance-code.html">AllergyIntolerance Substance/Product, Condition and Negation Codes</a></td></tr>
+<tr><td>AllergyIntolerance.code.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A code from the SNOMED Clinical Terminology UK or a code from the v3 Code System NullFlavor specifying why a valid value is not present."><a href="ValueSet-CareConnect-AllergyCode-1.html">Care Connect Allergy Code</a></td></tr>
+<tr><td>AllergyIntolerance.reaction.substance</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Codes defining the type of the substance (including pharmaceutical products)."><a href="http://hl7.org/fhir/STU3/valueset-substance-code.html">Substance Code</a></td></tr>
+<tr><td>AllergyIntolerance.reaction.manifestation</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td><a href="ValueSet-CareConnect-AllergyManifestation-1.html">Care Connect Allergy Manifestation</a></td></tr>
+<tr><td>AllergyIntolerance.reaction.severity</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td><a href="ValueSet-CareConnect-ReactionEventSeverity-1.html">AllergyIntoleranceSeverity</a></td></tr>
+<tr><td>AllergyIntolerance.reaction.exposureRoute</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td><a href="ValueSet-CareConnect-AllergyExposureRoute-1.html">Care Connect Allergy Exposure Route</a></td></tr>
+</table>
+</body>
+</html>

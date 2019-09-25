@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schedule xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Schedule-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1"/>
+	</meta>
+	<identifier>
+		<system value="https://tools.ietf.org/html/rfc4122"/>
+		<value value="f660f5bc-0b70-497d-9a98-3b77d2cc3885"/>
+	</identifier>
+	<actor>
+		<reference value="Practitioner/CareConnect-Practitioner-Example-1"/>
+	</actor>
+</Schedule>

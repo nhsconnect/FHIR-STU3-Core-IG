@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-List-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-List-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-List-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: current</p><p><b>mode</b>: working</p></div>
+  </text>
+  <status value="current"/>
+  <mode value="working"/>
+</List>

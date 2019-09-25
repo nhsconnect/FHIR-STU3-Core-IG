@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Schedule xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Schedule-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Schedule-Example-1</p><p><b>meta</b>: </p><p><b>identifier</b>: f660f5bc-0b70-497d-9a98-3b77d2cc3885</p><p><b>actor</b>: <a href="CareConnect-Practitioner-Example-1.html">Generated Summary: id: CareConnect-Practitioner-Example-1; G12345678</a></p></div>
+  </text>
+  <identifier>
+    <system value="https://tools.ietf.org/html/rfc4122"/>
+    <value value="f660f5bc-0b70-497d-9a98-3b77d2cc3885"/>
+  </identifier>
+  <actor>
+    <reference value="Practitioner/CareConnect-Practitioner-Example-1"/>
+  </actor>
+</Schedule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ProblemHeader-Condition-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-ProblemHeader-Condition-Example-1</p><p><b>meta</b>: </p><p><b>clinicalStatus</b>: active</p><p><b>category</b>: Problem List Item <span style="background: LightGoldenRodYellow">(Details : {https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1 code 'problem-list-item' = 'Problem List Item', given as 'Problem List Item'})</span></p><p><b>subject</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p></div>
+  </text>
+  <clinicalStatus value="active"/>
+  <category>
+    <coding>
+      <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1"/>
+      <code value="problem-list-item"/>
+      <display value="Problem List Item"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </subject>
+</Condition>

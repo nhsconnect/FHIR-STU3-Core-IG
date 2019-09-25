@@ -1,0 +1,143 @@
+﻿<html>
+<head>
+  <title>ImplementationGuide-nhsdigital.core.fhir-1.0.0-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide">ImplementationGuide</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;nhsdigital.core.fhir-1.0.0&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.text">text</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;NHS Digital FHIR Core STU3 Implementation Guide&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;https://fhir.nhs.uk/STU3/StructureDefinitions/FHIR-STU3-Core-IG-ImplementationGuide-1&lt;/pre&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.url">url</a>
+       <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;https://fhir.nhs.uk/STU3/StructureDefinitions/FHIR-STU3-Core-IG-ImplementationGuide-1&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;1.0.0&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;NHS Digital FHIR Core STU3 Implementation Guide&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;NHS Digital&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.contact">contact</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;mailto:interoperabilityteam@nhs.net&quot;/&gt;
+    &lt;/telecom&gt;
+  &lt;/contact&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">system</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;GB&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;United Kingdom of Great Britain and Northern Ireland&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;3.0.1&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://build.fhir.org/datatypes.html#string">id</a>=&quot;p1&quot;&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;FHIR Core STU3&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.description">description</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;FHIR Core STU3 Assets&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition:resource&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CareConnect-Patient-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;StructureDefinition/CareConnect-Patient-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-CareConnect-EthnicCategory-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/CareConnect-EthnicCategory-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-CareConnect-MaritalStatus-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/CareConnect-MaritalStatus-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>
+                  <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>
+                   <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a>
+                  <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a>
+                   <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;CodeSystem-CareConnect-EthnicCategory-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;CodeSystem/CareConnect-EthnicCategory-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/tools/StructureDefinition/resource-information&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueString</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ConceptMap&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://build.fhir.org/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;ConceptMap-CareConnect-MaritalStatus-1.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://build.fhir.org/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://build.fhir.org/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ConceptMap/CareConnect-MaritalStatus-1&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+&lt;/ImplementationGuide&gt;</pre>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<List xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-ProblemList-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemList-1"/>
+	</meta>
+	<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1">
+		<valueCodeableConcept>
+			<coding>
+				<system value="http://snomed.info.sct" />
+				<code value="310000008"/>
+				<display value="Accident and Emergency service"/>
+			</coding>
+		</valueCodeableConcept>
+	</extension>
+	<status value="current"/>
+	<mode value="working"/>
+	<code>
+		<coding>
+			<system value="http://hl7.org/fhir/list-example-use-codes"/>
+			<code value="problems"/>
+			<display value="Problem List"/>
+		</coding>
+	</code>
+</List>

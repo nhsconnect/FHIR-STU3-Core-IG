@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+  <title>CodeSystem-CareConnect-DischargeMethod-1-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;CareConnect-DischargeMethod-1&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;NHS Data Model and Dictionary Discharge Method&lt;/h2&gt;&lt;div&gt;&lt;p&gt;The method of discharge from a Hospital Provider Spell.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; Copyright © 2016 HL7 UK&lt;/p&gt;&lt;p&gt;This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1 defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;1&lt;a name=\&quot;CareConnect-DischargeMethod-1-1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient discharged on clinical advice or with clinical consent&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;2&lt;a name=\&quot;CareConnect-DischargeMethod-1-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient discharged him/herself or was discharged by a relative or advocate&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;3&lt;a name=\&quot;CareConnect-DischargeMethod-1-3\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient discharged by mental health review tribunal, Home Secretary or Court&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;4&lt;a name=\&quot;CareConnect-DischargeMethod-1-4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient died&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;5&lt;a name=\&quot;CareConnect-DischargeMethod-1-5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stillbirth&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;6&lt;a name=\&quot;CareConnect-DischargeMethod-1-6\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient discharged him/herself&lt;/td&gt;&lt;td&gt;National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;7&lt;a name=\&quot;CareConnect-DischargeMethod-1-7\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient discharged by a relative or advocate&lt;/td&gt;&lt;td&gt;National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.extension">fhir:DomainResource.extension</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference&quot; ];
+     <a href="http://build.fhir.org/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_method_de.asp?shownav=1&quot; ]
+  ];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1.1.0&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;NHS Data Model and Dictionary Discharge Method&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;draft&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2018-11-14T00:00:00+00:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;HL7 UK&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;The method of discharge from a Hospital Provider Spell.&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.copyright">fhir:CodeSystem.copyright</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;Copyright © 2016 HL7 UK&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;complete&quot;];
+  <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;1&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient discharged on clinical advice or with clinical consent&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;2&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient discharged him/herself or was discharged by a relative or advocate&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;3&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient discharged by mental health review tribunal, Home Secretary or Court&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;4&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient died&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 4;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;5&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Stillbirth&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 5;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;6&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient discharged him/herself&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.&quot; ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 6;
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;7&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Patient discharged by a relative or advocate&quot; ];
+     <a href="http://build.fhir.org/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;National Codes 6 and 7 have been introduced for the Mental Health Services Data Set only to add further granularity to National Code 2. However, National Code 2 is still valid for the Mental Health Services Data Set where extra detail cannot be collected. National Codes 6 and 7 are NOT valid in any other data set including Commissioning Data Set version 6-2.&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

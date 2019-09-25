@@ -1,2 +1,4 @@
-# FHIR-STU3-Core-IG-1.0.0
-Initial STU3 core specification implementation Guide
+# FHIR-STU3-Core specification
+
+Repository for Version 1.0.0 of the FHIR STU3 Core specification.
+

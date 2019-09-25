@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-Immunization-Example-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Immunization-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Immunization-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>notGiven</b>: false</p><p><b>vaccineCode</b>: Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd) <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '20517811000001104' = '20517811000001104', given as 'Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd)'})</span></p><p><b>patient</b>: <a href="CareConnect-Patient-Example-1.html">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p><p><b>primarySource</b>: true</p></div>
+  </text>
+  <status value="completed"/>
+  <notGiven value="false"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="20517811000001104"/>
+      <display value="Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd)"/>
+    </coding>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/CareConnect-Patient-Example-1"/>
+  </patient>
+  <primarySource value="true"/>
+</Immunization>

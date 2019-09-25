@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-BloodPressure-Observation-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1"/>
+	</meta>
+	<status value="final"/>
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/observation-category"/>
+			<code value="vital-signs"/>
+		</coding>
+	</category>
+	<code>
+		<coding>
+			<system value="http://loinc.org"/>
+			<code value="85354-9"/>
+		</coding>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="75367002"/>
+			<display value="Blood pressure"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+	<effectiveDateTime value="2019-09-11T13:46:00+00:00"/>
+</Observation>

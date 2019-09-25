@@ -1,0 +1,19 @@
+{
+  "resourceType": "HealthcareService",
+  "id": "CareConnect-HealthcareService-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HealthcareService-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-HealthcareService-Example-1</p><p><b>meta</b>: </p><p><b>identifier</b>: db20027f-0248-4888-9f3d-0d696e2830bf</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://tools.ietf.org/html/rfc4122",
+      "value": "db20027f-0248-4888-9f3d-0d696e2830bf"
+    }
+  ]
+}

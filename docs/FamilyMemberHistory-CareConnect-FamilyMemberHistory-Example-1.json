@@ -1,0 +1,26 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "CareConnect-FamilyMemberHistory-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-FamilyMemberHistory-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-FamilyMemberHistory-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"CareConnect-Patient-Example-1.html\">Generated Summary: id: CareConnect-Patient-Example-1; 6105551234; Richard SMITH (OFFICIAL)</a></p><p><b>relationship</b>: child <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/stu3/v3/RoleCode code 'CHILD' = 'CHILD', given as 'child'})</span></p></div>"
+  },
+  "status": "completed",
+  "patient": {
+    "reference": "Patient/CareConnect-Patient-Example-1"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/stu3/v3/RoleCode",
+        "code": "CHILD",
+        "display": "child"
+      }
+    ]
+  }
+}

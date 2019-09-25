@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-DiagnosticReport-1-tx</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>DiagnosticReport.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>DiagnosticReport.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>DiagnosticReport.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>DiagnosticReport.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The status of the diagnostic report as a whole."><a href="http://hl7.org/fhir/STU3/valueset-diagnostic-report-status.html">DiagnosticReportStatus</a></td></tr>
+<tr><td>DiagnosticReport.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td></td></tr>
+<tr><td>DiagnosticReport.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="Codes that describe Diagnostic Reports."><a href="http://hl7.org/fhir/STU3/valueset-report-codes.html">LOINC Diagnostic Report Codes</a></td></tr>
+<tr><td>DiagnosticReport.code.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A code from the SNOMED Clinical Terminology UK"><a href="ValueSet-CareConnect-ReportCodeSnCT-1.html">Care Connect Report Code SnCT</a></td></tr>
+<tr><td>DiagnosticReport.performer.role</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Indicate a role of diagnostic report performer"><a href="http://hl7.org/fhir/STU3/valueset-performer-role.html">Procedure Performer Role Codes</a></td></tr>
+<tr><td>DiagnosticReport.codedDiagnosis</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="A SNOMED Coded finding for the test report."><a href="ValueSet-CareConnect-FindingCode-1.html">Care Connect Finding Code</a></td></tr>
+<tr><td>DiagnosticReport.codedDiagnosis.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A code from the SNOMED Clinical Terminology UK"><a href="ValueSet-CareConnect-FindingCode-1.html">Care Connect Finding Code</a></td></tr>
+</table>
+</body>
+</html>

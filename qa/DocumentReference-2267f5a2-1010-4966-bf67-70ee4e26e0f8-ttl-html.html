@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+  <title>DocumentReference-2267f5a2-1010-4966-bf67-70ee4e26e0f8-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix sct: &lt;http://snomed.info/id/&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:DocumentReference;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;2267f5a2-1010-4966-bf67-70ee4e26e0f8&quot;];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1&quot;;
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0     ]
+  ];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 2267f5a2-1010-4966-bf67-70ee4e26e0f8&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: current&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Discharge care plan &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {SNOMED CT code '736372004' = 'Discharge care plan (record artifact)', given as 'Discharge care plan'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;indexed&lt;/b&gt;: 11-Sep-2019 14:46:00&lt;/p&gt;&lt;h3&gt;Contents&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Attachment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.status">fhir:DocumentReference.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;current&quot;];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.type">fhir:DocumentReference.type</a> [
+     <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+       a sct:736372004;
+       <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;736372004&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Discharge care plan&quot; ]     ]
+  ];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.indexed">fhir:DocumentReference.indexed</a> [ <a href="http://build.fhir.org/datatypes.html#instant">fhir:value</a> &quot;2019-09-11T13:46:00+00:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/documentreference.html#DocumentReference.content">fhir:DocumentReference.content</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/documentreference.html#DocumentReference.content.attachment">fhir:DocumentReference.content.attachment</a> [
+       <a href="http://build.fhir.org/datatypes.html#Attachment#Attachment.contentType">fhir:Attachment.contentType</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;text/plain&quot; ];
+       <a href="http://build.fhir.org/datatypes.html#Attachment#Attachment.language">fhir:Attachment.language</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;en&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EpisodeOfCare xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-EpisodeOfCare-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"/>
+	</meta>
+	<status value="finished"/>
+	<patient>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</patient>
+</EpisodeOfCare>

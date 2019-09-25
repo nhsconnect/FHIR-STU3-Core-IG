@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Immunization xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Immunization-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Immunization-1"/>
+	</meta>
+	<status value="completed"/>
+	<notGiven value="false"/>
+	<vaccineCode>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="20517811000001104"/>
+			<display value="Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd)"/>
+		</coding>
+	</vaccineCode>
+	<patient>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</patient>
+	<primarySource value="true"/>
+</Immunization>

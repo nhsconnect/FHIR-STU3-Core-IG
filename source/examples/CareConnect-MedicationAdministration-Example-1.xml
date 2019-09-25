@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicationAdministration xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-MedicationAdministration-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationAdministration-1"/>
+	</meta>
+	<status value="completed"/>
+	<medicationReference>
+		<reference value="Medication/CareConnect-Medication-Example-1"/>
+	</medicationReference>
+	<subject>
+		<reference value="Patient/CareConnect-Patient-Example-1"/>
+	</subject>
+	<effectiveDateTime value="2019-09-11T13:46:00+00:00"/>
+</MedicationAdministration>

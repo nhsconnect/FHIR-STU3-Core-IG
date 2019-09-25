@@ -1,0 +1,103 @@
+﻿<html>
+<head>
+  <title>ConceptMap-ConceptMaps-CareConnect-PersonNameType-1-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ConceptMap;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> &quot;ConceptMaps-CareConnect-PersonNameType-1&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.text">fhir:DomainResource.text</a> [
+     <a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Concept Map - Care Connect Person Name Type (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=\&quot;ValueSet-CareConnect-NameUse-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1&lt;/a&gt; to &lt;a href=\&quot;ValueSet-CareConnect-PDS-PersonNameType-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on 02-Nov-2018 00:00:00 by HL7 UK. Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;official&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;L&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nickname&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;A&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;usual&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;PREFERRED&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;old&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;PREVIOUS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;old&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;PREVIOUS-BACHELOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;old&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;PREVIOUS-BIRTH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;old&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;PREVIOUS-MAIDEN&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.url">fhir:ConceptMap.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.version">fhir:ConceptMap.version</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;1.1.0&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.name">fhir:ConceptMap.name</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Concept Map - Care Connect Person Name Type&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.status">fhir:ConceptMap.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;draft&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.date">fhir:ConceptMap.date</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> &quot;2018-11-02T00:00:00+00:00&quot;^^xsd:dateTime];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.publisher">fhir:ConceptMap.publisher</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;HL7 UK&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.description">fhir:ConceptMap.description</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.copyright">fhir:ConceptMap.copyright</a> [ <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> &quot;Copyright © 2016 HL7 UK&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.source[x]">fhir:ConceptMap.sourceUri</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.target[x]">fhir:ConceptMap.targetUri</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1&quot;];
+  <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group">fhir:ConceptMap.group</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">fhir:ConceptMap.group.source</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/name-use&quot; ];
+     <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">fhir:ConceptMap.group.target</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1&quot; ];
+     <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">fhir:ConceptMap.group.element</a> [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;official&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Official&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;L&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Usual (current) name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;nickname&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Nickname&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;A&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Alias name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;usual&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Usual&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;PREFERRED&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Preferred name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;PREVIOUS&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Other previous name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 4;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;PREVIOUS-BACHELOR&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Bachelor name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 5;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;PREVIOUS-BIRTH&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Birth name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ], [
+       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 6;
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">fhir:ConceptMap.group.element.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">fhir:ConceptMap.group.element.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Old&quot; ];
+       <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">fhir:ConceptMap.group.element.target</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">fhir:ConceptMap.group.element.target.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;PREVIOUS-MAIDEN&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">fhir:ConceptMap.group.element.target.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> &quot;Maiden name&quot; ];
+         <a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">fhir:ConceptMap.group.element.target.equivalence</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> &quot;equivalent&quot; ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

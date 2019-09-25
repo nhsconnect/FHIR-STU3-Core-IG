@@ -1,0 +1,33 @@
+{
+  "resourceType": "Composition",
+  "id": "CareConnect-Composition-Example-1",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Composition-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CareConnect-Composition-Example-1</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>type</b>: Patient held record <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '408403008' = 'Patient held record', given as 'Patient held record'})</span></p><p><b>date</b>: 11-Sep-2019 14:46:00</p><p><b>author</b>: <a href=\"CareConnect-Practitioner-Example-1.html\">Generated Summary: id: CareConnect-Practitioner-Example-1; G12345678</a></p><p><b>title</b>: Patient held record</p></div>"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "408403008",
+        "display": "Patient held record"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/CareConnect-Patient-Example-1"
+  },
+  "date": "2019-09-11T13:46:00+00:00",
+  "author": [
+    {
+      "reference": "Practitioner/CareConnect-Practitioner-Example-1"
+    }
+  ],
+  "title": "Patient held record"
+}

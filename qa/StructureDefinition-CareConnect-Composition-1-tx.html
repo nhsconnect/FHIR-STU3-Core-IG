@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-CareConnect-Composition-1-tx</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>Composition.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Composition.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Composition.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Composition.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The workflow/clinical status of the composition."><a href="http://hl7.org/fhir/STU3/valueset-composition-status.html">CompositionStatus</a></td></tr>
+<tr><td>Composition.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="SNOMED CT Document Type"><a href="ValueSet-CareConnect-DocumentType-1.html">Care Connect Document Type</a></td></tr>
+<tr><td>Composition.class</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="High-level kind of a clinical document at a macro level."><a href="http://hl7.org/fhir/STU3/valueset-doc-classcodes.html">FHIR Document Class Codes</a></td></tr>
+<tr><td>Composition.confidentiality</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Codes specifying the level of confidentiality of the composition."><a href="http://hl7.org/fhir/STU3/v3/ConfidentialityClassification/vs.html">ConfidentialityClassification</a></td></tr>
+<tr><td>Composition.attester.mode</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The way in which a person authenticated a composition."><a href="http://hl7.org/fhir/STU3/valueset-composition-attestation-mode.html">CompositionAttestationMode</a></td></tr>
+<tr><td>Composition.relatesTo.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The type of relationship between documents."><a href="http://hl7.org/fhir/STU3/valueset-document-relationship-type.html">DocumentRelationshipType</a></td></tr>
+<tr><td>Composition.event.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="This list of codes represents the main clinical acts being documented."><a href="http://hl7.org/fhir/STU3/v3/ActCode/vs.html">v3 Code System ActCode</a></td></tr>
+<tr><td>Composition.section.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td><a href="ValueSet-CareConnect-CompositionSectionCode-1.html">Care Connect Composition Section Code</a></td></tr>
+<tr><td>Composition.section.mode</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The processing mode that applies to this section."><a href="http://hl7.org/fhir/STU3/valueset-list-mode.html">ListMode</a></td></tr>
+<tr><td>Composition.section.orderedBy</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="What order applies to the items in the entry."><a href="http://hl7.org/fhir/STU3/valueset-list-order.html">List Order Codes</a></td></tr>
+<tr><td>Composition.section.emptyReason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="If a section is empty, why it is empty."><a href="http://hl7.org/fhir/STU3/valueset-list-empty-reason.html">List Empty Reasons</a></td></tr>
+</table>
+</body>
+</html>

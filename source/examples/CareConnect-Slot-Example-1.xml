@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Slot xmlns="http://hl7.org/fhir">
+	<id value="CareConnect-Slot-Example-1"/>
+	<meta>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1"/>
+	</meta>
+	<identifier>
+		<system value="https://tools.ietf.org/html/rfc4122"/>
+		<value value="f660f5bc-0b70-497d-9a98-3b77d2cc3885"/>
+	</identifier>
+	<schedule>
+		<reference value="Schedule/CareConnect-Schedule-Example-1"/>
+	</schedule>
+	<status value="free"/>
+	<start value="2019-09-11T09:00:00+00:00"/>
+	<end value="2019-09-11T09:15:00+00:00"/>
+</Slot>
