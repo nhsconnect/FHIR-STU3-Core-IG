@@ -4,7 +4,7 @@
 {% if {{include.active}} == "content" %}
 	<li class="active"><a href="#">Narrative Content</a></li>
 {% else %}
-	{% if {{include.type}} == "ConceptMap"  %}
+	{% if {{include.type}} == "ConceptMap" or {{include.type}} == "ImplementationGuide" %}
 	<li><a href="{{include.type}}-{{include.id}}.html">Narrative Content</a></li>
 	{% else %}
 		<li><a href="{{include.id}}.html">Narrative Content</a></li>

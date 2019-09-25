@@ -3,39 +3,39 @@
   "id" : "nhsdigital-fhir-stu3-core",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\resources"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\codesystems"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\codesystems"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\valuesets"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\valuesets"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\structuredefinitions"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\structuredefinitions"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\examples"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\searchparameters"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\searchparameters"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\conceptmaps"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\conceptmaps"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\framework"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\framework"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Tools\\IGPublisher_Core\\source\\pages"
+    "valueString" : "C:\\Git\\FHIR-STU3-Core-IG-1.0.0\\source\\pages"
   }],
   "url" : "https://fhir.hl7.org.uk/STU3/StructureDefinitions/FHIR-STU3-Core-ImplementationGuide-1",
   "name" : "FHIR STU3 Core",
