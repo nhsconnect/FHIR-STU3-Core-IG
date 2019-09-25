@@ -1,16 +1,10 @@
 ---
-title: FHIR STU3 Core Implementation Guide
+title: FHIR STU3 Core Implementation Guide - Version 1.0.0
 layout: default
 active: home
 ---
 
-### Summary ###
-
-FHIR STU3 Core specification, Version 1.0.0.
-
-### Introduction
-
-This is the initial FHIR STU3 Core specification. More information about the approach for this specification can be found in the [Guidance](guidance.html) section.  
+This is the initial FHIR STU3 Core Implementation Guide. More information about the approach for this Implementation Guide can be found in the [Guidance](guidance.html) section.  
 
 For queries and comments please email the <a href="mailto:interoperabilityteam@nhs.net?subject=FHIR%STU3%Core%20Specification">Interoperability Team</a>.
 
