@@ -570,6 +570,25 @@ Summary
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>EpisodeOfCare.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>EpisodeOfCare.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>EpisodeOfCare.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>EpisodeOfCare.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The status of the episode of care."><a href="http://hl7.org/fhir/STU3/valueset-episode-of-care-status.html">EpisodeOfCareStatus</a></td></tr>
+<tr><td>EpisodeOfCare.statusHistory.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The status of the episode of care."><a href="http://hl7.org/fhir/STU3/valueset-episode-of-care-status.html">EpisodeOfCareStatus</a></td></tr>
+<tr><td>EpisodeOfCare.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The type of the episode of care"><a href="http://hl7.org/fhir/STU3/valueset-episodeofcare-type.html">EpisodeOfCareType</a></td></tr>
+<tr><td>EpisodeOfCare.diagnosis.role</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="The type of diagnosis this condition represents"><a href="http://hl7.org/fhir/STU3/valueset-diagnosis-role.html">DiagnosisRole</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-EpisodeOfCare-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-EpisodeOfCare-1.json" download>JSON</a>), Schema:  <a href="CareConnect-EpisodeOfCare-1.sch" download>XML Schematron</a></p>
@@ -657,7 +676,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

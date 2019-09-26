@@ -538,6 +538,28 @@ Summary
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>Appointment.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Appointment.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The free/busy status of an appointment."><a href="http://hl7.org/fhir/STU3/valueset-appointmentstatus.html">AppointmentStatus</a></td></tr>
+<tr><td>Appointment.serviceCategory</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td><a href="http://hl7.org/fhir/STU3/valueset-service-category.html">ServiceCategory</a></td></tr>
+<tr><td>Appointment.serviceType</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td><a href="http://hl7.org/fhir/STU3/valueset-service-type.html">ServiceType</a></td></tr>
+<tr><td>Appointment.specialty</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td><a href="http://hl7.org/fhir/STU3/valueset-c80-practice-codes.html">Practice Setting Code Value Set</a></td></tr>
+<tr><td>Appointment.appointmentType</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td><a href="http://hl7.org/fhir/STU3/v2/0276/index.html">v2 Appointment reason codes</a></td></tr>
+<tr><td>Appointment.reason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="The Reason for the appointment to take place."><a href="http://hl7.org/fhir/STU3/valueset-encounter-reason.html">Encounter Reason Codes</a></td></tr>
+<tr><td>Appointment.participant.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Role of participant in encounter."><a href="http://hl7.org/fhir/STU3/valueset-encounter-participant-type.html">ParticipantType</a></td></tr>
+<tr><td>Appointment.participant.required</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Is the Participant required to attend the appointment."><a href="http://hl7.org/fhir/STU3/valueset-participantrequired.html">ParticipantRequired</a></td></tr>
+<tr><td>Appointment.participant.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The Participation status of an appointment."><a href="http://hl7.org/fhir/STU3/valueset-participationstatus.html">ParticipationStatus</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-Appointment-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-Appointment-1.json" download>JSON</a>), Schema:  <a href="CareConnect-Appointment-1.sch" download>XML Schematron</a></p>
@@ -625,7 +647,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

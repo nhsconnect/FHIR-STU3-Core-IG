@@ -703,6 +703,30 @@ Summary
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>MedicationRequest.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>MedicationRequest.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>MedicationRequest.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>MedicationRequest.groupIdentifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>MedicationRequest.groupIdentifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>MedicationRequest.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="A coded concept specifying the state of the prescribing event. Describes the lifecycle of the prescription"><a href="http://hl7.org/fhir/STU3/valueset-medication-request-status.html">MedicationRequestStatus</a></td></tr>
+<tr><td>MedicationRequest.intent</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The kind of medication order"><a href="http://hl7.org/fhir/STU3/valueset-medication-request-intent.html">MedicationRequestIntent</a></td></tr>
+<tr><td>MedicationRequest.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="A coded concept identifying where the medication ordered is expected to be consumed or administered"><a href="http://hl7.org/fhir/STU3/valueset-medication-request-category.html">MedicationRequestCategory</a></td></tr>
+<tr><td>MedicationRequest.priority</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the level of importance to be assigned to actioning the request"><a href="http://hl7.org/fhir/STU3/valueset-medication-request-priority.html">MedicationRequestPriority</a></td></tr>
+<tr><td>MedicationRequest.reasonCode</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept indicating why the medication was ordered."><a href="http://hl7.org/fhir/STU3/valueset-condition-code.html">Condition/Problem/Diagnosis Codes</a></td></tr>
+<tr><td>MedicationRequest.dispenseRequest.expectedSupplyDuration.comparator</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="How the Quantity should be understood and represented."><a href="http://hl7.org/fhir/STU3/valueset-quantity-comparator.html">QuantityComparator</a></td></tr>
+<tr><td>MedicationRequest.substitution.reason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."><a href="http://hl7.org/fhir/STU3/v3/SubstanceAdminSubstitutionReason/vs.html">SubstanceAdminSubstitutionReason</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-MedicationRequest-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-MedicationRequest-1.json" download>JSON</a>), Schema:  <a href="CareConnect-MedicationRequest-1.sch" download>XML Schematron</a></p>
@@ -790,7 +814,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

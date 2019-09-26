@@ -803,6 +803,38 @@ Summary
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet / Code</b></td></tr>
+<tr><td>Patient.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Patient.identifier:nhsNumber.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Patient.identifier:nhsNumber.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Patient.name:official.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td>Fixed Value: official</td></tr>
+<tr><td>Patient.telecom.system</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Telecommunications form for contact point"><a href="http://hl7.org/fhir/STU3/valueset-contact-point-system.html">ContactPointSystem</a></td></tr>
+<tr><td>Patient.telecom.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Use of contact point"><a href="http://hl7.org/fhir/STU3/valueset-contact-point-use.html">ContactPointUse</a></td></tr>
+<tr><td>Patient.gender</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td><a href="ValueSet-CareConnect-AdministrativeGender-1.html">Administrative Gender</a></td></tr>
+<tr><td>Patient.address.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The use of an address"><a href="http://hl7.org/fhir/STU3/valueset-address-use.html">AddressUse</a></td></tr>
+<tr><td>Patient.address.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The type of an address (physical / postal)"><a href="http://hl7.org/fhir/STU3/valueset-address-type.html">AddressType</a></td></tr>
+<tr><td>Patient.maritalStatus</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td><a href="ValueSet-CareConnect-MaritalStatus-1.html">Marital Status Codes</a></td></tr>
+<tr><td>Patient.contact.relationship</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="The nature of the relationship between a patient and a contact person for that patient."><a href="http://hl7.org/fhir/STU3/v2/0131/index.html">v2 Contact Role</a></td></tr>
+<tr><td>Patient.contact.name.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The use of a human name"><a href="http://hl7.org/fhir/STU3/valueset-name-use.html">NameUse</a></td></tr>
+<tr><td>Patient.contact.address.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The use of an address"><a href="http://hl7.org/fhir/STU3/valueset-address-use.html">AddressUse</a></td></tr>
+<tr><td>Patient.contact.address.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The type of an address (physical / postal)"><a href="http://hl7.org/fhir/STU3/valueset-address-type.html">AddressType</a></td></tr>
+<tr><td>Patient.contact.gender</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td><a href="ValueSet-CareConnect-AdministrativeGender-1.html">Administrative Gender</a></td></tr>
+<tr><td>Patient.animal.species</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The species of an animal."><a href="http://hl7.org/fhir/STU3/valueset-animal-species.html">AnimalSpecies</a></td></tr>
+<tr><td>Patient.animal.breed</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The breed of an animal."><a href="http://hl7.org/fhir/STU3/valueset-animal-breeds.html">AnimalBreeds</a></td></tr>
+<tr><td>Patient.animal.genderStatus</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="The state of the animal's reproductive organs."><a href="http://hl7.org/fhir/STU3/valueset-animal-genderstatus.html">GenderStatus</a></td></tr>
+<tr><td>Patient.communication.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Patient.link.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a href="http://hl7.org/fhir/STU3/valueset-link-type.html">LinkType</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-Patient-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-Patient-1.json" download>JSON</a>), Schema:  <a href="CareConnect-Patient-1.sch" download>XML Schematron</a></p>
@@ -890,7 +922,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

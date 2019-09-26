@@ -16,6 +16,7 @@ showDefs: true  # 'true' if want to display Definitions tab'
 showExamples: false  # 'true' if want to display Examples tab -currently no template for it'
 showPsuedoJson: # 'true' if want to display Psuedo JSON profile view'
 showPsuedoXML: # 'true' if want to display Psuedo JSON profile view'
+tx: true
 default_profile_view: 1  # choice of 0|1|2|3 for summary|differential|full|all views in profile
 example_types:  # for matching type to Type
 - Account

@@ -217,6 +217,14 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 </div>
 
 <br />
+{% if site.tx %}
+
+<a name="tx"> </a>
+      <p>
+		{% include {{[type]}}-{{[id]}}-tx.xhtml %}
+		</p>
+{% endif %}
+
 
 {% if site.data.structuredefinitions.{{[id]}}.kind == "resource" %}
 

@@ -563,6 +563,26 @@ Summary
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>Location.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>Location.identifier:odsSiteCode.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>Location.identifier:odsSiteCode.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>Location.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Indicates whether the location is still in use."><a href="http://hl7.org/fhir/STU3/valueset-location-status.html">LocationStatus</a></td></tr>
+<tr><td>Location.operationalStatus</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="The operational status if the location (where typically a bed/room)"><a href="http://hl7.org/fhir/STU3/v2/0116/index.html">v2 Bed Status</a></td></tr>
+<tr><td>Location.mode</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Indicates whether a resource instance represents a specific location or a class of locations."><a href="http://hl7.org/fhir/STU3/valueset-location-mode.html">LocationMode</a></td></tr>
+<tr><td>Location.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="Indicates the type of function performed at the location."><a href="http://hl7.org/fhir/STU3/v3/ServiceDeliveryLocationRoleType/vs.html">ServiceDeliveryLocationRoleType</a></td></tr>
+<tr><td>Location.physicalType</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="Physical form of the location"><a href="http://hl7.org/fhir/STU3/valueset-location-physical-type.html">LocationType</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-Location-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-Location-1.json" download>JSON</a>), Schema:  <a href="CareConnect-Location-1.sch" download>XML Schematron</a></p>
@@ -650,7 +670,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

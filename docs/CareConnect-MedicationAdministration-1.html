@@ -670,6 +670,29 @@ The dosage instructions should reflect the dosage of the medication that was adm
 <br />
 
 
+<a name="tx"> </a>
+      <p>
+		<h4>Terminology Bindings</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>MedicationAdministration.language</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A human language."><a href="http://hl7.org/fhir/STU3/valueset-languages.html">Common Languages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/STU3/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/STU3/valueset-all-languages.html">All Languages</a></td></tr>
+<tr><td>MedicationAdministration.identifier.use</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a href="http://hl7.org/fhir/STU3/valueset-identifier-use.html">IdentifierUse</a></td></tr>
+<tr><td>MedicationAdministration.identifier.type</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a href="http://hl7.org/fhir/STU3/valueset-identifier-type.html">Identifier Type Codes</a></td></tr>
+<tr><td>MedicationAdministration.status</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="A set of codes indicating the current status of a MedicationAdministration."><a href="http://hl7.org/fhir/STU3/valueset-medication-admin-status.html">MedicationAdministrationStatus</a></td></tr>
+<tr><td>MedicationAdministration.category</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="A coded concept describing where the medication administered is expected to occur"><a href="http://hl7.org/fhir/STU3/valueset-medication-admin-category.html">MedicationAdministrationCategory</a></td></tr>
+<tr><td>MedicationAdministration.reasonNotGiven</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A set of codes indicating the reason why the MedicationAdministration is negated."><a href="http://hl7.org/fhir/STU3/valueset-reason-medication-not-given-codes.html">SNOMED CT Reason Medication Not Given Codes</a></td></tr>
+<tr><td>MedicationAdministration.reasonCode</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A set of codes indicating the reason why the MedicationAdministration was made."><a href="http://hl7.org/fhir/STU3/valueset-reason-medication-given-codes.html">Reason Medication Given Codes</a></td></tr>
+<tr><td>MedicationAdministration.dosage.site</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept describing the site location the medicine enters into or onto the body."><a href="http://hl7.org/fhir/STU3/valueset-approach-site-codes.html">SNOMED CT Anatomical Structure for Administration Site Codes</a></td></tr>
+<tr><td>MedicationAdministration.dosage.route</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept describing the route or physiological path of administration of a therapeutic agent into or onto the body of a subject."><a href="http://hl7.org/fhir/STU3/valueset-route-codes.html">SNOMED CT Route Codes</a></td></tr>
+<tr><td>MedicationAdministration.dosage.route.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration."><a href="ValueSet-CareConnect-MedicationDosageRoute-1.html">Care Connect Medication Dosage Route</a></td></tr>
+<tr><td>MedicationAdministration.dosage.method</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept describing the technique by which the medicine is administered."><a href="http://hl7.org/fhir/STU3/valueset-administration-method-codes.html">SNOMED CT Administration Method Codes</a></td></tr>
+</table>
+
+		</p>
+
+
+
+
 
 <a name="downloads"> </a>
 <p>Downloads: StructureDefinition: (<a href="StructureDefinition-CareConnect-MedicationAdministration-1.xml" download>XML</a>, <a href="StructureDefinition-CareConnect-MedicationAdministration-1.json" download>JSON</a>), Schema:  <a href="CareConnect-MedicationAdministration-1.sch" download>XML Schematron</a></p>
@@ -757,7 +780,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Wed, Sep 25, 2019 18:29+0100">2019-09-25</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>
