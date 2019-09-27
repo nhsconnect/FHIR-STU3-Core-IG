@@ -353,7 +353,6 @@ This profile builds on <a href= "http://hl7.org/fhir/STU3/medicationrequest.html
 {% include StructureDefinition-CareConnect-MedicationRequest-1-header.xhtml %}
 -->
 
-
 <hr>
 
 <!--  ********remove the tabs editing purposes if status draft ********* -->
@@ -702,9 +701,19 @@ Summary
 
 <br />
 
+<!-- BK: added Terminology Binding views-->
 
+<h3>Terminology Bindings</h3>
 <a name="tx"> </a>
-      <p>
+
+		<h4>Terminology Bindings (Differential)</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
+<tr><td>MedicationRequest.medicationReference:medicationReference</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td><a href="http://hl7.org/fhir/STU3/valueset-medication-codes.html">SNOMED CT Medication Codes</a></td></tr>
+<tr><td>MedicationRequest.dosageInstruction.route.coding:snomedCT</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#preferred">preferred</a></td><td title="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration."><a href="ValueSet-CareConnect-MedicationDosageRoute-1.html">Care Connect Medication Dosage Route</a></td></tr>
+<tr><td>MedicationRequest.dispenseRequest.expectedSupplyDuration.code</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#required">required</a></td><td title="A unit of time (units from UCUM)."><a href="http://hl7.org/fhir/STU3/valueset-units-of-time.html">UnitsOfTime</a></td></tr>
+</table>
+	
 		<h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
@@ -722,7 +731,7 @@ Summary
 <tr><td>MedicationRequest.substitution.reason</td><td><a href="http://hl7.org/fhir/STU3/terminologies.html#example">example</a></td><td title="A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."><a href="http://hl7.org/fhir/STU3/v3/SubstanceAdminSubstitutionReason/vs.html">SubstanceAdminSubstitutionReason</a></td></tr>
 </table>
 
-		</p>
+		
 
 
 
@@ -814,7 +823,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Sep 26, 2019 11:21+0100">2019-09-26</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Fri, Sep 27, 2019 09:12+0100">2019-09-27</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

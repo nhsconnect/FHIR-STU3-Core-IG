@@ -73,7 +73,6 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 {% include {{[type]}}-{{[id]}}-header.xhtml %}
 {% endraw %}-->
 
-
 <hr>
 
 <!--  ********remove the tabs editing purposes if status draft ********* -->
@@ -217,10 +216,13 @@ This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basep
 </div>
 
 <br />
-{% if site.tx %}
 
+<!-- BK: added Terminology Binding views-->
+{% if site.tx or site.tx-diff %}
+<h3>Terminology Bindings</h3>
 <a name="tx"> </a>
-      
+
+		{% include {{[type]}}-{{[id]}}-tx-diff.xhtml %}	
 		{% include {{[type]}}-{{[id]}}-tx.xhtml %}
 		
 {% endif %}
