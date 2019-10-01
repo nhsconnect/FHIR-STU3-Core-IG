@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="CareConnect-ProblemHeader-Condition-1" />
   <meta>
@@ -8,7 +8,7 @@
     <valueCode value="pc" />
   </extension>
   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="CareConnect-ProblemHeader-Condition-1" />
   <status value="draft" />
   <date value="2019-06-19" />
@@ -123,7 +123,7 @@
       </extension>
       <path value="Condition.category.coding.display" />
       <min value="1" />
-      <fixedString value=" Problem List Item" />
+      <fixedString value="Problem List Item" />
     </element>
     <element id="Condition.severity">
       <path value="Condition.severity" />
