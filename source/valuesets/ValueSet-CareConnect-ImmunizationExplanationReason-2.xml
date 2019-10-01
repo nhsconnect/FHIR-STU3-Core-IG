@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="ValueSet-CareConnect-ImmunizationExplanationReason-2"/>
 	<url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ImmunizationExplanationReason-2"/>
-	<version value="2.1.0"/>
+	<version value="2.1.1"/>
 	<name value="Care Connect Immunization Explanation Reason"/>
 	<status value="draft"/>
 	<date value="2018-11-01T00:00:00+00:00"/>
@@ -13,11 +13,11 @@
 			<system value="http://snomed.info/sct"/>
 			<concept>
 				<code value="171279008"/>
-				<display value="Immunization due"/>
+				<display value="Immunisation due"/>
 			</concept>
 			<concept>
 				<code value="414448007"/>
-				<display value="Identified as high risk for travel"/>
+				<display value="Identified as high risk for travel immunisation"/>
 			</concept>
 			<concept>
 				<code value="161096004"/>
