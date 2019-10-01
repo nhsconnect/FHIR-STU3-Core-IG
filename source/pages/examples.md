@@ -37,7 +37,7 @@ layout: default
 - [CareConnect-Patient-1 Example](CareConnect-Patient-Example-1.html)
 - [CareConnect-Practitioner-1 Example](CareConnect-Practitioner-Example-1.html)
 - [CareConnect-ProblemHeader-Condition-1 Example](CareConnect-ProblemHeader-Condition-Example-1.html)
-- [CareConnect-ProblemList-1 Example](CareConnect-ProblemList-Example-1.html)
+- [CareConnect-Problem-List-1 Example](CareConnect-Problem-List-Example-1.html)
 - [CareConnect-Procedure-1 Example](CareConnect-Procedure-Example-1.html)
 - [CareConnect-ProcedureRequest-1 Example](CareConnect-ProcedureRequest-Example-1.html)
 - [CareConnect-ReferralRequest-1 Example](CareConnect-ReferralRequest-Example-1.html)

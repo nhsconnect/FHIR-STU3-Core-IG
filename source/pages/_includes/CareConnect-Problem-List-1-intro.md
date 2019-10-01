@@ -14,4 +14,4 @@ The following elements are mandatory in the FHIR profile (i.e. MUST be present):
 
 ### Examples ###
 
-- [CareConnect-ProblemList-1 Example](CareConnect-ProblemList-Example-1.html)
+- [CareConnect-Problem-List-1 Example](CareConnect-Problem-List-Example-1.html)

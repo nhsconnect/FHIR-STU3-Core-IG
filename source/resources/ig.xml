@@ -136,7 +136,7 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/CareConnect-ProblemList-1"/>
+				<reference value="StructureDefinition/CareConnect-Problem-List-1"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -1486,7 +1486,7 @@
 		<resource>
 			<example value="true"/>
 			<sourceReference>
-				<reference value="List/CareConnect-ProblemList-Example-1"/>
+				<reference value="List/CareConnect-Problem-List-Example-1"/>
 			</sourceReference>
 		</resource>
 		<resource>
