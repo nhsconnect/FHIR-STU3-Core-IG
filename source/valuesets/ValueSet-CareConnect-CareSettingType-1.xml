@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="ValueSet-CareConnect-CareSettingType-1"/>
 	<url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1"/>
-	<version value="1.1.0"/>
+	<version value="1.1.1"/>
 	<name value="Care Connect Care Setting Type"/>
 	<status value="draft"/>
 	<date value="2018-11-01T00:00:00+00:00"/>
@@ -14,7 +14,7 @@
 			<filter>
 				<property value="concept"/>
 				<op value="in"/>
-				<value value="999000381000000107"/>
+				<value value="%5E999000381000000107"/>
 			</filter>
 		</include>
 	</compose>
