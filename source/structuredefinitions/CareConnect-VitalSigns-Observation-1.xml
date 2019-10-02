@@ -206,7 +206,7 @@
       </extension>
       <path value="Observation.code.coding.display" />
       <min value="1" />
-      <fixedString value="Vital signs" />
+      <fixedString value="Vital signs finding (finding)" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
