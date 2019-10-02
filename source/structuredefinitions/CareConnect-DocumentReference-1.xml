@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="CareConnect-DocumentReference-1" />
   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="CareConnect-DocumentReference-1" />
   <status value="draft" />
   <date value="2019-08-07" />
@@ -57,7 +57,7 @@
     </element>
     <element id="DocumentReference.type">
       <path value="DocumentReference.type" />
-      <short value="Type of document " />
+      <short value="Type of document" />
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="DocumentC80Type" />
