@@ -33,12 +33,12 @@
 	</concept>
 	<concept>
 		<code value="child"/>
-		<display value="Child "/>
+		<display value="Child"/>
 		<definition value="The problem referenced is the child of the problem/item in the resource."/>
 	</concept>
 	<concept>
 		<code value="sibling"/>
-		<display value="Sibling "/>
+		<display value="Sibling"/>
 		<definition value="The problem referenced is a sibling of the problem/item in the resource."/>
 	</concept>
 </CodeSystem>
