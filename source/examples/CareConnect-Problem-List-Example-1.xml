@@ -2,7 +2,7 @@
 <List xmlns="http://hl7.org/fhir">
 	<id value="CareConnect-Problem-List-Example-1"/>
 	<meta>
-		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemList-1"/>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Problem-List-1"/>
 	</meta>
 	<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1">
 		<valueCodeableConcept>
