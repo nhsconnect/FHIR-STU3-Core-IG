@@ -477,7 +477,7 @@
         <strength value="extensible" />
         <description value="This value set indicates the allowed vital sign result types." />
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html " />
+          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html" />
         </valueSetReference>
       </binding>
     </element>
