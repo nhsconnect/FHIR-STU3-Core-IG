@@ -7,7 +7,7 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/STU3/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/STU3/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1"/>
-  <version value="1.1.0"/>
+  <version value="1.1.1"/>
   <name value="CareConnect-BloodPressure-Observation-1"/>
   <status value="draft"/>
   <date value="2019-06-17T00:00:00+01:00"/>
@@ -3137,7 +3137,7 @@
         <strength value="preferred"/>
         <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."/>
         <valueSetReference>
-          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "/>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"/>
         </valueSetReference>
       </binding>
       <mapping>
@@ -5577,7 +5577,7 @@
         <strength value="extensible"/>
         <description value="This value set indicates the allowed vital sign result types."/>
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html "/>
+          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html"/>
         </valueSetReference>
       </binding>
       <mapping>
@@ -8750,7 +8750,7 @@
         <strength value="preferred"/>
         <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."/>
         <valueSetReference>
-          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "/>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"/>
         </valueSetReference>
       </binding>
     </element>
@@ -8913,7 +8913,7 @@
         <strength value="extensible"/>
         <description value="This value set indicates the allowed vital sign result types."/>
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html "/>
+          <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html"/>
         </valueSetReference>
       </binding>
     </element>

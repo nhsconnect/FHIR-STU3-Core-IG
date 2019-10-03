@@ -15,7 +15,7 @@
     }
   ],
   "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "name": "CareConnect-Observation-1",
   "status": "draft",
   "date": "2019-06-17T00:00:00+01:00",
@@ -2271,9 +2271,9 @@
         "isSummary": true,
         "binding": {
           "strength": "preferred",
-          "description": " A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
+          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
           "valueSetReference": {
-            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "
+            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"
           }
         },
         "mapping": [
@@ -5474,9 +5474,9 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "description": " A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
+          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
           "valueSetReference": {
-            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "
+            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"
           }
         }
       },

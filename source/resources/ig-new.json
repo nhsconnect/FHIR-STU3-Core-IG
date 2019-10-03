@@ -56,7 +56,7 @@
       "display" : "United Kingdom of Great Britain and Northern Ireland"
     }]
   }],
-  "packageId" : "nhsdigital.core.fhir",
+  "packageId" : "nhsdigital.fhir.stu3.core",
   "license" : "CC0-1.0",
   "fhirVersion" : ["3.0.1",
   "3.0.1"],
@@ -194,7 +194,7 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/CareConnect-ProblemList-1"
+        "reference" : "StructureDefinition/CareConnect-Problem-List-1"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -1769,7 +1769,7 @@
     },
     {
       "reference" : {
-        "reference" : "List/CareConnect-ProblemList-Example-1"
+        "reference" : "List/CareConnect-Problem-List-Example-1"
       },
       "exampleBoolean" : true,
       "groupingId" : "p1"

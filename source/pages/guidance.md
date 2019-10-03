@@ -8,19 +8,19 @@ active: guidance
 
 Guidance information for the FHIR STU3 Core Specification. 
 
-### Introduction
+### **Important** ###
 
-This specification contains the FHIR assets from the [HL7 FHIR Reference Server](https://fhir.hl7.org.uk/) and is intended to provide a baseline specification to be circulated for feedback. 
+This Core specification is in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>. It is an initial Core specification for review, research and engagement. 
 
-Future work will include:
+It is also intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>.
 
-- resolution of validation and quality errors
-- changes following feedback received
-- changes following [issues reported on the FHIR-STU3-Core-IG-1.0.0 GitHub repository](https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues).
+The approach documented here is currently being evaluated and discussed with parties who are actively involved NHS Digital programmes, such as maternity.
 
-### Project Life Cycle
+- This specification MUST not be shared outside of NHS Digital.
+- This specification has been created using FHIR STU3, which is not the version to be used for any UK Core specification for implementation.
+- The UK Core specification using R4 will be released at a later date, once the approach to core specification has been agreed and signed off by NHS Digital and NHSX. 
 
-This specification will be based on [GDS agile delivery](https://www.gov.uk/service-manual/agile-delivery), and is currently in the **discovery** phase.
+Nothing contained in this Core specification should be implemented or proposed as a solution to vendors. 
 
 ### FHIR Profiles - Minimum Viable Content
 

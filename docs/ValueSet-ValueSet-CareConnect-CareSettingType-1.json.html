@@ -8,7 +8,7 @@
   <title>FHIR STU3 Core</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="FHIR STU3 Core" />
+<meta name="description" content="FHIR STU3 Core Implementation Guide" />
 <meta name="author" content="NHS Digital"/>
   <link href="fhir.css" rel="stylesheet"/>
 
@@ -208,9 +208,11 @@ can only resize using html  or css ;-(
 
 
 <!--BK: edited-->
-<!--ReleaseHeader--><p id="publish-box">
-FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a>.
-</p><!--EndReleaseHeader-->
+<!--ReleaseHeader-->
+<p id="publish-box">
+FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a><br><b>Important:</b> refer to the <a href="guidance.html">Guidance</a> section on how to use this specification.
+</p>
+<!--EndReleaseHeader-->
 <!-- 
 This is the {% if {{site.build}} == "ci" %}
     Continuous Integration Build
@@ -280,10 +282,10 @@ This is the {% if {{site.build}} == "ci" %}
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.id">id</a>" : "ValueSet-CareConnect-CareSettingType-1",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Care Connect Care Setting Type&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&lt;/p&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt; where concept  in  999000381000000107&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Care Connect Care Setting Type&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&lt;/p&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt; where concept  in  ^999000381000000107&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.url">url</a>" : "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1",
-  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">version</a>" : "1.1.0",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">version</a>" : "1.1.1",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.name">name</a>" : "Care Connect Care Setting Type",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.status">status</a>" : "draft",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.date">date</a>" : "2018-11-01T00:00:00+00:00",
@@ -298,7 +300,7 @@ This is the {% if {{site.build}} == "ci" %}
           {
             "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.property">property</a>" : "concept",
             "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.op">op</a>" : "in",
-            "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">value</a>" : "999000381000000107"
+            "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">value</a>" : "^999000381000000107"
           }
         ]
       }
@@ -354,7 +356,7 @@ Formats: <a href="ValueSet-ValueSet-CareConnect-CareSettingType-1.html">Narrativ
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Fri, Sep 27, 2019 09:12+0100">2019-09-27</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.stu3.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Oct 3, 2019 13:35+0100">2019-10-03</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

@@ -8,7 +8,7 @@
   <title>FHIR STU3 Core</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="FHIR STU3 Core" />
+<meta name="description" content="FHIR STU3 Core Implementation Guide" />
 <meta name="author" content="NHS Digital"/>
   <link href="fhir.css" rel="stylesheet"/>
 
@@ -208,9 +208,11 @@ can only resize using html  or css ;-(
 
 
 <!--BK: edited-->
-<!--ReleaseHeader--><p id="publish-box">
-FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a>.
-</p><!--EndReleaseHeader-->
+<!--ReleaseHeader-->
+<p id="publish-box">
+FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a><br><b>Important:</b> refer to the <a href="guidance.html">Guidance</a> section on how to use this specification.
+</p>
+<!--EndReleaseHeader-->
 <!-- 
 This is the {% if {{site.build}} == "ci" %}
     Continuous Integration Build
@@ -290,7 +292,7 @@ This is the {% if {{site.build}} == "ci" %}
 
   <h3>Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 6 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1 version 1.1.0</p><p>All codes from system <a href="CodeSystem-CareConnect-ConditionRelationship-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-merge-combine"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-merge-combine">merge-combine</a></td><td>Merge/Combine</td><td>This condition is merged/combined with the target condition to form a single logical condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-nesting"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-nesting">nesting</a></td><td>Nesting</td><td>This target condition is a component problem of this condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-evolve"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-evolve">evolve</a></td><td>Evolve</td><td>This condition has evolved from the target condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-parent"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-parent">parent</a></td><td>Parent</td><td>The problem referenced is the parent of the problem/item in the resource.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-child-"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-child">child </a></td><td>Child </td><td>The problem referenced is the child of the problem/item in the resource.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-sibling-"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-sibling">sibling </a></td><td>Sibling </td><td>The problem referenced is a sibling of the problem/item in the resource.</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 6 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1 version 1.1.1</p><p>All codes from system <a href="CodeSystem-CareConnect-ConditionRelationship-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-merge-combine"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-merge-combine">merge-combine</a></td><td>Merge/Combine</td><td>This condition is merged/combined with the target condition to form a single logical condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-nesting"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-nesting">nesting</a></td><td>Nesting</td><td>This target condition is a component problem of this condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-evolve"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-evolve">evolve</a></td><td>Evolve</td><td>This condition has evolved from the target condition.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-parent"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-parent">parent</a></td><td>Parent</td><td>The problem referenced is the parent of the problem/item in the resource.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-child"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-child">child</a></td><td>Child</td><td>The problem referenced is the child of the problem/item in the resource.</td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ConditionRelationship-1-sibling"> </a><a href="CodeSystem-CareConnect-ConditionRelationship-1.html#CodeSystem-CareConnect-ConditionRelationship-1-sibling">sibling</a></td><td>Sibling</td><td>The problem referenced is a sibling of the problem/item in the resource.</td></tr></table></div>
 <!-- ============VAlUESET CONTENT CONTENT=============== -->
 
 
@@ -340,7 +342,7 @@ Formats: <a href="ValueSet-ValueSet-CareConnect-ConditionRelationship-1.html">Na
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Fri, Sep 27, 2019 09:12+0100">2019-09-27</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.stu3.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Oct 3, 2019 13:35+0100">2019-10-03</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

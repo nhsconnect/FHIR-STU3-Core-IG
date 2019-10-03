@@ -8,7 +8,7 @@
   <title>FHIR STU3 Core</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="FHIR STU3 Core" />
+<meta name="description" content="FHIR STU3 Core Implementation Guide" />
 <meta name="author" content="NHS Digital"/>
   <link href="fhir.css" rel="stylesheet"/>
 
@@ -216,9 +216,11 @@ can only resize using html  or css ;-(
 
 
 <!--BK: edited-->
-<!--ReleaseHeader--><p id="publish-box">
-FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a>.
-</p><!--EndReleaseHeader-->
+<!--ReleaseHeader-->
+<p id="publish-box">
+FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a><br><b>Important:</b> refer to the <a href="guidance.html">Guidance</a> section on how to use this specification.
+</p>
+<!--EndReleaseHeader-->
 <!-- 
 This is the {% if {{site.build}} == "ci" %}
     Continuous Integration Build
@@ -243,7 +245,67 @@ This is the {% if {{site.build}} == "ci" %}
 
 <h2 id="100">1.0.0</h2>
 
-<p>This initial baseline release contains all of the CareConnect FHIR profiles published on <a href="https://fhir.hl7.org.uk">https://fhir.hl7.org.uk</a></p>
+<p>This initial baseline release contains all of the CareConnect FHIR profiles published on <a href="https://fhir.hl7.org.uk">https://fhir.hl7.org.uk</a>, with the following corrections applied:</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/3">Issue #3: ValueSet-CareConnect-ACVPU-1</a> - correction to SNOMED CT expression. Upversioned to 1.0.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/4">Issue #4: ValueSet-CareConnect-AllergyCode-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/5">issue #5: ValueSet-CareConnect-AllergyManifestation-1</a> - correction to SNOMED CT expression. Upversioned to 1.2.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/6">Issue #6: ValueSet-CareConnect-AllergySeverity-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/7">Issue #7: ValueSet-CareConnect-CareSettingType-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/8">Issue #8: ValueSet-CareConnect-DocumentType-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/9">Issue #9: ValueSet-CareConnect-EmergencyCareDischargeStatus-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/10">Issue #10: ValueSet-CareConnect-ImmunizationExplanationReason-2</a> - correction to codes applied. Upversioned to 2.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/11">Issue #11: ValueSet-CareConnect-MedicationDosageRoute-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/12">Issue #12: ValueSet-CareConnect-ProcedureCode-1</a> - correction to SNOMED CT expression. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/13">Issue #13: ValueSet-CareConnect-SpecimenBodySite-1</a> - correction to SNOMED CT expression. Upversioned to 2.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/14">Issue #14: ValueSet/CareConnect-BodySite-1</a> - removed whitespaces from value set bindings. Profiles upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/15">Issue #15: ValueSet-CareConnect-ClinicalDisciplines-1</a> - correction to typo in name. Upversioned to 1.0.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/17">Issue #17: ValueSet-CareConnect-ReportCodeSnCT-1</a> - applied correction to SNOMED CT expression and removed typo in description. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/18">Issue #18: CodeSystem/CareConnect-MedicationFlag-1</a> - Correction to display value formatting. Upversioned to 1.0.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/19">Issue #19: CareConnect-ProblemList-1</a> - correct naming convention applied. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/20">Issue #20: CareConnect-VitalSigns-Observation-1.code</a> - applied correct display value ‘Vital signs finding (finding). Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/22">Issue #22: CareConnect-ACVPU-Observation-1.code</a> - removed incorrect terminology binding. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/23">Issue #23: CareConnect-Condition-1.verificationStatus</a> - reinstated element ‘verificationStatus’ to meet Constraint (con-3): Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/24">Issue #24: CodeSystem/CareConnect-ConditionRelationship-1</a> - Removed whitespaces from ‘child’ and ‘sibling’ codes. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/25">Issue #25: CareConnect-ProblemHeader-Condition-1.category.coding.display</a> - Removed whitespace from fixed display value. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/26">Issue #26: ValueSet-CareConnect-MaritalStatus-1</a> Correction to display value for code ‘U - unmarried’</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/27">Issue #27: Extension-CareConnect-FastingStatus-1</a> - Removed whitespace. Upversioned to 1.0.2.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/28">Issue #28: Extension-CareConnect-ResidentialStatus-1</a> - Removed whitespace. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/29">Issue #29: CareConnect-BloodPressure-Observation-1</a> - Removed whitespace as part of existing upversion.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/30">Issue #30: CareConnect-BodyTemperature-Observation-1</a> - Removed whitespace as part of existing upversion.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/31">Issue #31: CareConnect-DocumentReference-1</a> - Removed whitespace. Upversioned to 1.1.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/32">Issue #32: CareConnect-HeartRate-Observation-1</a> - Removed whitespace as part of existing upversion.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/33">Issue #33: CareConnect-Observation-1</a> - Removed whitespace. Upversioned to 1.2.1.</p>
+
+<p><a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues/34">Issue #34: CareConnect-RespiratoryRate-Observation-1</a> - Removed whitespace as part of existing upversion.</p>
 
 
   <!-- ==============END CONTENT END CONTENT=================== -->
@@ -274,7 +336,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Fri, Sep 27, 2019 09:12+0100">2019-09-27</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.stu3.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Oct 3, 2019 13:35+0100">2019-10-03</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

@@ -8,7 +8,7 @@
   <title>FHIR STU3 Core</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="FHIR STU3 Core" />
+<meta name="description" content="FHIR STU3 Core Implementation Guide" />
 <meta name="author" content="NHS Digital"/>
   <link href="fhir.css" rel="stylesheet"/>
 
@@ -216,9 +216,11 @@ can only resize using html  or css ;-(
 
 
 <!--BK: edited-->
-<!--ReleaseHeader--><p id="publish-box">
-FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a>.
-</p><!--EndReleaseHeader-->
+<!--ReleaseHeader-->
+<p id="publish-box">
+FHIR STU3 Core Implementation Guide Version 1.0.0. Based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a><br><b>Important:</b> refer to the <a href="guidance.html">Guidance</a> section on how to use this specification.
+</p>
+<!--EndReleaseHeader-->
 <!-- 
 This is the {% if {{site.build}} == "ci" %}
     Continuous Integration Build
@@ -243,21 +245,21 @@ This is the {% if {{site.build}} == "ci" %}
 
 <p>Guidance information for the FHIR STU3 Core Specification.</p>
 
-<h3 id="introduction">Introduction</h3>
+<h3 id="important"><strong>Important</strong></h3>
 
-<p>This specification contains the FHIR assets from the <a href="https://fhir.hl7.org.uk/">HL7 FHIR Reference Server</a> and is intended to provide a baseline specification to be circulated for feedback.</p>
+<p>This Core specification is in the <strong>Discovery</strong> stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>. It is an initial Core specification for review, research and engagement.</p>
 
-<p>Future work will include:</p>
+<p>It is also intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>.</p>
+
+<p>The approach documented here is currently being evaluated and discussed with parties who are actively involved NHS Digital programmes, such as maternity.</p>
 
 <ul>
-  <li>resolution of validation and quality errors</li>
-  <li>changes following feedback received</li>
-  <li>changes following <a href="https://github.com/nhsconnect/FHIR-STU3-Core-IG-1.0.0/issues">issues reported on the FHIR-STU3-Core-IG-1.0.0 GitHub repository</a>.</li>
+  <li>This specification MUST not be shared outside of NHS Digital.</li>
+  <li>This specification has been created using FHIR STU3, which is not the version to be used for any UK Core specification for implementation.</li>
+  <li>The UK Core specification using R4 will be released at a later date, once the approach to core specification has been agreed and signed off by NHS Digital and NHSX.</li>
 </ul>
 
-<h3 id="project-life-cycle">Project Life Cycle</h3>
-
-<p>This specification will be based on <a href="https://www.gov.uk/service-manual/agile-delivery">GDS agile delivery</a>, and is currently in the <strong>discovery</strong> phase.</p>
+<p>Nothing contained in this Core specification should be implemented or proposed as a solution to vendors.</p>
 
 <h3 id="fhir-profiles---minimum-viable-content">FHIR Profiles - Minimum Viable Content</h3>
 
@@ -298,7 +300,7 @@ This is the {% if {{site.build}} == "ci" %}
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.core.fhir# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Fri, Sep 27, 2019 09:12+0100">2019-09-27</span>. <br/>
+     Published by <a href="mailto:interoperabilityteam@nhs.net">NHS Digital </a> nhsdigital.fhir.stu3.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/index.html">FHIR 3.0.1</a> created <span href="#" data-toggle="tooltip" data-placement="top" title="Thu, Oct 3, 2019 13:35+0100">2019-10-03</span>. <br/>
       Links: <!--<a style="color: #81BEF7" href="toc.html">Table of Contents</a>-->
 	  <a style="color: #81BEF7" href="qa.html">QA Report</a>
 	  | <a style="color: #81BEF7" href="history.html">Version History</a>

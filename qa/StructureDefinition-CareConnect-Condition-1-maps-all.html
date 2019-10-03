@@ -36,6 +36,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>&lt; 303105007 |Disease phases|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>&lt; 410514004 |Finding context value|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>&lt; 404684003 |Clinical finding|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
@@ -185,6 +186,7 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>PRB-14 / DG1-6</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>PRB-13</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>'problem' if from PRB-3. 'diagnosis' if from DG1 segment in PV1 message</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
@@ -326,6 +328,8 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>Observation ACT
 .inboundRelationship[typeCode=COMP].source[classCode=OBS, code=&quot;clinicalStatus&quot;, moodCode=EVN].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>Observation ACT
+.inboundRelationship[typeCode=COMP].source[classCode=OBS, code=&quot;verificationStatus&quot;, moodCode=EVN].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
@@ -466,6 +470,7 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>class</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
@@ -606,6 +611,7 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>408729009</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>

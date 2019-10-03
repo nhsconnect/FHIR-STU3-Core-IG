@@ -18,6 +18,7 @@
 &lt;&lt; 385356007 |Tumor stage finding|) OR
 &lt; 272379006 |Event|)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>&lt; 303105007 |Disease phases|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>&lt; 410514004 |Finding context value|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>&lt; 404684003 |Clinical finding|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;severity</td><td>&lt; 272141005 |Severities|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>code 246090004 |Associated finding| (&lt; 404684003 |Clinical finding| MINUS
@@ -47,6 +48,7 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>PRB-14 / DG1-6</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>PRB-13</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>'problem' if from PRB-3. 'diagnosis' if from DG1 segment in PV1 message</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>C*E.1-8, C*E.10-22</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>C*E.3</td> </tr>
@@ -111,6 +113,8 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>Observation ACT
 .inboundRelationship[typeCode=COMP].source[classCode=OBS, code=&quot;clinicalStatus&quot;, moodCode=EVN].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>Observation ACT
+.inboundRelationship[typeCode=COMP].source[classCode=OBS, code=&quot;verificationStatus&quot;, moodCode=EVN].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
@@ -234,6 +238,7 @@ OR &lt; 272379006 |Event|</td> </tr>
  <tr><td>Condition</td><td>clinical.general</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;clinicalStatus</td><td>status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>class</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;severity</td><td>grade</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>what</td> </tr>
@@ -250,6 +255,7 @@ OR &lt; 272379006 |Event|</td> </tr>
 <a name="sct-attr"> </a><h3>Mappings for SNOMED CT Attribute Binding (<a href="http://snomed.info/sct">http://snomed.info/sct</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>CareConnect-Condition-1</b></td></tr>
  <tr><td>Condition</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;verificationStatus</td><td>408729009</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;severity</td><td>246112005</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>246090004</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>363698007</td> </tr>

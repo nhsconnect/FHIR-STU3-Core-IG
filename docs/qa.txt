@@ -1,14 +1,14 @@
 ﻿FHIR STU3 Core : Validation Results
 =========================================
 
-err = 1146, warn = 56, info = 10
-Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.fhir# (canonical = https://fhir.hl7.org.uk/STU3)
+err = 1116, warn = 6, info = 10
+Generated Thu Oct 03 13:41:56 BST 2019. FHIR version 3.0.1 for nhsdigital.fhir.stu3.core# (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 1001 / 1
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-AdmissionMethod-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionCategory-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionEpisodicity-1 : 2 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionRelationship-1 : 4 / 2
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionRelationship-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-DeathNotificationStatus-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-DischargeDestination-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-DischargeMethod-1 : 2 / 0
@@ -44,7 +44,7 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\conceptmaps\ConceptMap-CareConnect-ConditionEpisodicity-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\conceptmaps\ConceptMap-CareConnect-MaritalStatus-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\conceptmaps\ConceptMap-CareConnect-PersonNameType-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ACVPU-Observation-Example-1 : 1 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ACVPU-Observation-Example-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-AllergyIntolerance-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Appointment-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-BloodPressure-Observation-Example-1 : 0 / 0
@@ -66,7 +66,7 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-InspiredOxygen-Observation-Example-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-List-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Medication-Example-1 : 2 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Medication-Flag-Example-1 : 1 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Medication-Flag-Example-1 : 0 / 1
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-MedicationAdministration-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-MedicationDispense-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-MedicationRequest-Example-1 : 0 / 0
@@ -75,8 +75,8 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-OxygenSaturation-Observation-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Patient-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Practitioner-Example-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProblemHeader-Condition-Example-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProblemList-Example-1 : 1 / 0
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Problem-List-Example-1 : 1 / 0
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProblemHeader-Condition-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Procedure-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProcedureRequest-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ReferralRequest-Example-1 : 0 / 0
@@ -88,13 +88,13 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Slot-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Specimen-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Subscore-Observation-Example-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-VitalSigns-Observation-Example-1 : 0 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-VitalSigns-Observation-Example-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\resources\ig : 257 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ACVPU-Observation-1 : 2 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ACVPU-Observation-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-AllergyIntolerance-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Appointment-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BloodPressure-Observation-1 : 8 / 2
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BodyTemperature-Observation-1 : 4 / 2
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BloodPressure-Observation-1 : 7 / 0
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BodyTemperature-Observation-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-CarePlan-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-CareTeam-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Communication-1 : 0 / 0
@@ -103,15 +103,15 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Consent-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Contract-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-DiagnosticReport-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-DocumentReference-1 : 0 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-DocumentReference-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Encounter-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-EpisodeOfCare-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-FamilyMemberHistory-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Flag-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-HealthcareService-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-HeartRate-Observation-1 : 3 / 3
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-HeartRate-Observation-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Immunization-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-InspiredOxygen-Observation-1 : 1 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-InspiredOxygen-Observation-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-List-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Location-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Medication-1 : 0 / 0
@@ -120,21 +120,21 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-MedicationDispense-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-MedicationRequest-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-MedicationStatement-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Observation-1 : 1 / 2
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Observation-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Organization-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-OxygenSaturation-Observation-1 : 3 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-OxygenSaturation-Observation-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Patient-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Practitioner-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-PractitionerRole-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProblemHeader-Condition-1 : 1 / 1
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProblemList-1 : 2 / 0
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Problem-List-1 : 2 / 0
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProblemHeader-Condition-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Procedure-1 : 1 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProcedureRequest-1 : 1 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProcedureRequest-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Quantity-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ReferralRequest-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RelatedPerson-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ResearchStudy-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RespiratoryRate-Observation-1 : 3 / 3
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RespiratoryRate-Observation-1 : 2 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RiskAssessment-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Schedule-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Slot-1 : 0 / 0
@@ -161,7 +161,7 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-EncounterTransport-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-EthnicCategory-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-Evidence-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-FastingStatus-1 : 1 / 1
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-FastingStatus-1 : 1 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ListWarningCode-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-MainLocation-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-MedicationChangeSummary-1 : 0 / 0
@@ -184,7 +184,7 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-RelatedClinicalContent-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-RelatedProblemHeader-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ReligiousAffiliation-1 : 0 / 0
- C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ResidentialStatus-1 : 0 / 2
+ C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ResidentialStatus-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-SourceOfReferral-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-TreatmentCategory-1 : 0 / 0
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-VaccinationProcedure-1 : 0 / 0
@@ -264,7 +264,7 @@ Generated Fri Sep 27 09:18:06 BST 2019. FHIR version 3.0.1 for nhsdigital.core.f
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-VaccineCode-1 : 3 / 0
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.core.fhir-null
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be nhsdigital.fhir.stu3.core-null
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-MedicationChangeStatus-1.xml: Resource id/url mismatch: CodeSystem-CareConnect-MedicationChangeStatus-1/https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-MedicationFlag-1.xml: Resource id/url mismatch: CodeSystem-CareConnect-MedicationFlag-1/https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-MedicationSupplyType-1.xml: Resource id/url mismatch: CodeSystem-CareConnect-MedicationSupplyType-1/https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1
@@ -478,12 +478,12 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Practitioner-1.html: The 
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Practitioner-Example-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-PractitionerRole-1-definitions.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-PractitionerRole-1.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Problem-List-1-definitions.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Problem-List-1.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Problem-List-Example-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemHeader-Condition-1-definitions.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemHeader-Condition-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemHeader-Condition-Example-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemList-1-definitions.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemList-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-ProblemList-Example-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Procedure-1-definitions.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Procedure-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\CareConnect-Procedure-Example-1.html: The html source does not contain the header marker
@@ -772,8 +772,8 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-s
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ImplementationGuide-nhsdigital-fhir-stu3-core.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-List-Example-1.json.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-List-Example-1.xml.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-ProblemList-Example-1.json.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-ProblemList-Example-1.xml.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-Problem-List-Example-1.json.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\List-CareConnect-Problem-List-Example-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\Medication-CareConnect-Medication-Example-1.json.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\Medication-CareConnect-Medication-Example-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\MedicationAdministration-CareConnect-MedicationAdministration-Example-1.json.html: The html source does not contain the header marker
@@ -898,10 +898,10 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Pract
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Practitioner-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-PractitionerRole-1.json.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-PractitionerRole-1.xml.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Problem-List-1.json.html: The html source does not contain the header marker
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Problem-List-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-ProblemHeader-Condition-1.json.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-ProblemHeader-Condition-1.xml.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-ProblemList-1.json.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-ProblemList-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Procedure-1.json.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-Procedure-1.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-CareConnect-ProcedureRequest-1.json.html: The html source does not contain the header marker
@@ -1028,7 +1028,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-Extension-coding-
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\StructureDefinition-Extension-coding-sctdescid.xml.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ACVPU-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdministrativeGender-1.html#/html/head/body/div/div/div/div/div/div/p/br/table/tbody/tr/td/a at Line 281, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AdmissionMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyCertainty-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyCode-1.html: The html source does not contain the header marker
@@ -1036,7 +1036,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyExposureR
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyManifestation-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergySeverity-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/head/body/div/div/div/div/div/div/p/br/table/tbody/tr/td/a at Line 281, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-BodySite-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-CareSettingType-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ClinicalDisciplines-1.html: The html source does not contain the header marker
@@ -1066,7 +1066,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ListEmptyReasonC
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ListWarningCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ManufacturedMaterialSnCT-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MaritalStatus-1.html#/html/head/body/div/div/div/div/div/div/p/br/table/tbody/tr/td/a at Line 281, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationChangeStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-MedicationDosageRoute-1.html: The html source does not contain the header marker
@@ -1077,7 +1077,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSDataDictionar
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NHSNumberVerificationStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-NameUse-1.html#/html/head/body/div/div/div/div/div/div/p/br/table/tbody/tr/td/a at Line 281, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ObservationMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ObservationType-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-OutcomeOfAttendance-1.html: The html source does not contain the header marker
@@ -1087,7 +1087,7 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-PrescriptionType
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ProblemSignificance-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ProcedureCode-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html: The html source does not contain the header marker
-ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/head/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/head/body/div/div/div/div/div/div/p/br/table/tbody/tr/td/a at Line 281, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-ReferralRequestMethod-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-RegistrationStatus-1.html: The html source does not contain the header marker
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\docs\ValueSet-CareConnect-RegistrationType-1.html: The html source does not contain the header marker
@@ -1276,10 +1276,6 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-
 ERROR: https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionEpisodicity-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/CodeSystem/CodeSystem-CareConnect-ConditionEpisodicity-1) does not match the URL (https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1)
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionEpisodicity-1: URL Mismatch https://fhir.hl7.org.uk/STU3/CodeSystem/CodeSystem-CareConnect-ConditionEpisodicity-1 vs https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionRelationship-1.xml ==
-ERROR: CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1: CodeSystem.concept[5].code: The code 'child ' is not valid (whitespace rules)
-WARNING: CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1: CodeSystem.concept[5].display: value should not start or finish with whitespace
-ERROR: CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1: CodeSystem.concept[6].code: The code 'sibling ' is not valid (whitespace rules)
-WARNING: CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1: CodeSystem.concept[6].display: value should not start or finish with whitespace
 ERROR: https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionRelationship-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1) does not match the URL (https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1)
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-ConditionRelationship-1: URL Mismatch https://fhir.hl7.org.uk/STU3/CodeSystem/CodeSystem-CareConnect-ConditionRelationship-1 vs https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-DeathNotificationStatus-1.xml ==
@@ -1376,7 +1372,6 @@ ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\conceptmaps\ConceptMap-CareConnect-MaritalStatus-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\conceptmaps\ConceptMap-CareConnect-PersonNameType-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ACVPU-Observation-Example-1.xml ==
-WARNING: Observation/CareConnect-ACVPU-Observation-Example-1: Observation.code: ValueSet http://snomed.info/sct not found
 ERROR: Observation/CareConnect-ACVPU-Observation-Example-1: Observation.code.coding: unable to find code 1104441000000107 in http://snomed.info/sct
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-AllergyIntolerance-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Appointment-Example-1.xml ==
@@ -1391,7 +1386,7 @@ INFORMATION: Composition/CareConnect-Composition-Example-1: Composition.type: No
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Consent-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-DiagnosticReport-Example-1.xml ==
 INFORMATION: DiagnosticReport/CareConnect-DiagnosticReport-Example-1: DiagnosticReport.code: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/report-codes (http://hl7.org/fhir/ValueSet/report-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#4261000179100)
-WARNING: DiagnosticReport/CareConnect-DiagnosticReport-Example-1: DiagnosticReport.code.coding: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<371525003 | Clinical procedure report (record artifact))" was not understood in the context of http://snomed.info/sct)
+WARNING: DiagnosticReport/CareConnect-DiagnosticReport-Example-1: DiagnosticReport.code.coding: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<371525003 | Clinical procedure report (record artifact)|)" was not understood in the context of http://snomed.info/sct)
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-DocumentReference-Example-1.xml ==
 INFORMATION: DocumentReference/CareConnect-DocumentReference-Example-1: DocumentReference.type: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#736372004)
 WARNING: DocumentReference/CareConnect-DocumentReference-Example-1: DocumentReference.content.attachment.contentType: ValueSet http://hl7.org/fhir/ValueSet/mimetypes not found
@@ -1413,7 +1408,6 @@ ERROR: Observation/CareConnect-InspiredOxygen-Observation-Example-1: Observation
 ERROR: Medication/CareConnect-Medication-Example-1: Medication.code: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationCode-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationCode-1, and a code from this value set is required) (codes = http://snomed.info/sct#17952711000001102)
 ERROR: Medication/CareConnect-Medication-Example-1: Medication.code.coding: unable to find code 17952711000001102 in http://snomed.info/sct
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Medication-Flag-Example-1.xml ==
-ERROR: Flag/CareConnect-Medication-Flag-Example-1: Flag.extension.valueReference: Unable to resolve resource 'Medication/CareConnect-MedicationStatement-Example-1'
 INFORMATION: Flag/CareConnect-Medication-Flag-Example-1: Flag.code.coding: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-MedicationAdministration-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-MedicationDispense-Example-1.xml ==
@@ -1424,10 +1418,9 @@ ERROR: Observation/CareConnect-Observation-Example-1: Observation.code.coding: C
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-OxygenSaturation-Observation-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Patient-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Practitioner-Example-1.xml ==
+== C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Problem-List-Example-1.xml ==
+ERROR: List/CareConnect-Problem-List-Example-1: List.extension.valueCodeableConcept: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code from this value set is required) (codes = http://snomed.info.sct#310000008)
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProblemHeader-Condition-Example-1.xml ==
-ERROR: Condition/CareConnect-ProblemHeader-Condition-Example-1: Condition.category.coding.display: Value is 'Problem List Item' but must be ' Problem List Item'
-== C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProblemList-Example-1.xml ==
-ERROR: List/CareConnect-ProblemList-Example-1: List.extension.valueCodeableConcept: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code from this value set is required) (codes = http://snomed.info.sct#310000008)
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Procedure-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ProcedureRequest-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-ReferralRequest-Example-1.xml ==
@@ -1440,7 +1433,6 @@ ERROR: List/CareConnect-ProblemList-Example-1: List.extension.valueCodeableConce
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Specimen-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-Subscore-Observation-Example-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\examples\CareConnect-VitalSigns-Observation-Example-1.xml ==
-WARNING: Observation/CareConnect-VitalSigns-Observation-Example-1: Observation.code: The display "Vital signs" is not a valid display for the code ,{http://snomed.info/sct}118227000 - should be one of ["Vital signs finding","Vital signs finding (finding)"]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\resources\ig.xml ==
 ERROR: ImplementationGuide/nhsdigital-fhir-stu3-core: ImplementationGuide.package.resource[1].extension.url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/resource-information' does not resolve
 ERROR: ImplementationGuide/nhsdigital-fhir-stu3-core: ImplementationGuide.package.resource[2].extension.url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/resource-information' does not resolve
@@ -1700,30 +1692,20 @@ ERROR: ImplementationGuide/nhsdigital-fhir-stu3-core: ImplementationGuide.packag
 ERROR: ImplementationGuide/nhsdigital-fhir-stu3-core: ImplementationGuide.package.resource[256].extension.url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/resource-information' does not resolve
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\resources\ig: URL Mismatch https://fhir.hl7.org.uk/STU3/ImplementationGuide/nhsdigital-fhir-stu3-core vs https://fhir.hl7.org.uk/STU3/StructureDefinitions/FHIR-STU3-Core-ImplementationGuide-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ACVPU-Observation-1.xml ==
-ERROR: StructureDefinition/CareConnect-ACVPU-Observation-1: StructureDefinition.differential.element[7].binding.valueSetReference: Invalid Resource target type. Found CodeSystem, but expected one of (ValueSet)
-ERROR: StructureDefinition/CareConnect-ACVPU-Observation-1: StructureDefinition.differential.element[23].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-ACVPU-Observation-1: StructureDefinition.differential.element[23].binding.valueSetReference.reference: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-AllergyIntolerance-1.xml ==
 ERROR: StructureDefinition/CareConnect-AllergyIntolerance-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Appointment-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BloodPressure-Observation-1.xml ==
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
-ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[36].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[36].binding.valueSetReference.reference: value should not start or finish with whitespace
-ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[57].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html '
-WARNING: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[57].binding.valueSetReference.reference: value should not start or finish with whitespace
+ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[57].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[59].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[69].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-ucum-vitals-common.html'
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[75].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[77].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDefinition.differential.element[87].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-ucum-vitals-common.html'
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-BodyTemperature-Observation-1.xml ==
-ERROR: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[4].type[6].targetProfile: URI values cannot have whitespace
 ERROR: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
 ERROR: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[14].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
-ERROR: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference.reference: value should not start or finish with whitespace
-WARNING: StructureDefinition/CareConnect-BodyTemperature-Observation-1: StructureDefinition.differential.element[57].binding.description: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-CarePlan-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-CareTeam-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Communication-1.xml ==
@@ -1736,7 +1718,6 @@ ERROR: StructureDefinition/CareConnect-Condition-1: StructureDefinition.differen
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-DiagnosticReport-1.xml ==
 ERROR: StructureDefinition/CareConnect-DiagnosticReport-1: StructureDefinition.differential.element[5].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-DocumentReference-1.xml ==
-WARNING: StructureDefinition/CareConnect-DocumentReference-1: StructureDefinition.differential.element[7].short: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Encounter-1.xml ==
 ERROR: StructureDefinition/CareConnect-Encounter-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 ERROR: StructureDefinition/CareConnect-Encounter-1: StructureDefinition.differential.element[42].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
@@ -1747,16 +1728,10 @@ ERROR: StructureDefinition/CareConnect-FamilyMemberHistory-1: StructureDefinitio
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-HealthcareService-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-HeartRate-Observation-1.xml ==
 ERROR: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
-WARNING: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[14].binding.description: value should not start or finish with whitespace
-ERROR: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference.reference: value should not start or finish with whitespace
-WARNING: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[57].binding.description: value should not start or finish with whitespace
 ERROR: StructureDefinition/CareConnect-HeartRate-Observation-1: StructureDefinition.differential.element[59].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Immunization-1.xml ==
 ERROR: StructureDefinition/CareConnect-Immunization-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-InspiredOxygen-Observation-1.xml ==
-ERROR: StructureDefinition/CareConnect-InspiredOxygen-Observation-1: StructureDefinition.differential.element[25].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-InspiredOxygen-Observation-1: StructureDefinition.differential.element[25].binding.valueSetReference.reference: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-List-1.xml ==
 ERROR: StructureDefinition/CareConnect-List-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Location-1.xml ==
@@ -1772,31 +1747,23 @@ ERROR: StructureDefinition/CareConnect-MedicationRequest-1: StructureDefinition.
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-MedicationStatement-1.xml ==
 ERROR: StructureDefinition/CareConnect-MedicationStatement-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Observation-1.xml ==
-WARNING: StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[18].binding.description: value should not start or finish with whitespace
-ERROR: StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[18].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[18].binding.valueSetReference.reference: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Organization-1.xml ==
 ERROR: StructureDefinition/CareConnect-Organization-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-OxygenSaturation-Observation-1.xml ==
 ERROR: StructureDefinition/CareConnect-OxygenSaturation-Observation-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
-ERROR: StructureDefinition/CareConnect-OxygenSaturation-Observation-1: StructureDefinition.differential.element[36].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-OxygenSaturation-Observation-1: StructureDefinition.differential.element[36].binding.valueSetReference.reference: value should not start or finish with whitespace
 ERROR: StructureDefinition/CareConnect-OxygenSaturation-Observation-1: StructureDefinition.differential.element[57].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Patient-1.xml ==
 ERROR: StructureDefinition/CareConnect-Patient-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Practitioner-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-PractitionerRole-1.xml ==
+== C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Problem-List-1.xml ==
+ERROR: StructureDefinition/CareConnect-Problem-List-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
+ERROR: StructureDefinition/CareConnect-Problem-List-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProblemHeader-Condition-1.xml ==
 ERROR: StructureDefinition/CareConnect-ProblemHeader-Condition-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
-WARNING: StructureDefinition/CareConnect-ProblemHeader-Condition-1: StructureDefinition.differential.element[13].fixedString: value should not start or finish with whitespace
-== C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProblemList-1.xml ==
-ERROR: StructureDefinition/CareConnect-ProblemList-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
-ERROR: StructureDefinition/CareConnect-ProblemList-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Procedure-1.xml ==
 ERROR: StructureDefinition/CareConnect-Procedure-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ProcedureRequest-1.xml ==
-ERROR: StructureDefinition/CareConnect-ProcedureRequest-1: StructureDefinition.differential.element[40].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-ProcedureRequest-1: StructureDefinition.differential.element[40].binding.valueSetReference.reference: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Quantity-1.xml ==
 ERROR: StructureDefinition/CareConnect-Quantity-1: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ReferralRequest-1.xml ==
@@ -1805,10 +1772,6 @@ ERROR: StructureDefinition/CareConnect-ReferralRequest-1: StructureDefinition.di
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-ResearchStudy-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RespiratoryRate-Observation-1.xml ==
 ERROR: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[6].binding: provide either a reference or a description (or both) [valueSet.exists() or description.exists()]
-WARNING: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[14].binding.description: value should not start or finish with whitespace
-ERROR: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '
-WARNING: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[37].binding.valueSetReference.reference: value should not start or finish with whitespace
-WARNING: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[57].binding.description: value should not start or finish with whitespace
 ERROR: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: StructureDefinition.differential.element[59].binding.valueSetReference: Unable to resolve resource 'http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html'
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-RiskAssessment-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\CareConnect-Schedule-1.xml ==
@@ -1839,7 +1802,6 @@ ERROR: StructureDefinition/CareConnect-VitalSigns-Observation-1: StructureDefini
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-EthnicCategory-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-Evidence-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-FastingStatus-1.xml ==
-WARNING: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefinition.differential.element[3].binding.description: value should not start or finish with whitespace
 ERROR: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefinition.differential.element[3].binding.valueSetReference: Unable to resolve resource 'http://terminology.hl7.org/ValueSet/v2-0916'
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ListWarningCode-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-MainLocation-1.xml ==
@@ -1864,8 +1826,6 @@ ERROR: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefin
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-RelatedProblemHeader-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ReligiousAffiliation-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-ResidentialStatus-1.xml ==
-WARNING: StructureDefinition/Extension-CareConnect-ResidentialStatus-1: StructureDefinition.differential.element[1].short: value should not start or finish with whitespace
-WARNING: StructureDefinition/Extension-CareConnect-ResidentialStatus-1: StructureDefinition.differential.element[3].short: value should not start or finish with whitespace
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-SourceOfReferral-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-TreatmentCategory-1.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-CareConnect-VaccinationProcedure-1.xml ==
@@ -1873,7 +1833,7 @@ WARNING: StructureDefinition/Extension-CareConnect-ResidentialStatus-1: Structur
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\structuredefinitions\Extension-coding-sctdescid.xml ==
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ACVPU-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ACVPU-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ACVPU-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ACVPU-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ACVPU-1)
-ERROR: ValueSet-CareConnect-ACVPU-1: Error from server: The filter "constraint = (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| 130987000 |Acute confusion|)" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-ACVPU-1: Error from server: The filter "constraint = (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ACVPU-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ACVPU-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ACVPU-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AdministrativeGender-1.xml ==
 ERROR: ValueSet/ValueSet-CareConnect-AdministrativeGender-1: ValueSet.extension[1].valueReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1'
@@ -1888,7 +1848,7 @@ ERROR: ValueSet-CareConnect-AllergyCertainty-1: Error from server: The filter "c
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyCertainty-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyCertainty-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyCode-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCode-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyCode-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyCode-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCode-1)
-ERROR: ValueSet-CareConnect-AllergyCode-1: Error from server: The filter "constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-AllergyCode-1: Error from server: The filter "constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyCode-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyCode-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCode-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyExposureRoute-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyExposureRoute-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyExposureRoute-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1)
@@ -1896,11 +1856,11 @@ ERROR: ValueSet-CareConnect-AllergyExposureRoute-1: Error from server: The filte
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyExposureRoute-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyExposureRoute-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyManifestation-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyManifestation-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyManifestation-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyManifestation-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyManifestation-1)
-ERROR: ValueSet-CareConnect-AllergyManifestation-1: Error from server: The Snomed Concept 404684003 is not a reference set
+ERROR: ValueSet-CareConnect-AllergyManifestation-1: Error from server: The filter "concept in lt;lt;404684003" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyManifestation-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergyManifestation-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyManifestation-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergySeverity-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergySeverity-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergySeverity-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1)
-ERROR: ValueSet-CareConnect-AllergySeverity-1: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-AllergySeverity-1: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergySeverity-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-AllergySeverity-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-AllergyVerificationStatus-1.xml ==
 ERROR: ValueSet/ValueSet-CareConnect-AllergyVerificationStatus-1: ValueSet.extension[1].valueReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1'
@@ -1912,7 +1872,7 @@ ERROR: ValueSet-CareConnect-BodySite-1: Error from server: The filter "constrain
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-BodySite-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-BodySite-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-CareSettingType-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-CareSettingType-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-CareSettingType-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1)
-ERROR: ValueSet-CareConnect-CareSettingType-1: Error from server: The Snomed Concept 999000381000000107 was not known
+ERROR: ValueSet-CareConnect-CareSettingType-1: Error from server: The filter "concept in ^999000381000000107" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-CareSettingType-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-CareSettingType-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ClinicalDisciplines-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ClinicalDisciplines-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ClinicalDisciplines-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ClinicalDisciplines-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ClinicalDisciplines-1)
@@ -1950,11 +1910,11 @@ ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeMethod-1: conf
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-DischargeMethod-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-DischargeMethod-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeMethod-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-DocumentType-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-DocumentType-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-DocumentType-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1)
-ERROR: ValueSet-CareConnect-DocumentType-1: Error from server: The Snomed Concept 999000391000000109 was not known
+ERROR: ValueSet-CareConnect-DocumentType-1: Error from server: The filter "concept in ^999000391000000109" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-DocumentType-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-DocumentType-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-EmergencyCareDischargeStatus-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-EmergencyCareDischargeStatus-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-EmergencyCareDischargeStatus-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1)
-ERROR: ValueSet-CareConnect-EmergencyCareDischargeStatus-1: Error from server: The Snomed Concept 999003021000000104 was not known
+ERROR: ValueSet-CareConnect-EmergencyCareDischargeStatus-1: Error from server: The filter "concept in ^999003021000000104" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-EmergencyCareDischargeStatus-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-EmergencyCareDischargeStatus-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-EncounterType-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-EncounterType-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-EncounterType-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1)
@@ -2016,7 +1976,7 @@ ERROR: ValueSet-CareConnect-MedicationCode-1: Error from server: The filter "con
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationCode-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-MedicationCode-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationCode-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationDosageRoute-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationDosageRoute-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-MedicationDosageRoute-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1)
-ERROR: ValueSet-CareConnect-MedicationDosageRoute-1: Error from server: The Snomed Concept 999000051000001100 was not known
+ERROR: ValueSet-CareConnect-MedicationDosageRoute-1: Error from server: The filter "concept in ^999000051000001100" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationDosageRoute-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-MedicationDosageRoute-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationFlag-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationFlag-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-MedicationFlag-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-MedicationFlag-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationFlag-1)
@@ -2067,7 +2027,7 @@ ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProblemSignificance-1: 
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ProblemSignificance-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ProblemSignificance-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProblemSignificance-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ProcedureCode-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ProcedureCode-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ProcedureCode-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1)
-ERROR: ValueSet-CareConnect-ProcedureCode-1: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-ProcedureCode-1: Error from server: The filter "constraint = (<<71388002 |Procedure|<<129125009 OR |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ProcedureCode-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ProcedureCode-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ReactionEventSeverity-1.xml ==
 ERROR: ValueSet/ValueSet-CareConnect-ReactionEventSeverity-1: ValueSet.extension[1].valueReference: Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1'
@@ -2090,7 +2050,7 @@ ERROR: ValueSet-CareConnect-ReligiousAffiliation-1: Error from server: The Snome
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ReligiousAffiliation-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ReligiousAffiliation-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReligiousAffiliation-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ReportCodeSnCT-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ReportCodeSnCT-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ReportCodeSnCT-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1)
-ERROR: ValueSet-CareConnect-ReportCodeSnCT-1: Error from server: The filter "constraint = (<<371525003 | Clinical procedure report (record artifact))" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-ReportCodeSnCT-1: Error from server: The filter "constraint = (<<371525003 | Clinical procedure report (record artifact)|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ReportCodeSnCT-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ReportCodeSnCT-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ResidentialStatus-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-ResidentialStatus-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-ResidentialStatus-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1)
@@ -2112,7 +2072,7 @@ ERROR: ValueSet-CareConnect-SourceOfReferral-1: Error from server: The filter "c
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SourceOfReferral-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-SourceOfReferral-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfReferral-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SpecimenBodySite-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenBodySite-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SpecimenBodySite-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-SpecimenBodySite-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenBodySite-1)
-ERROR: ValueSet-CareConnect-SpecimenBodySite-1: Error from server: The filter "constraint = (< 442083009 Anatomical or acquired body structure OR < 49755003 Morphologically abnormal structure)" was not understood in the context of http://snomed.info/sct
+ERROR: ValueSet-CareConnect-SpecimenBodySite-1: Error from server: The filter "constraint = (<442083009 |Anatomical or acquired body structure| OR <49755003 |Morphologically abnormal structure|)" was not understood in the context of http://snomed.info/sct
 ERROR: C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SpecimenBodySite-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-SpecimenBodySite-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenBodySite-1
 == C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SpecimenType-1.xml ==
 ERROR: https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenType-1: conformance resource C:\Git\FHIR-STU3-Core-IG-1.0.0\source\valuesets\ValueSet-CareConnect-SpecimenType-1.xml canonical URL (https://fhir.hl7.org.uk/STU3/ValueSet/ValueSet-CareConnect-SpecimenType-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenType-1)

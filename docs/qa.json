@@ -1,10 +1,10 @@
 ﻿{
   "url": "https://fhir.hl7.org.uk/STU3/StructureDefinitions/FHIR-STU3-Core-ImplementationGuide-1",
   "name": "FHIR STU3 Core",
-  "package-id": "nhsdigital.core.fhir",
-  "date": "Fri, 27 Sep, 2019 09:12:49 +0100",
-  "errs": 1146,
-  "warnings": 56,
+  "package-id": "nhsdigital.fhir.stu3.core",
+  "date": "Thu, 03 Oct, 2019 13:35:58 +0100",
+  "errs": 1116,
+  "warnings": 6,
   "hints": 10,
   "version": "3.0.1",
   "tool": "4.1.0 (3)"

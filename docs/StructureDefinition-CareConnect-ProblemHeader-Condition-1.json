@@ -15,7 +15,7 @@
     }
   ],
   "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "name": "CareConnect-ProblemHeader-Condition-1",
   "status": "draft",
   "date": "2019-06-19T00:00:00+01:00",
@@ -1254,7 +1254,7 @@
             "code": "string"
           }
         ],
-        "fixedString": " Problem List Item",
+        "fixedString": "Problem List Item",
         "isSummary": true,
         "mapping": [
           {
@@ -3183,7 +3183,7 @@
         ],
         "path": "Condition.category.coding.display",
         "min": 1,
-        "fixedString": " Problem List Item"
+        "fixedString": "Problem List Item"
       },
       {
         "id": "Condition.severity",

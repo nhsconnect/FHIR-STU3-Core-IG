@@ -15,7 +15,7 @@
     }
   ],
   "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ACVPU-Observation-1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "name": "CareConnect-ACVPU-Observation-1",
   "status": "draft",
   "date": "2019-06-17T00:00:00+01:00",
@@ -936,10 +936,10 @@
               "valueString": "ObservationCode"
             }
           ],
-          "strength": "required",
-          "description": "A code from SNOMED Clinical Terminology UK",
+          "strength": "example",
+          "description": "Codes identifying names of simple observations.",
           "valueSetReference": {
-            "reference": "http://snomed.info/sct"
+            "reference": "http://hl7.org/fhir/ValueSet/observation-codes"
           }
         },
         "mapping": [
@@ -2341,7 +2341,7 @@
           "strength": "preferred",
           "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
           "valueSetReference": {
-            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "
+            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"
           }
         },
         "mapping": [
@@ -6155,23 +6155,6 @@
         "short": "Classification of  type of observation."
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ObservationCode"
-            }
-          ],
-          "strength": "required",
-          "description": "A code from SNOMED Clinical Terminology UK",
-          "valueSetReference": {
-            "reference": "http://snomed.info/sct"
-          }
-        }
-      },
-      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "min": 1,
@@ -6330,7 +6313,7 @@
           "strength": "preferred",
           "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).",
           "valueSetReference": {
-            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "
+            "reference": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"
           }
         }
       },

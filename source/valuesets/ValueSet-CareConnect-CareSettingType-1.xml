@@ -14,7 +14,7 @@
 			<filter>
 				<property value="concept"/>
 				<op value="in"/>
-				<value value="%5E999000381000000107"/>
+				<value value="^999000381000000107"/>
 			</filter>
 		</include>
 	</compose>

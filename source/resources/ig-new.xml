@@ -48,7 +48,7 @@
       <display value="United Kingdom of Great Britain and Northern Ireland"/>
     </coding>
   </jurisdiction>
-  <packageId value="nhsdigital.core.fhir"/>
+  <packageId value="nhsdigital.fhir.stu3.core"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="3.0.1"/>
   <fhirVersion value="3.0.1"/>
@@ -185,7 +185,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/CareConnect-ProblemList-1"/>
+        <reference value="StructureDefinition/CareConnect-Problem-List-1"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -1760,7 +1760,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="List/CareConnect-ProblemList-Example-1"/>
+        <reference value="List/CareConnect-Problem-List-Example-1"/>
       </reference>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>

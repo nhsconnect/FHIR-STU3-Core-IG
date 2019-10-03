@@ -1,5 +1,5 @@
 {
-  "package": "nhsdigital.core.fhir",
+  "package": "nhsdigital.fhir.stu3.core",
   "fhirVersion": "3.0.1",
   "jurisdiction": "GB",
   "extensions": [
@@ -943,8 +943,8 @@
     ],
     "List": [
       {
-        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemList-1",
-        "title": "CareConnect-ProblemList-1"
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Problem-List-1",
+        "title": "CareConnect-Problem-List-1"
       }
     ],
     "Location": [
