@@ -8,7 +8,7 @@ This is the initial FHIR STU3 Core Implementation Guide, Version 1.0.0.
 
 **Important:**
 
-This Core specification is in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>. It is an initial Core specification for review, research and engagement. 
+This Core specification is in the **Discovery** stage based on <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">GDS agile delivery</a>. It is an initial Core specification for review, research and engagement only. 
 
 It is also intended to demonstrate a proposed approach to generating a UK Core specification, using the <a href="https://wiki.hl7.org/index.php?title=IG_Publisher_Documentation" target="_blank">HL7 IG Publisher tool</a>.
 

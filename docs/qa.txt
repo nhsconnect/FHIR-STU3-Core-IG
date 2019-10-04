@@ -2,7 +2,7 @@
 =========================================
 
 err = 1116, warn = 6, info = 10
-Generated Thu Oct 03 13:41:56 BST 2019. FHIR version 3.0.1 for nhsdigital.fhir.stu3.core# (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Fri Oct 04 09:27:26 BST 2019. FHIR version 3.0.1 for nhsdigital.fhir.stu3.core# (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 1001 / 1
  C:\Git\FHIR-STU3-Core-IG-1.0.0\source\codesystems\CodeSystem-CareConnect-AdmissionMethod-1 : 2 / 0

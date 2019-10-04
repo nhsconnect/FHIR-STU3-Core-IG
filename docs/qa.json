@@ -2,7 +2,7 @@
   "url": "https://fhir.hl7.org.uk/STU3/StructureDefinitions/FHIR-STU3-Core-ImplementationGuide-1",
   "name": "FHIR STU3 Core",
   "package-id": "nhsdigital.fhir.stu3.core",
-  "date": "Thu, 03 Oct, 2019 13:35:58 +0100",
+  "date": "Fri, 04 Oct, 2019 09:21:01 +0100",
   "errs": 1116,
   "warnings": 6,
   "hints": 10,
