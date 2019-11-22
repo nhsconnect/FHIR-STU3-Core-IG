@@ -50,8 +50,8 @@
   </jurisdiction>
   <packageId value="nhsdigital.fhir.stu3.core"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="3.0.1"/>
-  <fhirVersion value="3.0.1"/>
+  <fhirVersion value="3.0.2"/>
+  <fhirVersion value="3.0.2"/>
   <definition>
     <grouping id="p1">
       <name value="FHIR STU3 Core"/>

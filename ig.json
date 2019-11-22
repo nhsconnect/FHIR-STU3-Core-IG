@@ -25,7 +25,7 @@
 		"http://snomed.info/sct"
 	],
 	"language": "en-GB",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"license": "CC0-1.0",
 	"npm-name": "nhsdigital.fhir.stu3.core",
 	"html-template": "html-template.html",

@@ -9,6 +9,7 @@
   <name value="FHIR STU3 Core"/>
   <status value="draft"/>
   <experimental value="true"/>
+  <date value="2019-11-22T11:20:19+00:00"/>
   <publisher value="NHS Digital"/>
   <contact>
     <telecom>
@@ -24,7 +25,7 @@
       <display value="United Kingdom of Great Britain and Northern Ireland"/>
     </coding>
   </jurisdiction>
-  <fhirVersion value="3.0.1"/>
+  <fhirVersion value="3.0.2"/>
   <package id="p1">
     <name value="FHIR STU3 Core"/>
     <description value="FHIR STU3 Core Assets"/>

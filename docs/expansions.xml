@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fc0b1ee8-0a84-4033-b421-3120e5b96164"/>
+  <id value="e6ba7681-2303-47e3-b7d4-c3838ccdac1e"/>
   <meta>
-    <lastUpdated value="2019-10-04T09:21:01.790+01:00"/>
+    <lastUpdated value="2019-11-22T11:20:19.567+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -72,8 +72,8 @@
         <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:f0248eb6-c688-451f-b8d0-f0ad30fd3e56"/>
-          <timestamp value="2019-10-04T09:24:15+01:00"/>
+          <identifier value="urn:uuid:dc7a43e7-c382-48b1-a358-fbf0af5f112c"/>
+          <timestamp value="2019-11-22T11:23:43+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -212,8 +212,8 @@
         <description value="A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:f03631ab-38ac-4eb4-a723-ab984b51d709"/>
-          <timestamp value="2019-10-04T09:24:16+01:00"/>
+          <identifier value="urn:uuid:3ed852d6-974d-4530-87e9-c6b7d1a5295d"/>
+          <timestamp value="2019-11-22T11:23:43+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -341,8 +341,8 @@
         <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:7f68151e-1c1a-454d-b715-0f38420774ef"/>
-          <timestamp value="2019-10-04T09:24:16+01:00"/>
+          <identifier value="urn:uuid:4df6471c-769d-4b83-9574-e4a0247f866b"/>
+          <timestamp value="2019-11-22T11:23:44+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -466,8 +466,8 @@
         <description value="An indicator to identify the legal marital status of a Person."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:ebfb452c-a53b-4d10-87fd-f161ee7c848b"/>
-          <timestamp value="2019-10-04T09:24:17+01:00"/>
+          <identifier value="urn:uuid:ca169292-3562-4f1b-9844-5370d758581c"/>
+          <timestamp value="2019-11-22T11:23:44+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -520,7 +520,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/name-use version 3.0.1</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/name-use version 3.0.2</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html">
                 <code>http://hl7.org/fhir/name-use</code>
@@ -631,8 +631,8 @@
         <description value="The use of a human name"/>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:ee787cb0-db9f-400e-9f42-b2c59cf67e0a"/>
-          <timestamp value="2019-10-04T09:24:17+01:00"/>
+          <identifier value="urn:uuid:a063a26d-52d5-4d86-a214-9400ad051d27"/>
+          <timestamp value="2019-11-22T11:23:44+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -640,7 +640,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/name-use|3.0.1"/>
+            <valueUri value="http://hl7.org/fhir/name-use|3.0.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/name-use"/>
@@ -776,8 +776,8 @@
         <description value="A ValueSet to identify the type of medication supply."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:02092e34-c64d-46bb-8374-2cef6f3ab1a2"/>
-          <timestamp value="2019-10-04T09:24:17+01:00"/>
+          <identifier value="urn:uuid:e222752a-9d55-46db-b016-a11e997c605f"/>
+          <timestamp value="2019-11-22T11:23:45+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -881,8 +881,8 @@
         <description value="A ValueSet to identify detail codes for flagged medication issues."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:b8de139c-b475-4dbd-83ff-5ace96d4fa00"/>
-          <timestamp value="2019-10-04T09:24:18+01:00"/>
+          <identifier value="urn:uuid:b8d15dba-0cb0-480c-b90f-b94f11965d25"/>
+          <timestamp value="2019-11-22T11:23:45+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -977,8 +977,8 @@
         <description value="A ValueSet to identify the change status of a medication."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:e9ba873c-b5ae-46f2-b930-53474f81fd91"/>
-          <timestamp value="2019-10-04T09:24:18+01:00"/>
+          <identifier value="urn:uuid:70af3d7f-1e24-4e24-b2d8-adc6d7ad6528"/>
+          <timestamp value="2019-11-22T11:23:46+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1179,8 +1179,8 @@
         <description value="This value set defines the set of codes that can be used to indicate the marital status of a person."/>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:46b55fee-2f81-4122-b3f4-b3347c55b803"/>
-          <timestamp value="2019-10-04T09:24:19+01:00"/>
+          <identifier value="urn:uuid:90199ccb-24d7-4a6d-8558-c3ed30a43fc2"/>
+          <timestamp value="2019-11-22T11:23:46+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1316,8 +1316,8 @@
         <description value="A ValueSet to identify the reason a list may be incomplete."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:e8125c2f-2939-4c15-8f3b-1570359b67e0"/>
-          <timestamp value="2019-10-04T09:24:19+01:00"/>
+          <identifier value="urn:uuid:8c9fcfb4-5898-43b1-a3cd-b8ad0fe4e416"/>
+          <timestamp value="2019-11-22T11:23:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1393,8 +1393,8 @@
         <description value="A ValueSet to identify the reason a list may be empty."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:57aab38e-bbaa-4618-b5ac-e352ff0f843e"/>
-          <timestamp value="2019-10-04T09:24:20+01:00"/>
+          <identifier value="urn:uuid:b7c50772-f457-4b1d-9ee6-d16294d18541"/>
+          <timestamp value="2019-11-22T11:23:47+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1420,6 +1420,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 13 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on SNOMED CT International edition 31-Jul 2019</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1545,15 +1546,15 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:31d42952-7b60-49e0-8e4d-62d298feb148"/>
-          <timestamp value="2019-09-05T13:48:32+01:00"/>
+          <identifier value="urn:uuid:bf97e514-7d32-452b-b7c3-eeabf9ada065"/>
+          <timestamp value="2019-11-13T14:12:04.047Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1699,8 +1700,8 @@
         <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:f08b2179-5b00-4e4a-9628-f788215afb02"/>
-          <timestamp value="2019-10-04T09:24:20+01:00"/>
+          <identifier value="urn:uuid:d16f15d6-c1e2-4558-946d-ad5151424b6f"/>
+          <timestamp value="2019-11-22T11:23:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1825,8 +1826,8 @@
         <description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:52ad499c-ec2c-4e83-9c73-9715c00527dc"/>
-          <timestamp value="2019-10-04T09:24:20+01:00"/>
+          <identifier value="urn:uuid:11c02da7-e3c3-4cab-89c6-98cb05aa7717"/>
+          <timestamp value="2019-11-22T11:23:48+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1877,6 +1878,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 12 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1994,15 +1996,15 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:6917d810-7873-4b71-a5b9-92989c8530c4"/>
-          <timestamp value="2019-10-01T13:27:03+01:00"/>
+          <identifier value="urn:uuid:8f96b639-ce24-4a69-8bb8-31759692b2da"/>
+          <timestamp value="2019-11-22T10:39:50+00:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -2203,8 +2205,8 @@
         <description value="A code to record the reason why a vaccine was administered."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:ea22c1e1-8e8e-45d6-ae51-42cf552eb926"/>
-          <timestamp value="2019-10-04T09:24:21+01:00"/>
+          <identifier value="urn:uuid:e2aa07b5-777e-4a52-b223-844bfc4fcd00"/>
+          <timestamp value="2019-11-22T11:23:49+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3833,8 +3835,8 @@
         <description value="A ValueSet that identifies the language used by a person."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:844e7030-cc66-4b55-9d01-c85ff977b29e"/>
-          <timestamp value="2019-10-04T09:24:22+01:00"/>
+          <identifier value="urn:uuid:5bc81973-41c2-4e18-a7a7-776abb411675"/>
+          <timestamp value="2019-11-22T11:23:49+00:00"/>
           <total value="189"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5383,8 +5385,8 @@
         <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:a1aae553-7fce-4b52-82e4-6df396cc97fb"/>
-          <timestamp value="2019-10-04T09:24:22+01:00"/>
+          <identifier value="urn:uuid:1bb8f2b7-8fd7-4775-94ab-403fb0fce992"/>
+          <timestamp value="2019-11-22T11:23:50+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5739,6 +5741,151 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1"/>
+    <resource>
+      <ValueSet>
+        <id value="ValueSet-CareConnect-ReferralRequestMethod-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1 version 1.0.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-1"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-1">1</a>
+                </td>
+                <td>Fax</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-2"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-2">2</a>
+                </td>
+                <td>Phone</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-3"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-3">3</a>
+                </td>
+                <td>Secure Messaging</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-4"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-4">4</a>
+                </td>
+                <td>Secure Email</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-5"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-5">5</a>
+                </td>
+                <td>Letter</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-6"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-6">6</a>
+                </td>
+                <td>NHS E-Referral Service</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-ReferralRequestMethod-1-7"> </a>
+                  <a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html#CodeSystem-CareConnect-ReferralRequestMethod-1-7">7</a>
+                </td>
+                <td>Self Referral</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1"/>
+        <version value="1.0.0"/>
+        <name value="Care Connect Referral Request Method"/>
+        <status value="draft"/>
+        <date value="2019-07-16T18:43:00+01:00"/>
+        <publisher value="HL7 UK"/>
+        <description value="A ValueSet to identify the form in which a referral is sent and received."/>
+        <copyright value="Copyright &#xA9; 2019 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:d459560f-d6dd-4dd0-8e0b-236eb1f2af9c"/>
+          <timestamp value="2019-11-22T11:23:51+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="1"/>
+            <display value="Fax"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="2"/>
+            <display value="Phone"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="3"/>
+            <display value="Secure Messaging"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="4"/>
+            <display value="Secure Email"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="5"/>
+            <display value="Letter"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="6"/>
+            <display value="NHS E-Referral Service"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+            <code value="7"/>
+            <display value="Self Referral"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeMethod-1"/>
     <resource>
       <ValueSet>
@@ -5836,8 +5983,8 @@
         <description value="The method of discharge from a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:b4ee22e3-ed65-4b25-a3d3-e8edbeae6d77"/>
-          <timestamp value="2019-10-04T09:24:24+01:00"/>
+          <identifier value="urn:uuid:85d657db-b47a-4951-910d-f0c575250a83"/>
+          <timestamp value="2019-11-22T11:23:52+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6080,8 +6227,8 @@
         <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:fd57605c-f7e4-498b-9599-3d4737f9a51a"/>
-          <timestamp value="2019-10-04T09:24:24+01:00"/>
+          <identifier value="urn:uuid:59f5243a-7d3f-427c-8a6a-f4266cea7f5f"/>
+          <timestamp value="2019-11-22T11:23:52+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6253,8 +6400,8 @@
         <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:fc4af5a4-048f-47b3-9847-94b36994a409"/>
-          <timestamp value="2019-10-04T09:24:24+01:00"/>
+          <identifier value="urn:uuid:c0a5e95a-7dd7-4b0e-a128-a4a1221cfd0b"/>
+          <timestamp value="2019-11-22T11:23:52+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6370,8 +6517,8 @@
         <description value="A ValueSet that identifies the kind of relationship that exists with a target condition or problem.."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:c9ea0a87-1db8-475d-b3a3-1a2a147d5482"/>
-          <timestamp value="2019-10-04T09:24:24+01:00"/>
+          <identifier value="urn:uuid:bfecf4f7-1883-482c-b048-72e2d8e049e1"/>
+          <timestamp value="2019-11-22T11:23:53+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6489,8 +6636,8 @@
         <description value="A ValueSet to identify the episodicity of a condition."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:f6d1e29a-261a-43c0-a309-689ccbbab008"/>
-          <timestamp value="2019-10-04T09:24:25+01:00"/>
+          <identifier value="urn:uuid:8d80dfbc-5cc6-4475-8096-50417af1a0a4"/>
+          <timestamp value="2019-11-22T11:23:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6531,6 +6678,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on SNOMED CT International edition 31-Jul 2019</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -6592,15 +6740,15 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:57cd8625-49eb-4fcf-b8ee-c296d6ad2b81"/>
-          <timestamp value="2019-08-29T13:37:00+01:00"/>
+          <identifier value="urn:uuid:54c4c437-5b45-46bd-8771-074a620aeb04"/>
+          <timestamp value="2019-11-13T14:11:53.313Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -6710,8 +6858,8 @@
         <description value="A ValueSet to identify the category of a condition."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:c7f7a34e-5f1e-4893-8c77-eac3c5e36aa1"/>
-          <timestamp value="2019-10-04T09:24:25+01:00"/>
+          <identifier value="urn:uuid:d78481b0-6167-4242-9377-f2b8c484cfa7"/>
+          <timestamp value="2019-11-22T11:23:54+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6759,7 +6907,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/allergy-verification-status version 3.0.1</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/allergy-verification-status version 3.0.2</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html">
                 <code>http://hl7.org/fhir/allergy-verification-status</code>
@@ -6830,8 +6978,8 @@
         <description value="Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance."/>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:0eaa9473-aa2d-4669-9a77-010384bd735c"/>
-          <timestamp value="2019-10-04T09:24:27+01:00"/>
+          <identifier value="urn:uuid:f773fd42-055e-47b0-99bc-e4b875551880"/>
+          <timestamp value="2019-11-22T11:23:55+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6839,7 +6987,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/allergy-verification-status|3.0.1"/>
+            <valueUri value="http://hl7.org/fhir/allergy-verification-status|3.0.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/allergy-verification-status"/>
@@ -7041,8 +7189,8 @@
         <description value="The method of admission to a Hospital Provider Spell."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:76b47181-c4c9-4f76-b100-8c8f3c386326"/>
-          <timestamp value="2019-10-04T09:24:28+01:00"/>
+          <identifier value="urn:uuid:0780a645-624d-4f4c-ab1c-113eb635560b"/>
+          <timestamp value="2019-11-22T11:23:57+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7155,7 +7303,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/administrative-gender version 3.0.1</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/administrative-gender version 3.0.2</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html">
                 <code>http://hl7.org/fhir/administrative-gender</code>
@@ -7246,8 +7394,8 @@
         <description value="The gender of a person used for administrative purposes."/>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:f1c41bc2-6067-4dc9-9163-d1675ad97be7"/>
-          <timestamp value="2019-10-04T09:24:28+01:00"/>
+          <identifier value="urn:uuid:3f0f28af-1f1e-466a-bdc6-4572b0e879e1"/>
+          <timestamp value="2019-11-22T11:23:57+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7255,7 +7403,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/administrative-gender|3.0.1"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|3.0.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
@@ -7368,8 +7516,8 @@
         <description value="A ValueSet that identifies the treatment category for this patient."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:7c6e1c3a-0a29-4d37-8906-55e79e15a25e"/>
-          <timestamp value="2019-10-04T09:24:29+01:00"/>
+          <identifier value="urn:uuid:9fc5b347-24b4-47bc-8319-96ecda7beb29"/>
+          <timestamp value="2019-11-22T11:23:58+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7408,6 +7556,245 @@
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1"/>
             <code value="8"/>
             <display value="Not applicable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1"/>
+    <resource>
+      <ValueSet>
+        <id value="ValueSet-CareConnect-SourceOfAdmission-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 14 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-19"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-19">19</a>
+                </td>
+                <td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-29"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-29">29</a>
+                </td>
+                <td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-39"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-39">39</a>
+                </td>
+                <td>Penal establishment, Court, or Police Station / Police Custody Suite</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-49"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-49">49</a>
+                </td>
+                <td>NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-51"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-51">51</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department</td>
+                <td>National Code 51 &#39;NHS other hospital provider - Ward for general Patients or the younger physically disabled or A and E department&#39; should not be used if the Patient arrives at an Accident and Emergency Department and is admitted to the same Hospital Provider.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-52"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-52">52</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-53"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-53">53</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-54"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-54">54</a>
+                </td>
+                <td>NHS run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-65"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-65">65</a>
+                </td>
+                <td>Local Authority residential accommodation i.e. where care is provided</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-66"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-66">66</a>
+                </td>
+                <td>Local Authority foster care</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-79"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-79">79</a>
+                </td>
+                <td>Babies born in or on the way to hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-85"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-85">85</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-87"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-87">87</a>
+                </td>
+                <td>Non NHS run hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-88"> </a>
+                  <a href="CodeSystem-CareConnect-SourceOfAdmission-1.html#CodeSystem-CareConnect-SourceOfAdmission-1-88">88</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Hospice</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/s/smo/source_of_admission_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1"/>
+        <version value="1.1.0"/>
+        <name value="NHS Data Model and Dictionary Source Of Admission"/>
+        <status value="draft"/>
+        <date value="2018-11-14T00:00:00+00:00"/>
+        <publisher value="HL7 UK"/>
+        <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:8d9d6d06-dcdb-4825-953d-9d47b5b65332"/>
+          <timestamp value="2019-11-22T11:23:59+00:00"/>
+          <total value="14"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="19"/>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="29"/>
+            <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="39"/>
+            <display value="Penal establishment, Court, or Police Station / Police Custody Suite"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="49"/>
+            <display value="NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="51"/>
+            <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="52"/>
+            <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="53"/>
+            <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="54"/>
+            <display value="NHS run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="65"/>
+            <display value="Local Authority residential accommodation i.e. where care is provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="66"/>
+            <display value="Local Authority foster care"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="79"/>
+            <display value="Babies born in or on the way to hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="85"/>
+            <display value="Non-NHS (other than Local Authority) run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="87"/>
+            <display value="Non NHS run hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="88"/>
+            <display value="Non-NHS (other than Local Authority) run Hospice"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -10588,8 +10975,8 @@
         <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:ae63b748-5daa-4234-aaef-09195ccb2ffd"/>
-          <timestamp value="2019-10-04T09:24:30+01:00"/>
+          <identifier value="urn:uuid:7365772d-546d-470c-acff-bd283f963085"/>
+          <timestamp value="2019-11-22T11:23:59+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12618,8 +13005,8 @@
         <description value="A ValueSet that identifies the residential status of a patient."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:2242832f-5408-4fe2-a67a-7aa158a949d9"/>
-          <timestamp value="2019-10-04T09:24:31+01:00"/>
+          <identifier value="urn:uuid:dd7dd8cd-0eb3-4f84-b3ad-2971eaf2c7ee"/>
+          <timestamp value="2019-11-22T11:24:00+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12738,8 +13125,8 @@
         <description value="A ValueSet that identifies the type of registration for a patient at a healthcare organisation."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:548e199c-a5f4-42af-a493-748db4f899ec"/>
-          <timestamp value="2019-10-04T09:24:32+01:00"/>
+          <identifier value="urn:uuid:1815debd-ecc0-4031-9d47-e082f3254de1"/>
+          <timestamp value="2019-11-22T11:24:01+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12859,8 +13246,8 @@
         <description value="A ValueSet that identifies the status of registration for a patient at the healthcare organisation."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:31977616-9213-4bb7-8690-e8f379e78a09"/>
-          <timestamp value="2019-10-04T09:24:32+01:00"/>
+          <identifier value="urn:uuid:a2360da9-f3ff-4902-8409-59b080ae45d5"/>
+          <timestamp value="2019-11-22T11:24:01+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12903,7 +13290,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/reaction-event-severity version 3.0.1</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/reaction-event-severity version 3.0.2</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html">
                 <code>http://hl7.org/fhir/reaction-event-severity</code>
@@ -12982,8 +13369,8 @@
         <description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."/>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:66aec001-c92d-47ff-9ff5-2c014fd816de"/>
-          <timestamp value="2019-10-04T09:24:32+01:00"/>
+          <identifier value="urn:uuid:db6a7290-e813-42ed-a3ec-aa1d5c6e3b16"/>
+          <timestamp value="2019-11-22T11:24:02+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12991,7 +13378,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/reaction-event-severity|3.0.1"/>
+            <valueUri value="http://hl7.org/fhir/reaction-event-severity|3.0.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/reaction-event-severity"/>
@@ -13067,8 +13454,8 @@
         <description value="A code to record the significance of a Problem Header Condition."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:04716dd2-4c30-46fa-8b98-6d9ce85b69b5"/>
-          <timestamp value="2019-10-04T09:24:33+01:00"/>
+          <identifier value="urn:uuid:074aee69-f130-4925-9c0b-47347c166bc1"/>
+          <timestamp value="2019-11-22T11:24:02+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13163,8 +13550,8 @@
         <description value="A ValueSet to identify the type of prescription."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:bac64176-b71f-4785-9909-11a7c76a2c21"/>
-          <timestamp value="2019-10-04T09:24:33+01:00"/>
+          <identifier value="urn:uuid:be7a3b7c-6835-4350-a3c7-ae3303273da7"/>
+          <timestamp value="2019-11-22T11:24:02+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13293,8 +13680,8 @@
         <description value="A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system."/>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:d9390619-c2bf-424a-9de5-01b2b51b694e"/>
-          <timestamp value="2019-10-04T09:24:33+01:00"/>
+          <identifier value="urn:uuid:af1bc581-d68e-46e6-a141-83065931ce8f"/>
+          <timestamp value="2019-11-22T11:24:03+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13338,6 +13725,151 @@
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1"/>
             <code value="private"/>
             <display value="Private"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1"/>
+    <resource>
+      <ValueSet>
+        <id value="ValueSet-CareConnect-PDS-PersonNameType-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-L"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-L">L</a>
+                </td>
+                <td>Usual (current) name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-A"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-A">A</a>
+                </td>
+                <td>Alias name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-PREFERRED"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-PREFERRED">PREFERRED</a>
+                </td>
+                <td>Preferred name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS">PREVIOUS</a>
+                </td>
+                <td>Other previous name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-BACHELOR"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-BACHELOR">PREVIOUS-BACHELOR</a>
+                </td>
+                <td>Bachelor name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-BIRTH"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-BIRTH">PREVIOUS-BIRTH</a>
+                </td>
+                <td>Birth name</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-MAIDEN"> </a>
+                  <a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html#CodeSystem-CareConnect-PDS-PersonNameType-1-PREVIOUS-MAIDEN">PREVIOUS-MAIDEN</a>
+                </td>
+                <td>Maiden name</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1"/>
+        <version value="1.1.0"/>
+        <name value="PDS Person Name Type"/>
+        <status value="draft"/>
+        <date value="2018-11-02T00:00:00+00:00"/>
+        <publisher value="HL7 UK"/>
+        <description value="A code to identify the type of a name of a Person."/>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:225e3bcd-a40a-4b24-a9f3-a69fa0c5c206"/>
+          <timestamp value="2019-11-22T11:24:03+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="L"/>
+            <display value="Usual (current) name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="A"/>
+            <display value="Alias name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="PREFERRED"/>
+            <display value="Preferred name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="PREVIOUS"/>
+            <display value="Other previous name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="PREVIOUS-BACHELOR"/>
+            <display value="Bachelor name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="PREVIOUS-BIRTH"/>
+            <display value="Birth name"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+            <code value="PREVIOUS-MAIDEN"/>
+            <display value="Maiden name"/>
           </contains>
         </expansion>
       </ValueSet>

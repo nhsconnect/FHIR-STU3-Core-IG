@@ -9,6 +9,7 @@
   "name": "FHIR STU3 Core",
   "status": "draft",
   "experimental": true,
+  "date": "2019-11-22T11:20:19+00:00",
   "publisher": "NHS Digital",
   "contact": [
     {
@@ -32,7 +33,7 @@
       ]
     }
   ],
-  "fhirVersion": "3.0.1",
+  "fhirVersion": "3.0.2",
   "package": [
     {
       "id": "p1",

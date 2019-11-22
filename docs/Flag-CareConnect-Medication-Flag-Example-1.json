@@ -3,7 +3,7 @@
   "id": "CareConnect-Medication-Flag-Example-1",
   "meta": {
     "profile": [
-      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-Flag-1"
     ]
   },
   "text": {

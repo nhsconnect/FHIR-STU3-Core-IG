@@ -13,6 +13,12 @@
 <tr><td>dom-3</td><td>List</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource<br/>: contained.where(('#'+id in %resource.descendants().reference).not()).empty()</td><td></td></tr>
 <tr><td>lst-2</td><td>List</td><td>The deleted flag can only be used if the mode of the list is &quot;changes&quot;<br/>: mode = 'changes' or entry.deleted.empty()</td><td></td></tr>
 <tr><td>lst-1</td><td>List</td><td>A list can only have an emptyReason if it is empty<br/>: emptyReason.empty() or entry.empty()</td><td></td></tr>
+<tr><td>ele-1</td><td>List.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>List.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>List.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>List.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>List.extension</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>List.extension</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
 <tr><td>ele-1</td><td>List.entry</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
 </table>
 </body>

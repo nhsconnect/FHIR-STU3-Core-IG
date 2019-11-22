@@ -21,7 +21,7 @@
 			<display value="United Kingdom of Great Britain and Northern Ireland"/>
 		</coding>
 	</jurisdiction>
-	<fhirVersion value="3.0.1"/>
+	<fhirVersion value="3.0.2"/>
 	<package>
 		<name value="FHIR STU3 Core"/>
 		<description value="FHIR STU3 Core Assets"/>

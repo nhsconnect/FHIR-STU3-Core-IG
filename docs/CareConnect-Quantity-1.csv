@@ -8,7 +8,7 @@ qty-3:If a code for the unit is present, the system SHALL also be present {code.
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
 "Quantity.extension","valueApproximation","","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1]]} {[]}
-","Value Approximation","Value Approximation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
+","Value Approximation","Value Approximation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","","n/a","N/A"
 "Quantity.value","","","",0,1,"","","Y","decimal {[]} {[]}
 ","Numerical value (with implicit precision)","The value of the measured amount. The value includes an implicit precision in the presentation of the value.","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"","","SN.2  / CQ - N/A","PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"
 "Quantity.comparator","","","",0,1,"","Y","Y","code {[]} {[]}

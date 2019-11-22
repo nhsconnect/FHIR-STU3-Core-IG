@@ -2,7 +2,7 @@
 <Flag xmlns="http://hl7.org/fhir">
 	<id value="CareConnect-Medication-Flag-Example-1"/>
 	<meta>
-		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"/>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-Flag-1"/>
 	</meta>
 	<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">
 		<valueReference>
